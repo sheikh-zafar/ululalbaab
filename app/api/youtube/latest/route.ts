@@ -15,6 +15,10 @@ export async function GET() {
 
     return NextResponse.json({ video: data.items[0] })
   } catch (error) {
-    return NextResponse.json({ status: 500 })
+    console.error("YouTube API Error:", error) // Logs the error
+    return NextResponse.json(
+      { error: "Failed to fetch video" },
+      { status: 500 }
+    )
   }
 }
