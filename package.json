@@ -24,7 +24,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-slick": "^0.30.3",
-    "react-swipeable-views": "^0.14.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.2.2"
   },
@@ -34,7 +33,6 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-slick": "^0.23.13",
-    "@types/react-swipeable-views": "^0.13.6",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8.5.1",
