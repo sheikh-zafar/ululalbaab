@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect, useState } from "react"
 import { ThemeProvider } from "@mui/material/styles"
 import {
@@ -13,10 +11,17 @@ import {
   Typography,
 } from "@mui/material"
 import { format } from "date-fns"
-import theme from "../src/styles/theme" // Ensure the theme file is in the correct location
+import theme from "../src/styles/theme"
+
+interface CalendarEvent {
+  id: string
+  summary?: string
+  start: { dateTime?: string; date?: string }
+  end: { dateTime?: string; date?: string }
+}
 
 const CalendarEvents = () => {
-  const [events, setEvents] = useState([])
+  const [events, setEvents] = useState<CalendarEvent[]>([])
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -34,7 +39,7 @@ const CalendarEvents = () => {
         variant='h4'
         fontWeight='bold'
         gutterBottom
-        sx={{ textAlign: "center", mt: 5, overflow: "hidden" }} // Reduced margin-top
+        sx={{ textAlign: "center", mt: 5, overflow: "hidden" }}
       >
         Weekly Schedule (Friday - Thursday)
       </Typography>
@@ -53,7 +58,6 @@ const CalendarEvents = () => {
               <TableCell sx={{ color: "primary.contrastText" }}>
                 Event
               </TableCell>
-
               <TableCell sx={{ color: "primary.contrastText" }} align='right'>
                 Start Time
               </TableCell>
@@ -64,20 +68,20 @@ const CalendarEvents = () => {
           </TableHead>
           <TableBody>
             {events.length > 0 ? (
-              events.map((event: any) => (
+              events.map((event: CalendarEvent) => (
                 <TableRow key={event.id}>
                   <TableCell component='th' scope='row'>
                     {event.summary || "No Title"}
                   </TableCell>
                   <TableCell align='right'>
                     {format(
-                      new Date(event.start.dateTime || event.start.date),
+                      new Date(event.start.dateTime || event.start.date || ""),
                       "PPpp"
                     )}
                   </TableCell>
                   <TableCell align='right'>
                     {format(
-                      new Date(event.end.dateTime || event.end.date),
+                      new Date(event.end.dateTime || event.end.date || ""),
                       "PPpp"
                     )}
                   </TableCell>
