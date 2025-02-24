@@ -1,7 +1,7 @@
-import { NextRequest, NextResponse } from "next/server"
+import { NextResponse } from "next/server"
 import { google } from "googleapis"
 
-export async function GET(req: NextRequest) {
+export async function GET() {
   try {
     const auth = new google.auth.JWT(
       process.env.GOOGLE_CALENDAR_CLIENT_EMAIL,
