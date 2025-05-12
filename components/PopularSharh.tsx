@@ -80,12 +80,15 @@ export default function BookCarousel() {
                   style={{ borderRadius: "8px", border: "3px solid #000" }}
                 />
               </Link>
-              <Typography variant='h6' fontWeight='bold' mt={1}>
+              <Typography variant='h6' fontWeight='bold' my={2} color="#6c6c6c">
                 {book.title}
               </Typography>
-              <Button variant='contained' color='primary' sx={{ mt: 1 }}>
+              <Link
+                href="/about"
+                className="bg-goldengrass text-whiterock rounded-xl hover:shadow-2xl p-3 text-base font-bold font-mono "
+              >
                 Listen
-              </Button>
+              </Link>
             </Box>
           ))}
         </Slider>

@@ -15,7 +15,7 @@ import {
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 
-const navItems = ["Home", "Courses", "About", "Contact"]
+const navItems = ["Home", "Courses", "About", "Contact", "Schedule"]
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -26,13 +26,13 @@ export default function Navbar() {
 
   return (
     <>
-      <AppBar position='static' sx={{ backgroundColor: "#4c4c4c" }}>
+      <AppBar position='static' sx={{ backgroundColor: "#ebe6d3" }}>
         <Toolbar>
           {/* Logo / Brand Name */}
           <Typography
             variant='h6'
             component='div'
-            sx={{ flexGrow: 1, fontWeight: 700, color: "#e0ba25" }}
+            sx={{ flexGrow: 1, fontWeight: 700, color: "#6c6c6c" }}
           >
             فضيلة الشيخ ظفر الحسن مدني حفظه اللّه
           </Typography>
@@ -44,7 +44,7 @@ export default function Navbar() {
                 <ListItemButton
                   component={Link}
                   href={`/${item.toLowerCase()}`}
-                  sx={{ color: "#ffffff" }}
+                  sx={{ color: "#6c6c6c" }}
                 >
                   <ListItemText primary={item} />
                 </ListItemButton>
