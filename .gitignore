@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-./audio-ululalbaab.json
+/audio-ululalbaab.json
 # dependencies
 /node_modules
 /.pnp
