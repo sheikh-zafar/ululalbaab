@@ -4,7 +4,7 @@ import React from "react"
 import Slider from "react-slick"
 import Image from "next/image"
 import Link from "next/link"
-import { Box, Typography, Button, Container } from "@mui/material"
+import { Box, Typography,  Container } from "@mui/material"
 
 const settings = {
   arrows: true,

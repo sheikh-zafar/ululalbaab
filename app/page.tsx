@@ -1,5 +1,4 @@
 import HeaderSection from "@/components/header"
-import Navbar from "../components/nav"
 import Image from "next/image"
 import BookCarousel from "@/components/PopularSharh"
 import WeeklySchedule from "@/components/WeeklySchedule"

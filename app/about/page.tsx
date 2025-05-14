@@ -1,4 +1,3 @@
-import Navbar from '@/components/nav';
 import React from 'react';
 
 const AboutSheikhZafarulHasan: React.FC = () => {
