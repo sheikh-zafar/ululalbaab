@@ -1,6 +1,6 @@
 "use client"
 
-import { Box, Typography, CircularProgress, Container } from "@mui/material"
+import { Box,  CircularProgress, Container } from "@mui/material"
 import { useEffect, useState } from "react"
 
 export default function LatestNewsVideo() {
