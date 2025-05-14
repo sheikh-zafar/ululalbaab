@@ -16,14 +16,7 @@ const CircularGradientSectorPlayer: React.FC = () => {
     const [audioUrl, setAudioUrl] = useState<string | null>(null);
 
     const audioFilePath = "Tafseer Surah AL-LAIL-Part-1@date06-12-18.mp3";
-    const [audioList, setAudioList] = useState<{ name: string; url: string }[]>([]);
-
-    useEffect(() => {
-        fetch('/api/list-audios')
-            .then((res) => res.json())
-            .then(setAudioList)
-            .catch((err) => console.error('Error loading audio list', err));
-    }, []);
+    
 
 
     const center = 50;
@@ -235,27 +228,7 @@ const CircularGradientSectorPlayer: React.FC = () => {
                             <th className="px-2 py-1 text-right">Action</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        {audioList.map((audio, idx) => (
-                            <tr key={idx} className="border-t hover:bg-gray-50">
-                                <td className="px-2 py-1">{audio.name}</td>
-                                <td className="px-2 py-1 text-right">
-                                    <button
-                                        className="text-blue-600 hover:underline"
-                                        onClick={() => {
-                                            if (audioRef.current) {
-                                                audioRef.current.src = audio.url;
-                                                audioRef.current.play();
-                                                setIsPlaying(true);
-                                            }
-                                        }}
-                                    >
-                                        Play
-                                    </button>
-                                </td>
-                            </tr>
-                        ))}
-                    </tbody>
+                    
                 </table>
             </div>
 
