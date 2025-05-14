@@ -58,12 +58,13 @@ export default function BookCarousel() {
     <Container
       maxWidth={false}
       disableGutters
-      sx={{ textAlign: "center", mt: 5, overflow: "hidden" }} // Reduced margin-top
+      sx={{ textAlign: "center", mb: 20, overflow: "hidden" }} // Reduced margin-top
     >
-      <Typography variant='h4' fontWeight='bold' gutterBottom>
-        Popular Books
-      </Typography>
-      <Box sx={{ width: "100%", overflow: "hidden" }}>
+      <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
+        Popular Books Taught By Him (حفظه اللّه)
+      </h6>
+      <hr className="bg-bgcolor text-2xl" />
+      <Box sx={{ width: "100%", overflow: "hidden", mt: 5 }}>
         {" "}
         {/* Changed 100vw to 100% */}
         <Slider {...settings}>
@@ -85,7 +86,7 @@ export default function BookCarousel() {
               </Typography>
               <Link
                 href="/about"
-                className="bg-goldengrass text-whiterock rounded-xl hover:shadow-2xl p-3 text-base font-bold font-mono "
+                className="bg-button-primary text-whiterock rounded-xl hover:shadow-2xl p-3 text-base font-bold font-mono "
               >
                 Listen
               </Link>

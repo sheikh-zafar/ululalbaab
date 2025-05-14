@@ -12,11 +12,11 @@ export default function Home() {
     <div>
       <HeaderSection />
       <div className="max-w-7xl mx-auto my-20">
-        <h6 className="text-goldengrass text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
+        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
           About Sheikh zafarulhasan Madani
         </h6>
         <hr className="bg-bgcolor text-2xl" />
-        <div className="max-w-7xl mx-auto mt-3">
+        <div className="max-w-7xl mx-auto mt-5">
         <div className="flex">
           <div className="w-1/6">
             <Image
@@ -38,7 +38,7 @@ export default function Home() {
             </p>
             <Link
               href="/about"
-              className="bg-dovegray text-whiterock rounded-xl hover:shadow-2xl p-3 text-base font-bold font-mono "
+              className="bg-button-primary hover:bg-button-hover text-whiterock rounded-xl hover:shadow-2xl p-3 text-base font-bold font-mono "
             >
               Read more
             </Link>

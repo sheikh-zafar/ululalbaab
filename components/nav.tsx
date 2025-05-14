@@ -15,7 +15,7 @@ import {
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
 
-const navItems = ["Home", "Courses", "About", "Contact", "Schedule"]
+const navItems = ["Home", "Duroos", "About", "Audio", "Schedule"]
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)

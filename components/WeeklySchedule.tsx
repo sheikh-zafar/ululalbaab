@@ -10,6 +10,7 @@ import {
   TableRow,
   Paper,
   Typography,
+  Container,
 } from "@mui/material"
 import { format } from "date-fns"
 import theme from "../src/styles/theme"
@@ -36,14 +37,12 @@ const CalendarEvents = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Typography
-        variant='h4'
-        fontWeight='bold'
-        gutterBottom
-        sx={{ textAlign: "center", mt: 5, overflow: "hidden" }}
-      >
+      <Container sx={{mb: 20}}> 
+        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
         Weekly Schedule (Friday - Thursday)
-      </Typography>
+      </h6>
+      <hr className="bg-bgcolor text-2xl" />
+
       <TableContainer
         component={Paper}
         sx={{
@@ -55,14 +54,14 @@ const CalendarEvents = () => {
       >
         <Table>
           <TableHead>
-            <TableRow sx={{ backgroundColor: "primary.main" }}>
-              <TableCell sx={{ color: "primary.contrastText" }}>
+            <TableRow sx={{ backgroundColor: "#ebe6d3" }}>
+              <TableCell sx={{ color: "#6c6c6c" }}>
                 Event
               </TableCell>
-              <TableCell sx={{ color: "primary.contrastText" }} align='right'>
+              <TableCell sx={{ color: "#6c6c6c" }} align='right'>
                 Start Time
               </TableCell>
-              <TableCell sx={{ color: "primary.contrastText" }} align='right'>
+              <TableCell sx={{ color: "#6c6c6c" }} align='right'>
                 End Time
               </TableCell>
             </TableRow>
@@ -98,6 +97,8 @@ const CalendarEvents = () => {
           </TableBody>
         </Table>
       </TableContainer>
+      </Container>
+      
     </ThemeProvider>
   )
 }
