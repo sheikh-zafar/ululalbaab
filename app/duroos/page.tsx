@@ -18,11 +18,11 @@ const categories = [
 const CategoriesPage: React.FC = () => {
     return (
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-center mb-10 text-gray-800">
-                Course Categories
+            <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans mb-20">
+                Course Categories | Sheikh Zafarul Hasan Madani
             </h1>
 
-            <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-2 xs:gap-4 xxs:gap-4 gap-8 max-w-6xl mx-auto">
                 {categories.map((category, idx) => (
 
                     <div
@@ -37,8 +37,9 @@ const CategoriesPage: React.FC = () => {
                                 height={200}
                             />
                             <div className="p-4 text-center">
-                                <h2 className="text-xl font-semibold text-gray-700">{category.title}</h2>
-                            </div></Link>
+                                <h2 className="text-xl xs:text-base xxs:text-lg xl:text-xl xxl:text-xl font-semibold text-gray-700">{category.title}</h2>
+                            </div>
+                        </Link>
                     </div>
 
                 ))}

@@ -43,7 +43,7 @@ export default function Navbar() {
               <ListItem key={item} disablePadding>
                 <ListItemButton
                   component={Link}
-                  href={`/${item.toLowerCase()}`}
+                  href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                   sx={{ color: "#6c6c6c" }}
                 >
                   <ListItemText primary={item} />
@@ -71,7 +71,7 @@ export default function Navbar() {
             <ListItem key={item} disablePadding>
               <ListItemButton
                 component={Link}
-                href={`/${item.toLowerCase()}`}
+                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
                 sx={{ color: "#ffffff" }}
               >
                 <ListItemText primary={item} />

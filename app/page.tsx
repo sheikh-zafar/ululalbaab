@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div>
       <HeaderSection />
-      <div className="max-w-7xl mx-auto my-20">
-        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
+      <div className="max-w-7xl mx-2 my-20">
+        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
           About Sheikh zafarulhasan Madani
         </h6>
         <hr className="bg-bgcolor text-2xl" />
-        <div className="max-w-7xl mx-auto mt-5">
+        <div className="max-w-7xl mx-2 mt-5">
         <div className="flex">
           <div className="w-1/6">
             <Image

@@ -33,7 +33,14 @@ const settings = {
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1,
       },
     },
@@ -60,9 +67,9 @@ export default function BookCarousel() {
       disableGutters
       sx={{ textAlign: "center", mb: 20, overflow: "hidden" }} // Reduced margin-top
     >
-      <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
-        Popular Books Taught By Him (حفظه اللّه)
-      </h6>
+      <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
+          Popular Books Taught By Him (حفظه اللّه)
+        </h6>
       <hr className="bg-bgcolor text-2xl" />
       <Box sx={{ width: "100%", overflow: "hidden", mt: 5 }}>
         {" "}
