@@ -1,16 +1,17 @@
 import { NextRequest, NextResponse } from 'next/server'
-import duroos from '../../../../duroos' // adjust based on your project structure
+import duroos from '../../../../duroos' // adjust import if needed
 
 export async function GET(
   req: NextRequest,
   context: { params: { subcategories: string } }
 ) {
   const { subcategories } = context.params
-  const categoryTitle = subcategories.replace(/-/g, ' ') // convert slug to title
+
+  const formatted = subcategories.replace(/-/g, ' ').toLowerCase()
 
   const category = duroos.find(
     (cat) =>
-      cat.categorytitle.toLowerCase().trim() === categoryTitle.toLowerCase().trim()
+      cat.categorytitle.toLowerCase().trim() === formatted.trim()
   )
 
   if (!category) {
