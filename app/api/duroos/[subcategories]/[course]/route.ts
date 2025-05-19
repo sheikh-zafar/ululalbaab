@@ -17,9 +17,6 @@ export async function GET(req: NextRequest) {
   const subcategorySlug = segments[3];  // 'tawheed' or similar
   const courseSlug = segments[4];       // 'raf-ul-malam'
 
-  console.log('Subcategory Slug:', subcategorySlug);
-  console.log('Course Slug:', courseSlug);
-
   if (!subcategorySlug || !courseSlug) {
     return NextResponse.json({ error: 'Subcategory and Course are required' }, { status: 400 });
   }
