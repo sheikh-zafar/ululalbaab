@@ -2,13 +2,28 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-async function getDuroos() {
-    const res = await fetch("https://ululalbaab.vercel.app/api/duroos");
+interface Category {
+  categorytitle: string;
+  categorydescrption: string;
+  categoryimage: string;
+  subcategories: {
+    title: string;
+    description: string;
+    image: string;
+    YTplaylistlink: string;
+    introYTlink: string;
+    drivelink: string;
+    listenlink: string;
+  }[];
+}
 
-    if (!res.ok) {
-        throw new Error("Failed to fetch duroos");
-    }
-    return res.json();
+async function getDuroos(): Promise<Category[]> {
+  const res = await fetch("https://ululalbaab.vercel.app/api/duroos");
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch duroos");
+  }
+  return res.json();
 }
 
 export default async function DuroosPage() {
