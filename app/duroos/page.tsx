@@ -3,18 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 interface Category {
-  categorytitle: string;
-  categorydescrption: string;
-  categoryimage: string;
-  subcategories: {
-    title: string;
-    description: string;
-    image: string;
-    YTplaylistlink: string;
-    introYTlink: string;
-    drivelink: string;
-    listenlink: string;
-  }[];
+  title: string;
+  description: string;
+  image: string;
 }
 
 async function getDuroos(): Promise<Category[]> {
