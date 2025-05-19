@@ -1,21 +1,21 @@
-import { NextRequest, NextResponse } from 'next/server'
-import duroos from '../../../../duroos'
+import { NextRequest, NextResponse } from 'next/server';
+import duroos from '../../../../duroos'; // Adjust if needed
 
-// CORRECT way to type context in app router:
-export async function GET(
-  req: NextRequest,
-  context: { params: { subcategories: string } }
-) {
-  const { subcategories } = context.params
+export async function GET(req: NextRequest) {
+  const subcategories = req.nextUrl.pathname.split('/').pop(); // get dynamic param from URL
 
-  const formatted = subcategories.replace(/-/g, ' ').toLowerCase()
+  if (!subcategories) {
+    return NextResponse.json({ error: 'Subcategory not provided' }, { status: 400 });
+  }
+
+  const formatted = subcategories.replace(/-/g, ' ').toLowerCase();
 
   const category = duroos.find(
     (cat) => cat.categorytitle.toLowerCase().trim() === formatted.trim()
-  )
+  );
 
   if (!category) {
-    return NextResponse.json({ error: 'Category not found' }, { status: 404 })
+    return NextResponse.json({ error: 'Category not found' }, { status: 404 });
   }
 
   return NextResponse.json({
@@ -23,5 +23,5 @@ export async function GET(
     description: category.categorydescrption,
     image: category.categoryimage,
     subcategories: category.subcategories,
-  })
+  });
 }
