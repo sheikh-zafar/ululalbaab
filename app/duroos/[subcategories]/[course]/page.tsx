@@ -28,7 +28,6 @@ async function getCourseData(subcategories: string, course: string) {
   return data.course || null;
 }
 
-// ✅ Main page component — NO custom PageProps
 export default async function CoursePage({
   params,
 }: {
@@ -37,7 +36,7 @@ export default async function CoursePage({
     course: string;
   };
 }) {
-  const { subcategories, course } = params;
+  const { subcategories, course } = await params;
 
   let courseData: Course | null = null;
   try {
