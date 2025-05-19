@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface Course {
   title: string;
@@ -9,6 +9,7 @@ interface Course {
   drivelink?: string;
   listenlink?: string;
 }
+
 interface CourseApiResponse {
   course: Course;
   category?: string;
@@ -21,29 +22,40 @@ type PageProps = {
   };
 };
 
+// Fetch course data from API
+async function getCourseData(subcategories: string, course: string): Promise<Course | null> {
+  const url = `/api/duroos/${subcategories}/${course}`;
+  
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) {
+    throw new Error("Failed to fetch course data");
+  }
+
+  const data: CourseApiResponse = await res.json();
+  return data.course || null;
+}
+
 export default async function CoursePage({ params }: PageProps) {
   const { subcategories, course } = params;
 
   let courseData: Course | null = null;
-
   try {
-    const url = `https://ululalbaab.vercel.app/api/duroos/${subcategories}/${course}`;
-
-    const res = await fetch(url, { cache: 'no-store' });
-
-    if (!res.ok) {
-      throw new Error('Failed to fetch course data');
-    }
-
-  const data: CourseApiResponse = await res.json();
-courseData = data.course;
+    courseData = await getCourseData(subcategories, course);
   } catch (error) {
-    console.error('Error fetching course data:', error);
-    return <div className="p-8 text-red-600">❌ Error loading course data.</div>;
+    console.error("Error fetching course data:", error);
+    return (
+      <div className="p-8 text-red-600">
+        ❌ Error loading course data.
+      </div>
+    );
   }
 
   if (!courseData) {
-    return <div className="p-8 text-dovegray">⚠️ Course not found.</div>;
+    return (
+      <div className="p-8 text-dovegray">
+        ⚠️ Course not found.
+      </div>
+    );
   }
 
   return (
@@ -97,7 +109,7 @@ courseData = data.course;
                 allow="autoplay"
                 loading="lazy"
                 title="Audio Playlist"
-              ></iframe>
+              />
             </div>
           </div>
         )}
