@@ -15,11 +15,6 @@ type DuroosCategory = {
   subcategories: Subcategory[];
 };
 
-type PageProps = {
-  params: {
-    subcategories: string;
-  };
-};
 
 // Utility function to slugify course titles for use in URLs
 function slugify(text: string) {
@@ -30,7 +25,9 @@ function slugify(text: string) {
     .trim();
 }
 
-export default async function SubcategoriesPage({ params }: PageProps) {
+export default async function SubcategoriesPage({ params }: {
+  params: { subcategories: string };
+}) {
   const { subcategories } = params;
 
   const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
