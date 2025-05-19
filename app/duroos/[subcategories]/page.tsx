@@ -28,7 +28,7 @@ function slugify(text: string) {
 export default async function SubcategoriesPage({ params }: {
   params: { subcategories: string };
 }) {
-  const { subcategories } = params;
+  const { subcategories } = await params;
 
   const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
     next: { revalidate: 60 } // optional: ISR
