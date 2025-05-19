@@ -15,16 +15,9 @@ interface CourseApiResponse {
   category?: string;
 }
 
-type PageProps = {
-  params: {
-    subcategories: string;
-    course: string;
-  };
-};
-
-// Fetch course data from API
-async function getCourseData(subcategories: string, course: string): Promise<Course | null> {
-  const url = `/api/duroos/${subcategories}/${course}`;
+// ✅ Fetch course data from API
+async function getCourseData(subcategories: string, course: string) {
+  const url = `https://ululalbaab.vercel.app/api/duroos/${subcategories}/${course}`;
   
   const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) {
@@ -35,7 +28,15 @@ async function getCourseData(subcategories: string, course: string): Promise<Cou
   return data.course || null;
 }
 
-export default async function CoursePage({ params }: PageProps) {
+// ✅ Main page component — NO custom PageProps
+export default async function CoursePage({
+  params,
+}: {
+  params: {
+    subcategories: string;
+    course: string;
+  };
+}) {
   const { subcategories, course } = params;
 
   let courseData: Course | null = null;
