@@ -36,6 +36,8 @@ export default {
           hover: '#a7772d',           // Darker hover
           secondary: '#6a6a6a',       // Neutral secondary
           hover2: '#4f4f4f',          // Dark hover for secondary
+          green: '#00ff00',           //button
+          greenhover: '#4dff4d',      //button hover
         }
       },
       fontFamily: {
