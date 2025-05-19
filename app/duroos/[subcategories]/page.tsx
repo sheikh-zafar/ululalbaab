@@ -17,7 +17,11 @@ type DuroosCategory = {
 };
 
 export default function SubcategoriesPage() {
-  const { subcategories } = useParams();
+  const params = useParams();
+  const subcategories = Array.isArray(params.subcategories)
+    ? params.subcategories[0]
+    : params.subcategories;
+
   const [data, setData] = useState<DuroosCategory | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -27,10 +31,12 @@ export default function SubcategoriesPage() {
     const fetchData = async () => {
       try {
         const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`);
+        console.log(res)
         if (!res.ok) {
           throw new Error('Failed to fetch');
         }
         const json = await res.json();
+        console.log(json)
         setData(json);
       } catch (err: any) {
         setError(err.message || 'Something went wrong');
