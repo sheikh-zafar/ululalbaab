@@ -1,20 +1,21 @@
 import { NextRequest, NextResponse } from 'next/server';
-import duroos from '../../.././../duroos';
+import duroos from '../../../../duroos'; // adjust path to match your project
 
-export async function GET(req: NextRequest) {
-  const { searchParams } = new URL(req.url);
-  const categoryTitle = searchParams.get('category');
+export async function GET(
+  _req: NextRequest,
+  { params }: { params: { subcategories: string } }
+) {
+  const categorySlug = params.subcategories;
+  const decodedTitle = categorySlug.replace(/-/g, ' '); // Convert slug to title
 
-  if (!categoryTitle) {
-    return NextResponse.json({ error: 'Category is required' }, { status: 400 });
-  }
+  const category = duroos.find(
+    (cat) => cat.categorytitle.toLowerCase() === decodedTitle.toLowerCase()
+  );
 
-  const category = duroos.find(cat => cat.categorytitle === categoryTitle);
   if (!category) {
     return NextResponse.json({ error: 'Category not found' }, { status: 404 });
   }
 
-  // Return both category title and subcategories
   return NextResponse.json({
     category: category.categorytitle,
     description: category.categorydescrption,

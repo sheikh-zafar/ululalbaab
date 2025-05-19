@@ -1,6 +1,6 @@
 export const duroos = [
     {
-        categorytitle: "Dawrah Ilmiyyah (Mukhtasar) ",
+        categorytitle: "Dawrah Ilmiyyah (Mukhtasar)",
         categorydescrption: "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains Taweel lectures on Raf'ul Malam, Tadween As Sunnah, Al-Arba'oona An-Nawawi",
         categoryimage: "/images/categories/6.png",
         subcategories: [
