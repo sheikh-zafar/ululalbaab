@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 
 type Subcategory = {
   title: string;
@@ -56,6 +56,12 @@ export async function generateMetadata({ params }: { params: Params }) {
 
 export default async function SubcategoriesPage({ params }: { params: Params }) {
   const { subcategories } = await params;
+
+  // 🚫 Redirect to /comingsoon if in blocked list
+  const blockedSubcategories = ["Arkan-Al-Islam", "Mausamiat", "Tareeq-Ahlul-Hadith","Jummu'ah-Khutbah"];
+  if (blockedSubcategories.includes(decodeURIComponent(subcategories))) {
+    redirect('/comingsoon');
+  }
 
   const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
     next: { revalidate: 60 },
