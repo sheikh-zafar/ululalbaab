@@ -4,7 +4,7 @@ import React from "react"
 import Slider from "react-slick"
 import Image from "next/image"
 import Link from "next/link"
-import { Box, Typography,  Container } from "@mui/material"
+import { Box, Typography, Container } from "@mui/material"
 
 const settings = {
   arrows: true,
@@ -48,16 +48,16 @@ const settings = {
 }
 
 const books = [
-  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png" },
-  { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png" },
-  { title: "Raful Malam", src: "/images/books/rafulmalam.png" },
-  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png" },
-  { title: "Bulugh al Maram", src: "/images/books/bulugh.png" },
-  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png" },
-  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png" },
-  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png" },
-  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png" },
-  { title: "Tadween As Sunnah", src: "/images/books/tadween.png" },
+  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", link: "" },
+  { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png", link: "" },
+  { title: "Raful Malam", src: "/images/books/rafulmalam.png", link: "" },
+  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", link: "" },
+  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", link: "" },
+  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", link: "" },
+  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", link: "" },
+  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", link: "" },
+  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", link: "" },
+  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", link: "" },
 ]
 
 export default function BookCarousel() {
@@ -68,8 +68,8 @@ export default function BookCarousel() {
       sx={{ textAlign: "center", mb: 20, overflow: "hidden" }} // Reduced margin-top
     >
       <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
-          Popular Books Taught By Him (حفظه اللّه)
-        </h6>
+        Popular Books Taught By Him (حفظه اللّه)
+      </h6>
       <hr className="bg-bgcolor text-2xl" />
       <Box sx={{ width: "100%", overflow: "hidden", mt: 5 }}>
         {" "}

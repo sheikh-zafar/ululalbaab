@@ -34,7 +34,7 @@ export const duroos = [
         ]
     },
     {
-        categorytitle: "Dawrah Ilmiyyah (Taweel) طويل دورة",
+        categorytitle: "Dawrah Ilmiyyah (Taweel)",
         categorydescrption: "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains brief lectures on the topic Al Arba'oona Nawawiyyah, Sharh As-Sunnah, Bulugh al-Maram, Usool al-Thalatha, Shamail al-Muhammadiyah, Riyad us-saliheen",
         categoryimage: "/images/categories/5.png",
         subcategories: [

@@ -37,7 +37,7 @@ const CalendarEvents = () => {
   return (
     <ThemeProvider theme={theme}>
       <Container sx={{mb: 20}}> 
-        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-base xxs:text-2xl md:text-4xl font-extrabold font-sans">
+        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
         Weekly Schedule (Friday - Thursday)
       </h6>
       <hr className="bg-bgcolor text-2xl" />

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <HeaderSection />
-      <div className="max-w-7xl mx-2 my-20">
+      <div className="max-w-7xl mx-2 my-20 xs:my-14 xxs:my-14 s:my-14">
         <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
           About Sheikh zafarulhasan Madani
         </h6>
