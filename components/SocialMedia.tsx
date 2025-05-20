@@ -74,6 +74,7 @@ const SocialLinks = () => {
             <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
            Social Media Links
         </h6>
+        <hr className="bg-bgcolor text-2xl" />
             <div className="flex flex-wrap justify-center gap-6 mt-10">
 
                 {socialLinks.map(({ name, href, svg }, idx) => (

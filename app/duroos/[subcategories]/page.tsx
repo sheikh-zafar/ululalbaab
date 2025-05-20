@@ -82,7 +82,6 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
             <div key={index} className="border rounded-lg p-4 shadow flex flex-col justify-between">
               <div>
                 <h2 className="text-xl font-semibold">{sub.title}</h2>
-                <p className="text-gray-600">{sub.description}</p>
                 {sub.image && (
                   <Image
                     src={sub.image}
