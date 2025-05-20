@@ -5,6 +5,7 @@ import WeeklySchedule from "@/components/WeeklySchedule"
 import VisionMission from "@/components/VisionMission"
 import Link from "next/link"
 import logo from "../public/images/icon-192x192.png"
+import SocialLinks from "@/components/SocialMedia"
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
       </div>
       
       <BookCarousel />
+      <SocialLinks/>
       <WeeklySchedule />
       <VisionMission />
 
