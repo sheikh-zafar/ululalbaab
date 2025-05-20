@@ -48,16 +48,16 @@ const settings = {
 }
 
 const books = [
-  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", link: "" },
+  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/al-arbaoona-an-nawawi" },
   { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png", link: "" },
-  { title: "Raful Malam", src: "/images/books/rafulmalam.png", link: "" },
-  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", link: "" },
-  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", link: "" },
-  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", link: "" },
-  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", link: "" },
-  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", link: "" },
-  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", link: "" },
-  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", link: "" },
+  { title: "Raful Malam", src: "/images/books/rafulmalam.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/raful-malam" },
+  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/riyad-us-saliheen" },
+  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/bulugh-al-maram" },
+  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/kitab-At-tawheed" },
+  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/shamail-al-muhammadiyah" },
+  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/sharh-as-sunnah" },
+  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/usool-al-thalatha" },
+  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/tadween-as-sunnah" },
 ]
 
 export default function BookCarousel() {
