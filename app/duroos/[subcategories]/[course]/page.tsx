@@ -18,8 +18,8 @@ interface CourseApiResponse {
 // ✅ Fetch course data from API
 async function getCourseData(subcategories: string, course: string) {
   const url = `https://ululalbaab.vercel.app/api/duroos/${subcategories}/${course}`;
-  
   const res = await fetch(url, { cache: "no-store" });
+
   if (!res.ok) {
     throw new Error("Failed to fetch course data");
   }
@@ -28,13 +28,50 @@ async function getCourseData(subcategories: string, course: string) {
   return data.course || null;
 }
 
+// ✅ Metadata types
+type Params = Promise<{ subcategories: string; course: string }>;
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
+
+// ✅ Metadata function
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Params;
+  searchParams: SearchParams;
+}) {
+  const { subcategories, course } = await params;
+  const query = (await searchParams).q || "";
+
+  try {
+    const courseData = await getCourseData(subcategories, course);
+
+    return {
+      title: `${courseData.title} | Ulul Albaab Duroos`,
+      description: query
+        ? `${courseData.description} - Filter: ${query}`
+        : courseData.description || "",
+      openGraph: {
+        title: courseData.title,
+        description: courseData.description || "",
+        images: courseData.image ? [courseData.image] : [],
+      },
+    };
+  } catch (error) {
+    return {
+      title: "Course Not Found",
+      description: "The requested course could not be found.",
+    };
+  }
+}
+
+// ✅ Page Component
 export default async function CoursePage({
   params,
+  searchParams,
 }: {
-  params: {
-    subcategories: string;
-    course: string;
-  };
+  params: Params;
+  searchParams: SearchParams;
 }) {
   const { subcategories, course } = await params;
 

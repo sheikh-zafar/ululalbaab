@@ -1,47 +1,52 @@
 "use client";
 import React from "react";
+import { CalendarToday, LocationOn, AccessTime } from "@mui/icons-material";
+import Link from "next/link";
 
 const LectureSchedule = () => {
   const schedule = [
-    { week: "1", topic: "Introduction to Programming and C++", location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "2", topic: "Basic Structure, Data Types, Input/Output" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "3", topic: "Operators, Expressions, and Control Statements" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "4", topic: "Loops (for, while, do-while)" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "5", topic: "Functions and Recursion" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "6", topic: "Arrays and Strings" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "7", topic: "Pointers and References" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "8", topic: "Structures and Unions" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "9", topic: "File Handling" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "10", topic: "Object-Oriented Programming Concepts" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "11", topic: "Classes and Objects" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "12", topic: "Constructors and Destructors" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "13", topic: "Inheritance and Polymorphism" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "14", topic: "Templates and Exception Handling" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
-    { week: "15", topic: "Revision & Project Submission" ,location: "Masjid Khadija Khuwailid", mapLink:  "", timing: ""},
+    { week: "Sunday", topic: "Seerat'un Nabi(ﷺ)", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Isha" },
+    { week: "Monday", topic: "Explanation of Mukhtasar SHO'BUL EMAAN lil Bayhaqi / Riyadus saliheen", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Isha" },
+    { week: "Tuesday", topic: "Breeze of Iman", location: "Masjid Khadija bint Khuwailid - Al-Nahda-2", mapLink: "https://maps.app.goo.gl/oYtgodMLQv6McE2r7", timing: "After Magrib" },
+    { week: "", topic: "Breeze of Iman", location: "Masjid Yusuf Baqar - Hor Al Anz", mapLink: "https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7", timing: "After Isha" },
+    { week: "Wednesday", topic: "Quran Tafseer", location: "Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2", mapLink: "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8", timing: "After Isha" },
+    { week: "Thursday", topic: "Sharh Bulugh al Maram li Ibn Hajar al Asqalani", location: "Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2", mapLink: "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8", timing: "After Isha" },
+    { week: "Friday", topic: "Sharh Al-Targheeb wat-Tarheeb", location: "Masjid Mohammed bin Hasan Ash Shaikh - Al Twar 2", mapLink: "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8", timing: "After Isha" },
+    { week: "Saturday", topic: "Sharh Al-Targheeb wat-Tarheeb", location: "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)", mapLink: "https://maps.app.goo.gl/mscog2WwkqiHVszA8", timing: "After Isha" },
   ];
 
   return (
-    <div className="max-w-4xl mx-auto p-4">
-      <h2 className="text-2xl font-bold mb-4 text-center">Lecture Schedule</h2>
-      <div className="overflow-x-auto">
-        <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow">
-          <thead>
-            <tr className="bg-gray-100 text-gray-800">
-              <th className="py-3 px-4 border-b text-left">Week</th>
-              <th className="py-3 px-4 border-b text-left">Topic</th>
-            </tr>
-          </thead>
-          <tbody>
-            {schedule.map((item, index) => (
-              <tr key={index} className="hover:bg-gray-50">
-                <td className="py-2 px-4 border-b">{item.week}</td>
-                <td className="py-2 px-4 border-b">{item.topic}</td>
-                <td className="py-2 px-4 border-b">{item.location}</td>
-                <td className="py-2 px-4 border-b">{item.timing}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <div className="max-w-3xl mx-auto p-6">
+      <h2 className="text-3xl font-bold text-center text-[#6c6c6c] mb-8">
+        📅 Weekly Lecture Schedule
+      </h2>
+      <div className="space-y-4">
+        {schedule.map((item, index) => (
+          <div key={index} className="rounded-lg border border-[#ebe6d3] shadow bg-white p-4">
+            <div className="text-[#6a6a6a] text-sm flex items-center gap-2 mb-1">
+              <CalendarToday className="text-[#bb8732]" fontSize="small" />
+              <span className="font-semibold">{item.week || "Unspecified Day"}</span>
+            </div>
+            <div className="text-[#6a6a6a] text-lg font-medium mb-2">
+              {item.topic}
+            </div>
+            <div className="text-[#6a6a6a] text-sm flex items-center gap-2 mb-1">
+              <LocationOn className="text-[#dcbc23]" fontSize="small" />
+              <Link
+                href={item.mapLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline text-[#dcbc23] hover:text-[#bb8732]"
+              >
+                {item.location}
+              </Link>
+            </div>
+            <div className="text-[#6a6a6a] text-sm flex items-center gap-2">
+              <AccessTime className="text-[#bb8732]" fontSize="small" />
+              {item.timing}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

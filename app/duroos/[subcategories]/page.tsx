@@ -15,30 +15,65 @@ type DuroosCategory = {
   subcategories: Subcategory[];
 };
 
+type Params = Promise<{ subcategories: string }>;
+type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
 
-// Utility function to slugify course titles for use in URLs
-function slugify(text: string) {
-  return text
-    .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .trim();
-}
-
-export default async function SubcategoriesPage({ params }: {
-  params: { subcategories: string };
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Params;
+  searchParams: SearchParams;
 }) {
   const { subcategories } = await params;
+  const query = (await searchParams).q || ''; // Example usage
 
   const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
-    next: { revalidate: 60 } // optional: ISR
+    next: { revalidate: 60 },
   });
 
   if (!res.ok) {
-    notFound(); // triggers 404 page
+    return {
+      title: 'Not Found',
+      description: 'The requested page could not be found.',
+    };
   }
 
   const data: DuroosCategory = await res.json();
+
+  return {
+    title: `${data.category} | Ulul Albaab Duroos`,
+    description: query ? `${data.description} - Filter: ${query}` : data.description,
+    openGraph: {
+      title: `${data.category} | Ulul Albaab Duroos`,
+      description: data.description,
+      images: data.image ? [data.image] : [],
+    },
+  };
+}
+
+export default async function SubcategoriesPage({
+  params,
+  searchParams,
+}: {
+  params: Params;
+  searchParams: SearchParams;
+}) {
+  const { subcategories } = await params;
+  const query = (await searchParams).q || '';
+
+  const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
+    next: { revalidate: 60 },
+  });
+
+  if (!res.ok) {
+    notFound();
+  }
+
+  const data: DuroosCategory = await res.json();
+
+  const slugify = (text: string) =>
+    text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').trim();
 
   return (
     <div className="p-4 max-w-7xl mx-auto my-20">
@@ -46,7 +81,9 @@ export default async function SubcategoriesPage({ params }: {
         {data.category}
       </h1>
       <hr className="bg-bgcolor text-2xl" />
-      <p className="text-text-primary text-lg md:text-base xs:text-xs xxs:text-xs my-4 xs:my-3 xxs:my-3">{data.description}</p>
+      <p className="text-text-primary text-lg md:text-base xs:text-xs xxs:text-xs my-4 xs:my-3 xxs:my-3">
+        {data.description}
+      </p>
 
       <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xs:grid-cols-1 xxs:grid-cols-1 xs:gap-4 xxs:gap-4 gap-8 max-w-6xl mx-auto my-20">
         {data.subcategories.map((sub, index) => {
