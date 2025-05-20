@@ -110,7 +110,7 @@ export const duroos = [
             },
             {
                 title: "Juz 27",
-                description: "",
+                description: "The Sheikh explains that this Surah is considered Makki, meaning it was revealed during the Prophet Muhammad's time in Mecca. The discussion focuses on the oaths sworn by Allah in these verses, interpreting them as proofs of the truth of the resurrection and the Day of Judgment, and refuting the doubts and mockery of those who deny these realities. The commentary highlights various signs of Allah's power in creation, such as the winds, rain-bearing clouds, and ships at sea, as well as the qualities of the righteous (Muttaqin) who will be rewarded in Paradise.",
                 image: "/images/tafseer/2.png",
                 YTplaylistlink: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
                 introYTlink:"",
@@ -119,7 +119,7 @@ export const duroos = [
             },
             {
                 title: "Surah Al-Fathiha",
-                description: "",
+                description: "The Sheikh focuses on the profound meaning of the Arabic word 'Rabb' (often translated as 'Lord' or 'Cherisher') within the context of the Quran, particularly in Surah Al-Fatiha and its significance in establishing God's absolute oneness and right to worship. The speaker emphasizes that 'Rabb' signifies the One who nurtures, sustains, and fulfills the needs of all creation in every situation, highlighting this attribute as the basis for deserving worship. The repeated use of the word 'Rabb' in the Quran, particularly in confronting disbelievers like Pharaoh and Nimrod, demonstrates its power in arguing for the exclusive sovereignty and right to worship of Allah. Ultimately, the source argues that recognizing Allah as the sole 'Rabb' who creates and provides is essential to understanding and practicing true monotheism.",
                 image: "/images/tafseer/3.png",
                 YTplaylistlink: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hmrbtAWVVqCe3I_ckqaZ80L",
                 introYTlink:"",
@@ -128,7 +128,7 @@ export const duroos = [
             },
             {
                 title: "Juz Tabarak",
-                description: "",
+                description: "Sheikh emphasizes the importance and necessity of understanding the Quran through translation and commentary (Tafseer). The speaker explains that the Quran serves as a source of guidance, healing for inner ailments, and a reminder through stories and examples, illustrating this with the story of the Bani Israel being turned into monkeys. He highlights the efforts of scholars in the Indian subcontinent over centuries to make the Quran accessible through translations in Persian and Urdu and comprehensive commentaries, seeing these efforts as crucial for the reform and enlightenment of the Muslim community after periods of deviation.",
                 image: "/images/tafseer/4.png",
                 YTplaylistlink: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hlVgAZOuDvaowaj9uPKoYWL",
                 introYTlink:"",
