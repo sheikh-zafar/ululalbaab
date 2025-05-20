@@ -52,6 +52,7 @@ export async function generateMetadata({
       },
     };
   } catch (error) {
+    console.error("Error generating metadata:", error);
     return {
       title: "Course Not Found",
       description: "The requested course could not be found.",
