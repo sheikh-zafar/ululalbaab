@@ -28,29 +28,23 @@ async function getCourseData(subcategories: string, course: string) {
   return data.course || null;
 }
 
-// ✅ Metadata types
+// ✅ Types for dynamic route params
 type Params = Promise<{ subcategories: string; course: string }>;
-type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
 
-// ✅ Metadata function
+// ✅ Generate metadata
 export async function generateMetadata({
   params,
-  searchParams,
 }: {
   params: Params;
-  searchParams: SearchParams;
 }) {
   const { subcategories, course } = await params;
-  const query = (await searchParams).q || "";
 
   try {
     const courseData = await getCourseData(subcategories, course);
 
     return {
       title: `${courseData.title} | Ulul Albaab Duroos`,
-      description: query
-        ? `${courseData.description} - Filter: ${query}`
-        : courseData.description || "",
+      description: courseData.description || "",
       openGraph: {
         title: courseData.title,
         description: courseData.description || "",
@@ -65,13 +59,11 @@ export async function generateMetadata({
   }
 }
 
-// ✅ Page Component
+// ✅ Course Page Component
 export default async function CoursePage({
   params,
-  searchParams,
 }: {
   params: Params;
-  searchParams: SearchParams;
 }) {
   const { subcategories, course } = await params;
 

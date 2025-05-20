@@ -15,65 +15,55 @@ type DuroosCategory = {
   subcategories: Subcategory[];
 };
 
-type Params = Promise<{ subcategories: string }>;
-type SearchParams = Promise<{ [key: string]: string | string[] | undefined }>;
-
-export async function generateMetadata({
-  params,
-  searchParams,
-}: {
-  params: Params;
-  searchParams: SearchParams;
-}) {
-  const { subcategories } = await params;
-  const query = (await searchParams).q || ''; // Example usage
-
-  const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
-    next: { revalidate: 60 },
-  });
-
-  if (!res.ok) {
-    return {
-      title: 'Not Found',
-      description: 'The requested page could not be found.',
-    };
-  }
-
-  const data: DuroosCategory = await res.json();
-
-  return {
-    title: `${data.category} | Ulul Albaab Duroos`,
-    description: query ? `${data.description} - Filter: ${query}` : data.description,
-    openGraph: {
-      title: `${data.category} | Ulul Albaab Duroos`,
-      description: data.description,
-      images: data.image ? [data.image] : [],
-    },
-  };
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .trim();
 }
 
-export default async function SubcategoriesPage({
-  params,
-  searchParams,
-}: {
-  params: Params;
-  searchParams: SearchParams;
-}) {
+type Params = Promise<{ subcategories: string }>;
+
+export async function generateMetadata({ params }: { params: Params }) {
   const { subcategories } = await params;
-  const query = (await searchParams).q || '';
+
+  try {
+    const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
+      next: { revalidate: 60 },
+    });
+
+    if (!res.ok) throw new Error('Failed to fetch');
+
+    const data: DuroosCategory = await res.json();
+
+    return {
+      title: `${data.category} | Ulul Albaab Duroos`,
+      description: data.description,
+      openGraph: {
+        title: data.category,
+        description: data.description,
+        images: data.image ? [data.image] : [],
+      },
+    };
+  } catch {
+    return {
+      title: "Category Not Found",
+      description: "The requested category could not be found.",
+    };
+  }
+}
+
+export default async function SubcategoriesPage({ params }: { params: Params }) {
+  const { subcategories } = await params;
 
   const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
     next: { revalidate: 60 },
   });
 
-  if (!res.ok) {
-    notFound();
-  }
+  if (!res.ok) notFound();
 
   const data: DuroosCategory = await res.json();
-
-  const slugify = (text: string) =>
-    text.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').trim();
 
   return (
     <div className="p-4 max-w-7xl mx-auto my-20">
@@ -103,7 +93,6 @@ export default async function SubcategoriesPage({
                   />
                 )}
               </div>
-
               <Link
                 href={`/duroos/${subcategories}/${courseSlug}`}
                 className="mt-4 text-center py-2 px-4 rounded font-semibold bg-button-green hover:bg-button-greenhover"
