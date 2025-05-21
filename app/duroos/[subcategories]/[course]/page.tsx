@@ -133,7 +133,7 @@ export default async function CoursePage({
                         className="w-full max-w-sm rounded-xl shadow-md"
                     />
                     <div>
-                        <h1 className="text-3xl font-bold text-primarytext mb-4">{courseData.title}</h1>
+                        <h1 className="text-xl font-bold text-dustygray mb-4">{courseData.title}</h1>
                         {courseData.description && (
                             <p className="text-secondarytext mb-4">{courseData.description}</p>
                         )}
@@ -154,7 +154,7 @@ export default async function CoursePage({
                                     href={courseData.drivelink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-block px-4 py-2 bg-button.secondary underline text-dovegray hover:text-dustygray  rounded-md hover:bg-button.hover2"
+                                    className="inline-block bg-button.secondary underline text-dovegray hover:text-dustygray  rounded-md hover:bg-button.hover2"
                                 >
                                     📁 Download Course Materials (Drive)
                                 </a>
