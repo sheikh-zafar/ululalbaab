@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface Course {
@@ -137,22 +138,23 @@ export default async function CoursePage({
                             <p className="text-secondarytext mb-4">{courseData.description}</p>
                         )}
                         <div className="space-y-2">
+                            <div><span className="text-ronchi">Instructor:</span> Sheikh Zafarulhasan Madani</div>
                             {courseData.YTplaylistlink && (
-                                <a
+                                <Link
                                     href={courseData.YTplaylistlink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-block px-4 py-2 bg-button.primary text-white rounded-md hover:bg-button.hover"
+                                    className="inline-block bg-button.primary underline text-dovegray hover:text-dustygray rounded-md hover:bg-button.hover"
                                 >
                                     🎥 Watch Playlist on YouTube
-                                </a>
+                                </Link>
                             )}
                             {courseData.drivelink && (
                                 <a
                                     href={courseData.drivelink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-block px-4 py-2 bg-button.secondary text-white rounded-md hover:bg-button.hover2"
+                                    className="inline-block px-4 py-2 bg-button.secondary underline text-dovegray hover:text-dustygray  rounded-md hover:bg-button.hover2"
                                 >
                                     📁 Download Course Materials (Drive)
                                 </a>
