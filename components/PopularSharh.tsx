@@ -79,7 +79,7 @@ export default function BookCarousel() {
             <Box key={index} textAlign='center' p={1}>
               {" "}
               {/* Reduced padding */}
-              <Link href='/' passHref>
+              <Link href={book.link} passHref>
                 <Image
                   alt={book.title}
                   src={book.src}
