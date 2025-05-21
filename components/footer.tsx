@@ -20,13 +20,13 @@ export default function Footer() {
 
                         <div className="grid grid-cols-1 s:grid-cols-1 xs:grid-cols-1 xxs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-3 gap-6">
                             <div>
-                                <h2 className="mb-4 text-sm font-semibold uppercase">Resources</h2>
+                                <h2 className="mb-4 text-sm font-semibold uppercase">Links</h2>
                                 <ul className="font-medium space-y-2">
                                     <li>
-                                        <Link href="https://flowbite.com/" className="hover:underline">Flowbite</Link>
+                                        <Link href="/schedule" className="hover:underline">Schedule</Link>
                                     </li>
                                     <li>
-                                        <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
+                                        <Link href="/duroos" className="hover:underline">Duroos</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -35,22 +35,10 @@ export default function Footer() {
                                 <h2 className="mb-4 text-sm font-semibold uppercase">Follow us</h2>
                                 <ul className="font-medium space-y-2">
                                     <li>
-                                        <Link href="https://github.com/themesberg/flowbite" className="hover:underline">Github</Link>
+                                        <Link href="/social-media" className="hover:underline">Social Media</Link>
                                     </li>
                                     <li>
                                         <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div>
-                                <h2 className="mb-4 text-sm font-semibold uppercase">Legal</h2>
-                                <ul className="font-medium space-y-2">
-                                    <li>
-                                        <Link href="#" className="hover:underline">Privacy Policy</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#" className="hover:underline">Terms &amp; Conditions</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -61,7 +49,7 @@ export default function Footer() {
 
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between text-sm text-whiterock">
                         <span className="text-center sm:text-left mb-4 sm:mb-0">
-                            © 2023 <Link href="/" className="hover:underline">Flowbite™</Link>. All Rights Reserved.
+                            © 2025 <Link href="/" className="hover:underline">فضيلة الشيخ ظفر الحسن مدني حفظه اللّه</Link>. All Rights Reserved.
                         </span>
                         <div className="flex justify-center space-x-5">
                             {/* Social Media Icons (unchanged) */}

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /audio
+Allow: /
+
+Sitemap: https://zafarulhasan.com/sitemap.xml
