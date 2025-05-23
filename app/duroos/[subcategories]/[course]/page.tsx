@@ -17,7 +17,8 @@ interface CourseApiResponse {
   category?: string;
 }
 
-async function getCourseData(subcategories: string, course: string) {
+// Fetch single course details
+async function getCourseData(subcategories: string, course: string): Promise<Course | null> {
   const url = `https://ululalbaab.vercel.app/api/duroos/${subcategories}/${course}`;
   const res = await fetch(url, { cache: "no-store" });
 
@@ -37,8 +38,8 @@ export async function generateMetadata({ params }: { params: Params }) {
   try {
     const courseData = await getCourseData(subcategories, course);
     return {
-      title: `${courseData.title} | Urdu Lecture by Sheikh Zafarulhasan Madani`,
-      description: `${courseData.description}`,
+      title: `${courseData?.title || "Course"} | Urdu Lecture by Sheikh Zafarulhasan Madani`,
+      description: `${courseData?.description || ""}`,
     };
   } catch {
     return {
@@ -48,15 +49,15 @@ export async function generateMetadata({ params }: { params: Params }) {
   }
 }
 
-
 export default async function CoursePage({ params }: { params: Params }) {
   const { subcategories, course } = await params;
   let courseData: Course | null = null;
- 
+  let allCourses: Course[] = [];
+
   try {
     courseData = await getCourseData(subcategories, course);
   } catch (error) {
-    console.error("Error fetching course data:", error);
+    console.error("Error fetching data:", error);
     return <div className="p-8 text-red-600">❌ Error loading course data.</div>;
   }
 
@@ -84,7 +85,12 @@ export default async function CoursePage({ params }: { params: Params }) {
             )}
 
             <div className="space-y-3 text-sm text-gray-700">
-              <p><strong>Instructor:</strong> Sheikh Zafarulhasan Madani</p>
+              <p>
+                <strong>Lecturer:</strong> Sheikh Zafarulhasan Madani
+              </p>
+              <p>
+                <strong>Language:</strong> Urdu | اردو
+              </p>
 
               {courseData.YTplaylistlink && (
                 <Link
@@ -119,6 +125,8 @@ export default async function CoursePage({ params }: { params: Params }) {
           </div>
         </div>
       </section>
+
+      
     </main>
   );
 }
