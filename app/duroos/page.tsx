@@ -105,13 +105,6 @@ async function getDuroos(): Promise<Category[]> {
 
 export default async function DuroosPage() {
   const duroos = await getDuroos();
-  const baseUrl = "https://ululalbaab.vercel.app/duroos";
-  const urls = duroos.map((category) => {
-    const slug = category.title.replace(/\s+/g, "-");
-    return `${baseUrl}/${encodeURIComponent(slug)}`;
-  });
-
-  console.log("Generated URLs:", urls);
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
