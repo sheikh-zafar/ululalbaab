@@ -105,19 +105,29 @@ async function getDuroos(): Promise<Category[]> {
 
 export default async function DuroosPage() {
   const duroos = await getDuroos();
+  const baseUrl = "https://ululalbaab.vercel.app/duroos";
+  const urls = duroos.map((category) => {
+    const slug = category.title.replace(/\s+/g, "-");
+    return `${baseUrl}/${encodeURIComponent(slug)}`;
+  });
+
+  console.log("Generated URLs:", urls);
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
       <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans mb-20">
         Course Categories | Sheikh Zafarul Hasan Madani
       </h1>
+      
+        
 
       <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-2 xs:gap-4 xxs:gap-4 gap-8 max-w-6xl mx-auto">
         {duroos.map((category, idx) => {
           const slug = category.title.replace(/\s+/g, "-");
 
           return (
-            <div
+            <div>
+              <div
               key={idx}
               className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
             >
@@ -136,6 +146,8 @@ export default async function DuroosPage() {
                 </div>
               </Link>
             </div>
+            </div>
+            
           );
         })}
       </div>

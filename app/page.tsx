@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <HeaderSection />
-      <div className="max-w-7xl mx-2 my-20 xs:my-14 xxs:my-14 s:my-14">
+      <div className="max-w-7xl px-2 mx-auto my-20 xs:my-14 xxs:my-14 s:my-14">
         <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
           About Sheikh zafarulhasan Madani
         </h6>
@@ -27,7 +27,7 @@ export default function Home() {
             />
           </div>
           <div className="w-5/6">
-            <p className="text-text-primary text-lg md:text-base xs:text-xs xxs:text-xs my-4 xs:my-3 xxs:my-3">
+            <p className="text-text-primary text-lg md:text-base xs:text-sm xxs:text-sm my-4 xs:my-3 xxs:my-3">
               Zafar-ul-Hasan Ahmedullah was born in 1956. He
               hails from a religious family of eight members
               from Changhaipur (Pratapgarh), a small town in
