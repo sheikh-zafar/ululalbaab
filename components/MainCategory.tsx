@@ -16,8 +16,6 @@ const settings = {
   slidesToScroll: 2,
   autoplay: true,
   autoplaySpeed: 2000,
-  centerMode: false,
-  centerPadding: '0px',
   responsive: [
     {
       breakpoint: 1024,
@@ -51,36 +49,36 @@ const settings = {
 };
 
 // Book data
-const books = [
-  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/al-arbaoona-an-nawawi" },
-  { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png", link: "" },
-  { title: "Raful Malam", src: "/images/books/rafulmalam.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/raful-malam" },
-  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/riyad-us-saliheen" },
-  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/bulugh-al-maram" },
-  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/kitab-At-tawheed" },
-  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/shamail-al-muhammadiyah" },
-  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/sharh-as-sunnah" },
-  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/usool-al-thalatha" },
-  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/tadween-as-sunnah" },
+const duroos = [
+  { title: "Dawrah Ilmiyyah (Mukhtasar)", src: "/images/categories/6.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)" },
+  { title: "Dawrah Ilmiyyah (Taweel)", src: "/images/categories/5.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)" },
+  { title: "Tafseerul Quran", src: "/images/categories/2.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/raful-malam" },
+  { title: "Jummu'ah Khutbah", src: "/images/categories/1.png", link: "/duroos/Jummu'ah-Khutbah" },
+  { title: "Arkan Al Islam", src: "/images/categories/3.png", link: "/duroos/Arkan-Al-Islam" },
+  { title: "Mausamiat", src: "/images/categories/4.png", link: "/duroos/Mausamiat" },
+  { title: "Aam Duroos", src: "/images/categories/7.png", link: "/duroos/Aam-Duroos" },
+  { title: "Sister's section", src: "/images/categories/8.png", link: "/duroos/Sister's-section" },
+  { title: "Tareeq Ahlul Hadith", src: "/images/categories/9.png", link: "/duroos/Tareeq-Ahlul-Hadith" },
 ];
 
-export default function BookCarousel() {
+export default function MainCategory() {
   return (
-    <Container maxWidth={false} disableGutters sx={{ textAlign: "center", mb: 20, mt: 20, overflow: "hidden" }}>
+    <Container maxWidth={false} disableGutters sx={{ textAlign: "center", mb: 20, mt:20, overflow: "hidden" }}>
       <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans mb-4">
-        Popular Books Taught By Him (حفظه اللّه)
+        Top Duroos Categories
       </h2>
-      <hr className="bg-bgcolor text-2xl" />
+       <hr className="bg-bgcolor text-2xl" />
+
       <Box sx={{ width: "100%", overflow: "hidden" }}>
         <Slider {...settings}>
-          {books.map((book, index) => (
+          {duroos.map((book, index) => (
             <Box key={index} textAlign="center" px={0.5} py={2}>
               <Link href={book.link || "#"} passHref>
                 <Image
                   alt={book.title}
                   src={book.src}
-                  width={300}
-                  height={500}
+                  width={400}
+                  height={600}
                   className="border-2 border-black mx-auto"
                 />
               </Link>

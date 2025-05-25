@@ -26,7 +26,7 @@ export default {
         dustygray: '#9c9c9c',         // Subheadings
         goldengrass: '#dcbc23',       // Links, play button/icon
         whiterock: '#ebe6d3',         // Navbar background, footer text
-        sunflower: '#e4bc24',          // Banner/hero section
+        sunflower: '#facc15',          // Banner/hero section
         confetti: '#e8cc53',           // Course categories background
         ronchi: '#e6c34a',             // Music player background
         tuliptree: '#e4be38',         // Music player progress bar
