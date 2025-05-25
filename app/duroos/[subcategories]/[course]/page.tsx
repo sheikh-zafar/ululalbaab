@@ -52,7 +52,6 @@ export async function generateMetadata({ params }: { params: Params }) {
 export default async function CoursePage({ params }: { params: Params }) {
   const { subcategories, course } = await params;
   let courseData: Course | null = null;
-  let allCourses: Course[] = [];
 
   try {
     courseData = await getCourseData(subcategories, course);
