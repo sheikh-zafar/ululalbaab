@@ -4,6 +4,7 @@ import WeeklySchedule from "@/components/WeeklySchedule"
 import VisionMission from "@/components/VisionMission"
 import SocialLinks from "@/components/SocialMedia"
 import MainCategory from "@/components/MainCategory"
+import Tafseer from "@/components/Tafseer"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SocialLinks/>
       <WeeklySchedule />
       <MainCategory/>
+      <Tafseer/>
       <VisionMission />
     </div>
   )
