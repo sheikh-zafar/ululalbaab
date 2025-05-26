@@ -71,11 +71,11 @@ const socialLinks = [
 
 const SocialLinks = () => {
     return (
-        <Container sx={{ textAlign: "center", mb: 20 }}>
-            <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
-           Social Media Links
-        </h6>
-        <hr className="bg-bgcolor text-2xl" />
+        <Container className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center" }}>
+            <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
+                Social Media Links
+            </h2>
+            <hr className="bg-bgcolor text-2xl" />
             <div className="flex flex-wrap justify-center gap-6 mt-10">
 
                 {socialLinks.map(({ name, href, svg }, idx) => (
@@ -88,7 +88,7 @@ const SocialLinks = () => {
                         aria-label={name}
                     >
                         {svg}
-                        <span className="text-[#dcbc23] mt-1">{name}</span>
+                        <span className="text-sunflower mt-1">{name}</span>
                     </Link>
                 ))}
             </div>

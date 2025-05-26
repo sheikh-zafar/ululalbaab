@@ -63,9 +63,9 @@ const duroos = [
 
 export default function MainCategory() {
   return (
-    <Container maxWidth={false} disableGutters sx={{ textAlign: "center", mb: 20, mt:20, overflow: "hidden" }}>
-      <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans mb-4">
-        Top Duroos Categories
+    <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center",  overflow: "hidden" }}>
+      <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
+        Top Duroos categories
       </h2>
        <hr className="bg-bgcolor text-2xl" />
 
@@ -93,12 +93,7 @@ export default function MainCategory() {
                 {book.title}
               </Typography>
 
-              <Link
-                href={book.link || "#"}
-                className="inline-block bg-button-primary text-whiterock rounded-xl hover:shadow-2xl px-4 py-2 text-sm font-semibold transition duration-200"
-              >
-                Listen
-              </Link>
+             
             </Box>
           ))}
         </Slider>

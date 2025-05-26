@@ -36,10 +36,10 @@ const CalendarEvents = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Container sx={{mb: 20}}> 
-        <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
+      <Container className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8"> 
+        <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
         Weekly Schedule (Friday - Thursday)
-      </h6>
+      </h2>
       <hr className="bg-bgcolor text-2xl" />
 
       <TableContainer

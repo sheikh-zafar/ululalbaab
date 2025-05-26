@@ -11,10 +11,10 @@ export default function LatestNewsVideo() {
   }, [])
 
   return (
-    <Container sx={{ textAlign: "center", mb: 20 }}>
-      <h6 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
-          Vission Mission
-        </h6>
+    <Container sx={{ textAlign: "center", overflow: "hidden" }}>
+          <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
+            Vission & Mission
+          </h2>
         <hr className="bg-bgcolor text-2xl" />
 
       {loading ? (

@@ -52,23 +52,23 @@ const settings = {
 
 // Book data
 const books = [
-  { title: "Juz 28", src: "/images/tafseer/1.png", link: "/duroos/Tafseerul-Quran/juz-28afseerul-Quran/juz-27" },
-  { title: "Surah Al-Fathiha", src: "/images/tafseer/2.png", link: "/duroos/Tafseerul-Quran/surah-al-fathiha" },
-  { title: "Juz Tabarak", src: "/images/tafseer/3.png", link: "/duroos/Tafseerul-Quran/juz-tabarak" },
-  { title: "Kuch Lamhaat quran ki ayaton ke sath", src: "/images/tafseer/4.png", link: "/duroos/Tafseerul-Quran/kuch-lamhaat-quran-ki-ayaton-ke-sath" },
-  { title: "Surah Al-Baqarah", src: "/images/tafseer/5.png", link: "/duroos/Tafseerul-Quran/surah-al-baqarah" },
-  { title: "Surah Al An'aam", src: "/images/tafseer/6.png", link: "/duroos/Tafseerul-Quran/surah-al-anaam" },
-  { title: "Surah Al-A'raf", src: "/images/tafseer/7.png", link: "/duroos/Tafseerul-Quran/surah-al-araf" },
-  { title: "Surah Ibrahim", src: "/images/tafseer/8.png", link: "/duroos/Tafseerul-Quran/surah-ibrahim" },
-  { title: "Surah Al-Hijr", src: "/images/tafseer/9.png", link: "/duroos/Tafseerul-Quran/surah-al-hijr" },
-  { title: "Surah Al-Ahzab", src: "/images/tafseer/10.png", link: "/duroos/Tafseerul-Quran/surah-al-ahzab" },
-  { title: "Surah Saba", src: "/images/tafseer/11.png", link: "/duroos/Tafseerul-Quran/surah-saba" },
-  { title: "Surah Al-Hujurat", src: "/images/tafseer/12.png", link: "/duroos/Tafseerul-Quran/surah-al-hujurat" },
+  { title: "Juz 28", src: "/images/tafseer/1.png", link: "/duroos/Tafseerul-Quran/juz-28" },
+  { title: "Surah Al-Fathiha", src: "/images/tafseer/3.png", link: "/duroos/Tafseerul-Quran/surah-al-fathiha" },
+  { title: "Juz Tabarak", src: "/images/tafseer/4.png", link: "/duroos/Tafseerul-Quran/juz-tabarak" },
+  { title: "Kuch Lamhaat quran ki ayaton ke sath", src: "/images/tafseer/5.png", link: "/duroos/Tafseerul-Quran/kuch-lamhaat-quran-ki-ayaton-ke-sath" },
+  { title: "Surah Al-Baqarah", src: "/images/tafseer/6.png", link: "/duroos/Tafseerul-Quran/surah-al-baqarah" },
+  { title: "Surah Al An'aam", src: "/images/tafseer/7.png", link: "/duroos/Tafseerul-Quran/surah-al-anaam" },
+  { title: "Surah Al-A'raf", src: "/images/tafseer/8.png", link: "/duroos/Tafseerul-Quran/surah-al-araf" },
+  { title: "Surah Ibrahim", src: "/images/tafseer/9.png", link: "/duroos/Tafseerul-Quran/surah-ibrahim" },
+  { title: "Surah Al-Hijr", src: "/images/tafseer/10.png", link: "/duroos/Tafseerul-Quran/surah-al-hijr" },
+  { title: "Surah Al-Ahzab", src: "/images/tafseer/11.png", link: "/duroos/Tafseerul-Quran/surah-al-ahzab" },
+  { title: "Surah Saba", src: "/images/tafseer/12.png", link: "/duroos/Tafseerul-Quran/surah-saba" },
+  { title: "Surah Al-Hujurat", src: "/images/tafseer/13.png", link: "/duroos/Tafseerul-Quran/surah-al-hujurat" },
 ];
 
 export default function Tafseer() {
   return (
-    <Container maxWidth={false} disableGutters sx={{ textAlign: "center", mb: 20, mt: 20, overflow: "hidden" }}>
+    <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center",  overflow: "hidden" }}>
       <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
         Tafseerul Quran
       </h2>
@@ -97,12 +97,7 @@ export default function Tafseer() {
                 {book.title}
               </Typography>
 
-              <Link
-                href={book.link || "#"}
-                className="inline-block bg-button-primary text-whiterock rounded-xl hover:shadow-2xl px-4 py-2 text-sm font-semibold transition duration-200"
-              >
-                Listen
-              </Link>
+            
             </Box>
           ))}
         </Slider>

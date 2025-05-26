@@ -16,7 +16,7 @@ const LectureSchedule = () => {
   ];
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 ">
       <h2 className="text-3xl font-bold text-center text-[#6c6c6c] mb-8">
         📅 Weekly Lecture Schedule
       </h2>
