@@ -17,7 +17,6 @@ export default function Home() {
       <AdCard/>
       <MainCategory/>
       <Tafseer/>
-      <VisionMission />
     </div>
   )
 }

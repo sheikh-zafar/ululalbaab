@@ -67,10 +67,7 @@ const books = [
 export default function BookCarousel() {
   return (
     <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center",  overflow: "hidden" }}>
-      <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans">
-        Popular Books Taught By Him (حفظه اللّه)
-      </h2>
-      <hr className="bg-bgcolor text-2xl" />
+      
       <Box sx={{ width: "100%", overflow: "hidden" }}>
         <Slider {...settings}>
           {books.map((book, index) => (
@@ -85,15 +82,6 @@ export default function BookCarousel() {
                 />
               </Link>
 
-              <Typography
-                variant="h6"
-                fontWeight="bold"
-                my={2}
-                color="#6c6c6c"
-                className="xl:text-lg lg:text-lg xxl:text-lg sm:text-lg md:text-lg xs:text-base xxs:text-base s:text-base"
-              >
-                {book.title}
-              </Typography>
 
             </Box>
           ))}
