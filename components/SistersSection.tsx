@@ -12,10 +12,12 @@ const settings = {
   pauseOnHover: true,
   dots: true,
   infinite: true,
-  slidesToShow: 5,
-  slidesToScroll: 2,
+  slidesToShow: 1,
+  slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
+  centerMode: false,
+  centerPadding: '0px',
   responsive: [
     {
       breakpoint: 1024,
@@ -49,36 +51,29 @@ const settings = {
 };
 
 // Book data
-const duroos = [
-  { title: "Dawrah Ilmiyyah (Mukhtasar)", src: "/images/duroos-mview/6.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)" },
-  { title: "Dawrah Ilmiyyah (Taweel)", src: "/images/duroos-mview/5.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)" },
-  { title: "Tafseerul Quran", src: "/images/duroos-mview/2.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/raful-malam" },
-  { title: "Jummu'ah Khutbah", src: "/images/duroos-mview/1.png", link: "/duroos/Jummu'ah-Khutbah" },
-  { title: "Arkan Al Islam", src: "/images/duroos-mview/3.png", link: "/duroos/Arkan-Al-Islam" },
-  { title: "Mausamiat", src: "/images/duroos-mview/4.png", link: "/duroos/Mausamiat" },
-  { title: "Aam Duroos", src: "/images/duroos-mview/7.png", link: "/duroos/Aam-Duroos" },
-  { title: "Sister's section", src: "/images/duroos-mview/8.png", link: "/duroos/Sister's-section" },
-  { title: "Tareeq Ahlul Hadith", src: "/images/duroos-mview/9.png", link: "/duroos/Tareeq-Ahlul-Hadith" },
-];
+const books = [
+  { title: "Nisa", src: "/images/tafseer/1.png", link: "/duroos/Sister's-section/nisa" },
+ ];
 
-export default function MainCategory() {
+export default function Tafseer() {
   return (
     <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center", overflow: "hidden" }}>
       <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
-        Main Duroos Category
+        Tafseer
       </h2>
       <hr className="bg-bgcolor text-2xl" />
       <Box sx={{ width: "100%", overflow: "hidden" }}>
         <Slider {...settings}>
-          {duroos.map((book, index) => (
+          {books.map((book, index) => (
             <Box key={index} textAlign="center" px={0.5} py={2}>
               <Link href={book.link || "#"} passHref>
                 <Image
-                  alt={book.title}
-                  src={book.src}
-                  width={400}
-                  height={600}
-                  className="border-2 border-dustygray mx-auto"
+                  alt="Placeholder 197 x 312.8"
+                  src="https://via.placeholder.com/197x313?text=Placeholder+197x312.8"
+                  width={197}
+                  height={313}
+                  className="border-2 border-gray-400 rounded"
+                  style={{ width: "100%", height: "auto", objectFit: "cover", backgroundColor: "#e0e0e0" }}
                 />
               </Link>
 

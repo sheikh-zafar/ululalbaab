@@ -68,19 +68,23 @@ const books = [
 
 export default function Tafseer() {
   return (
-    <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center",  overflow: "hidden" }}>
- 
+    <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center", overflow: "hidden" }}>
+      <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
+        Tafseer
+      </h2>
+      <hr className="bg-bgcolor text-2xl" />
       <Box sx={{ width: "100%", overflow: "hidden" }}>
         <Slider {...settings}>
           {books.map((book, index) => (
             <Box key={index} textAlign="center" px={0.5} py={2}>
               <Link href={book.link || "#"} passHref>
                 <Image
-                  alt={book.title}
-                  src={book.src}
-                  width={300}
-                  height={500}
-                  className="border-2 border-black mx-auto"
+                  alt="Placeholder 197 x 312.8"
+                  src="https://via.placeholder.com/197x313?text=Placeholder+197x312.8"
+                  width={197}
+                  height={313}
+                  className="border-2 border-gray-400 rounded"
+                  style={{ width: "100%", height: "auto", objectFit: "cover", backgroundColor: "#e0e0e0" }}
                 />
               </Link>
 
@@ -94,7 +98,7 @@ export default function Tafseer() {
                 {book.title}
               </Typography>
 
-            
+
             </Box>
           ))}
         </Slider>
