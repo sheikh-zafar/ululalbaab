@@ -56,10 +56,12 @@ const duroos = [
 
 export default function AamDuroos() {
     return (
-        <Container maxWidth={false} disableGutters className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center", overflow: "hidden" }}>
-            <h2 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-xl font-extrabold font-sans ">
+        <div className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
+            <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
                 Aam Duroos
             </h2>
+            <h6 className="text-black xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl pb-5 font-aref">(عام دروس)</h6>
+
             <hr className="bg-bgcolor text-2xl" />
             <Box sx={{ width: "100%", overflow: "hidden" }}>
                 <Slider {...settings}>
@@ -91,6 +93,6 @@ export default function AamDuroos() {
                     ))}
                 </Slider>
             </Box>
-        </Container>
+        </div>
     );
 }

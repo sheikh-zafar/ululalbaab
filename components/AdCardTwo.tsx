@@ -3,10 +3,10 @@ import { Container } from "@mui/material"
 
 export default function AdCardTwo() {
   return (
-    <Container  className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 my-10 sh xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8"> 
-      <div className="shadow-lg p-8 text-center md:text-left bg-sunflower border border-[#f1f1f1]">
+    <div  className="my-10 sh xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8"> 
+      <div className="shadow-lg p-8 text-center md:text-left bg-gradient-to-r from-goldengrass to-sunflower  border border-[#f1f1f1]">
         {/* Title */}
-        <h1 className="text-3xl md:text-4xl font-bold text-[#6c6c6c] mb-4">
+        <h1 className="text-3xl md:text-4xl font-bold font-mono mb-4">
           Watch / Listen Live
         </h1>
 
@@ -25,6 +25,6 @@ export default function AdCardTwo() {
           </button>
         </div>
       </div>
-    </Container>
+    </div>
   )
 }

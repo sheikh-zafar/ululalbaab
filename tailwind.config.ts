@@ -41,6 +41,7 @@ export default {
         }
       },
       fontFamily: {
+        aref: ['var(--font-aref-ruqaa)'],
         head: ['Bungee Tint', 'sans-serif'],
         sans: ['Roboto', 'sans-serif'],
         heading: ['Squada One', 'sans-serif'],
