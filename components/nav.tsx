@@ -14,6 +14,7 @@ import {
   ListItemText,
 } from "@mui/material"
 import MenuIcon from "@mui/icons-material/Menu"
+import Image from "next/image"
 
 const navItems = ["Home", "Duroos", "About", "Schedule"]
 
@@ -26,7 +27,7 @@ export default function Navbar() {
 
   return (
     <>
-      <AppBar position='static' sx={{ backgroundColor: "#ebe6d3" }}>
+      <AppBar position='static' sx={{ backgroundColor: "#facc15" }}>
         <Toolbar>
           {/* Logo / Brand Name */}
           <Typography
@@ -34,7 +35,7 @@ export default function Navbar() {
             component='div'
             sx={{ flexGrow: 1, fontWeight: 700, color: "#6c6c6c" }}
           >
-            فضيلة الشيخ ظفر الحسن مدني حفظه اللّه
+            <Image src="/images/icon-192x192.png" alt="urdu bayan" width={48} height={48}/>      
           </Typography>
 
           {/* Desktop Navigation */}
