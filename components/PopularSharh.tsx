@@ -4,7 +4,7 @@ import React from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
-import { Box,  Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 // Slick settings
 const settings = {
