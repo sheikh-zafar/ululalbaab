@@ -7,7 +7,6 @@ import AdCard from "@/components/AdCardOne"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
-import CrunchyHomeHeader from "@/components/homeheader"
 
 export default function Home() {
   return (

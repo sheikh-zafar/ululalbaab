@@ -1,7 +1,5 @@
-import { Typography } from '@mui/material'
-import { Box } from '@mui/system'
-import Image from 'next/image'
-import Link from 'next/link'
+
+
 import React from 'react'
 
 export default function CrunchyHomeHeader() {
