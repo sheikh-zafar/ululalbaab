@@ -1,4 +1,3 @@
-import HeaderSection from "@/components/header"
 import BookCarousel from "@/components/PopularSharh"
 import WeeklySchedule from "@/components/WeeklySchedule"
 import SocialLinks from "@/components/SocialMedia"
@@ -8,20 +7,20 @@ import AdCard from "@/components/AdCardOne"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
+import CrunchyHomeHeader from "@/components/homeheader"
 
 export default function Home() {
   return (
-    <div>
-      <HeaderSection />
-      <SocialLinks/>
+    <div className="max-w-6xl mx-auto">
+      <SocialLinks />
       <BookCarousel />
       <WeeklySchedule />
-      <AdCard/>
-      <MainCategory/>
-      <Tafseer/>
-      <AdCardTwo/>
-      <TaweelCarousel/>
-      <AamDuroos/>
+      <AdCard />
+      <MainCategory />
+      <Tafseer />
+      <AdCardTwo />
+      <TaweelCarousel />
+      <AamDuroos />
     </div>
   )
 }

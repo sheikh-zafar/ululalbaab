@@ -66,6 +66,7 @@ export default async function CoursePage({ params }: { params: Params }) {
 
   return (
     <main className="min-h-screen bg-[#f9fafb] py-6 px-4 sm:px-6 lg:px-8">
+
       <section className="max-w-4xl mx-auto bg-white p-6 xs:p-3 xxs:p-3 rounded-2xl shadow-xl border border-gray-200">
         <div className="flex flex-col lg:flex-row items-start gap-6">
           <Image
@@ -125,7 +126,7 @@ export default async function CoursePage({ params }: { params: Params }) {
         </div>
       </section>
 
-      
+
     </main>
   );
 }

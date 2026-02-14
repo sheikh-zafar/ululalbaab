@@ -79,7 +79,7 @@ const CrunchyCarousel = () => {
   const currentSlide = slides[currentIndex]
 
   return (
-    <div className="relative w-full h-[600px] md:h-[700px] overflow-hidden bg-black">
+    <div className="relative w-full h-[600px] md:h-[700px] overflow-hidden bg-black mb-20">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -94,15 +94,15 @@ const CrunchyCarousel = () => {
       <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
 
       {/* Content */}
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentIndex}
-            initial={{ x: -100, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: 100, opacity: 0 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
-            className="relative z-10 h-full flex flex-col justify-end md:justify-center items-center md:items-start xl:items-start xxl:items-start lg:items-start px-4 md:px-10 pb-8 md:pb-0 text-white text-center md:text-left lg:text-left xxl:text-left xl:text-left md:max-w-2xl"
-          >
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ x: -100, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: 100, opacity: 0 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+          className="relative z-10 h-full flex flex-col justify-end md:justify-center items-center md:items-start xl:items-start xxl:items-center lg:items-start px-4 md:px-10 pb-8 md:pb-0 text-white text-center md:text-left lg:text-left xxl:text-left xl:text-left md:max-w-2xl"
+        >
           {/* Title */}
           <h1 className="text-3xl md:text-6xl font-bold mb-4 leading-tight">
             {currentSlide.title}
@@ -130,8 +130,8 @@ const CrunchyCarousel = () => {
           <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-md w-4/5 xl:w-1/4 xxl:w-1/4 lg:w-1/4 md:w-auto min-w-[200px] transition-all duration-200 hover:shadow-lg transform hover:scale-105 active:scale-95">
             {currentSlide.buttonText}
           </button>
-          </motion.div>
-        </AnimatePresence>
+        </motion.div>
+      </AnimatePresence>
 
       {/* Navigation Arrows */}
       <div className="absolute top-1/2 left-0 right-0 flex justify-between px-4 transform -translate-y-1/2 z-20">
@@ -166,8 +166,8 @@ const CrunchyCarousel = () => {
               }
             }}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex
-                ? 'bg-yellow-500 scale-125'
-                : 'bg-white/50 hover:bg-white/70'
+              ? 'bg-yellow-500 scale-125'
+              : 'bg-white/50 hover:bg-white/70'
               }`}
             aria-label={`Go to slide ${index + 1}`}
           />

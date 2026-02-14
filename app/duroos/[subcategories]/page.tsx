@@ -1,3 +1,4 @@
+import CrunchyCarousel from '@/components/header';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
@@ -93,7 +94,7 @@ export async function generateMetadata({ params }: { params: Params }) {
 
 export default async function SubcategoriesPage({ params }: { params: Params }) {
     const { subcategories } = await params;
-    
+
 
     // 🚫 Redirect to /comingsoon if in blocked list
     const blockedSubcategories = ["Arkan-Al-Islam", "Mausamiat", "Tareeq-Ahlul-Hadith", "Jummu'ah-Khutbah"];
@@ -108,6 +109,7 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
     const data: DuroosCategory = await res.json();
     return (
         <div className="p-4 max-w-7xl mx-auto my-20">
+            <CrunchyCarousel />
             <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
                 {data.category}
             </h1>

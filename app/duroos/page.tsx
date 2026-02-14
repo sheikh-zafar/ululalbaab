@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
+import CrunchyCarousel from "@/components/header";
 
 export const viewport = {
   width: 'device-width',
@@ -11,9 +12,9 @@ export const viewport = {
   themeColor: '#2563eb'
 };
 
-export const metadata:Metadata = {
+export const metadata: Metadata = {
   title:
-    'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com' ,
+    'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
   description:
     'Urdu Lectures | Listen and Download | Zafar ul hasan madani ',
   metadataBase: new URL('https://zafarulhasan.com/duroos'),
@@ -29,32 +30,32 @@ export const metadata:Metadata = {
     }
   },
   openGraph: {
-  title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
-  description: 'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
-  url: 'https://zafarulhasan.com/duroos',
-  siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
-  images: [
-    {
-      url: 'https://zafarulhasan.com/favicon.png',
-      width: 48,
-      height: 48,
-    },
-    {
-      url: 'https://zafarulhasan.com/icon-192x192.png',
-      width: 192,
-      height: 192
-    },
-    {
-      url: 'https://zafarulhasan.com/icons/icon-512x512.png',
-      width: 512,
-      height: 512,
-      alt: 'urdu bayan'
-    }
-  ],
-  locale: 'en_US',
-  type: 'website',
-  
-},
+    title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
+    description: 'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
+    url: 'https://zafarulhasan.com/duroos',
+    siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
+    images: [
+      {
+        url: 'https://zafarulhasan.com/favicon.png',
+        width: 48,
+        height: 48,
+      },
+      {
+        url: 'https://zafarulhasan.com/icon-192x192.png',
+        width: 192,
+        height: 192
+      },
+      {
+        url: 'https://zafarulhasan.com/icons/icon-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'urdu bayan'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+
+  },
 
   twitter: {
     card: 'summary_large_image',
@@ -108,6 +109,7 @@ export default async function DuroosPage() {
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
+      <CrunchyCarousel />
       <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans mb-20">
         Course Categories | Sheikh Zafarul Hasan Madani
       </h1>
@@ -117,7 +119,7 @@ export default async function DuroosPage() {
           const slug = category.title.replace(/\s+/g, "-");
 
           return (
-              <div
+            <div
               key={idx}
               className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
             >
@@ -136,7 +138,7 @@ export default async function DuroosPage() {
                 </div>
               </Link>
             </div>
-            
+
           );
         })}
       </div>

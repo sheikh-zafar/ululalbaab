@@ -50,8 +50,8 @@ const settings = {
 
 // Book data
 const duroos = [
-    { title: "Isteqamat", src: "/images/duroos-mview/6.png", link: "/duroos/Aam-Duroos/isteqamat" },
-    { title: "Dil Ke Amaal", src: "/images/duroos-mview/5.png", link: "/duroos/Aam-Duroos/dil-ke-amaal" },
+    { title: "Isteqamat", src: "/images/aamduroos/mobileview/1.png", link: "/duroos/Aam-Duroos/isteqamat" },
+    { title: "Dil Ke Amaal", src: "/images/aamduroos/mobileview/2.png", link: "/duroos/Aam-Duroos/dil-ke-amaal" },
 ];
 
 export default function AamDuroos() {
@@ -69,8 +69,8 @@ export default function AamDuroos() {
                         <Box key={index} textAlign="center" px={0.5} py={2}>
                             <Link href={book.link || "#"} passHref>
                                 <Image
-                                    alt="Placeholder 197 x 312.8"
-                                    src="https://via.placeholder.com/197x313?text=Placeholder+197x312.8"
+                                    alt={book.title}
+                                    src={book.src}
                                     width={197}
                                     height={313}
                                     className="border-2 border-gray-400 rounded"
