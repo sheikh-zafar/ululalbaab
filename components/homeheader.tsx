@@ -1,18 +1,20 @@
 
 
+import Image from 'next/image'
 import React from 'react'
 
 export default function CrunchyHomeHeader() {
     return (
         <div className="relative w-full h-[600px] md:h-[700px] overflow-hidden mb-20">
-            <img
+            <Image
                 src="https://via.placeholder.com/1200x700?text=Hero+Background"
                 alt="Hero Background"
                 className="absolute inset-0 w-full h-full object-cover"
+                width={300}
+                height={300}
             />
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent z-10"></div>
-
 
             <div className="absolute inset-0 flex flex-col items-center justify-center z-20 px-4">
                 <h4 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-4">

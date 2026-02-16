@@ -1,5 +1,7 @@
 "use client"
 
+import Link from "next/link"
+
 export default function AdCard() {
   return (
     <div className="my-10 sh xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
@@ -16,12 +18,12 @@ export default function AdCard() {
 
         {/* Buttons */}
         <div className="flex flex-row gap-4 s:flex-col xs:flex-col xxs:flex-col justify-center">
-          <a href="/duroos" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
+          <Link href="/lectures" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
             Explore Duroos
-          </a>
-          <a href="/lectures" className="bg-dustygray hover:bg-[#4f4f4f] text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-sm">
-            Contact Us
-          </a>
+          </Link>
+          <Link href="/lecture-schedule" className="bg-dustygray hover:bg-[#4f4f4f] text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-sm">
+            Schedule
+          </Link>
         </div>
       </div>
     </div>
