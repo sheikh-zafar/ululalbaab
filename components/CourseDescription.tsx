@@ -1,4 +1,5 @@
 // components/CourseDescription.tsx
+import Image from 'next/image';
 import React from 'react';
 
 interface Course {
@@ -20,7 +21,7 @@ export default function CourseDescription({ course }: Props) {
     <section className="max-w-5xl mx-auto bg-white p-6 rounded-xl shadow-md">
       {/* Title & Image */}
       <div className="flex flex-col lg:flex-row gap-6">
-        <img
+        <Image
           src={course.image}
           alt={course.title}
           className="w-full max-w-sm rounded-xl shadow-md"
