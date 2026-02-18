@@ -9,10 +9,9 @@ const RamadanSchedule = () => {
         { week: "Saturday", topic: "Rawdatus Saa'im", location: "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)", mapLink: "https://maps.app.goo.gl/mscog2WwkqiHVszA8", timing: "After Asr (4:15 - 5:15)" },
         { week: "Saturday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
         { week: "Saturday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
-
+        { week: "Sunday", topic: "Rawdatus Saa'im", location: "Masjid Khadija bint Khuwailid - Al-Nahda-2", mapLink: "https://maps.app.goo.gl/oYtgodMLQv6McE2r7", timing: "After Asr (4:15 - 5:15)" },
         { week: "Sunday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
         { week: "Sunday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
-        { week: "Sunday", topic: "Rawdatus Saa'im", location: "Masjid Khadija bint Khuwailid - Al-Nahda-2", mapLink: "https://maps.app.goo.gl/oYtgodMLQv6McE2r7", timing: "After Asr (4:15 - 5:15)" },
 
         { week: "Monday", topic: "Rawdatus Saa'im", location: "Masjid Al Zarooni Al Kabeer", mapLink: "https://maps.app.goo.gl/Xqq9f1EorFufewGD8", timing: "After Asr (4:15 - 5:15)" },
         { week: "Monday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
