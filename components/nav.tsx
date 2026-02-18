@@ -37,7 +37,7 @@ export default function Navbar() {
             component='div'
             sx={{ flexGrow: 1, fontWeight: 700, color: "#6c6c6c" }}
           >
-            <Image src="/images/icon-192x192.png" alt="urdu bayan" width={48} height={48} />
+            <Image src="/icons/icon-black.png" alt="urdu bayan" width={48} height={48} />
           </Typography>
 
           {/* Desktop Navigation */}
@@ -47,7 +47,7 @@ export default function Navbar() {
                 <ListItemButton
                   component={Link}
                   href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                  sx={{ color: "#6c6c6c" }}
+                  sx={{ color: "#000000" }}
                 >
                   <ListItemText primary={item} />
                 </ListItemButton>
@@ -75,7 +75,7 @@ export default function Navbar() {
               <ListItemButton
                 component={Link}
                 href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
-                sx={{ color: "#ffffff" }}
+                sx={{ color: "#000000" }}
               >
                 <ListItemText primary={item} />
               </ListItemButton>
