@@ -16,7 +16,7 @@ export default function AdCardThree() {
 
                 {/* Buttons */}
                 <div className="flex flex-row gap-4 s:flex-col xs:flex-col xxs:flex-col justify-center">
-                    <a href="/lecture-schedule" target="_blank" className="bg-red-600 hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
+                    <a href="/ramadan-schedule" target="_blank" className="bg-red-600 hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
                         Schedule
                     </a>
                 </div>
