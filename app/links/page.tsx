@@ -1,7 +1,5 @@
-"use client"
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+
 
 const linkBase =
     "block w-full py-3 px-6 rounded-xl text-center font-medium text-sm tracking-wide transition-transform duration-150 hover:scale-105 active:scale-95 shadow-sm";
@@ -66,13 +64,7 @@ const links: LinkItem[] = [
 
 export default function Linktree() {
 
-    const router = useRouter();
 
-    useEffect(() => {
-        if (window.location.hash === "#/links") {
-            router.replace("/links");
-        }
-    }, [router]);
     return (
         <div className="min-h-screen flex flex-col">
             <main className="flex-1 flex items-start justify-center pt-20 sm:pt-10 px-4">
