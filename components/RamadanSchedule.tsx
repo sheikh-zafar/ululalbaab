@@ -6,8 +6,13 @@ import Link from "next/link";
 const RamadanSchedule = () => {
 
     const schedules = [
+        { week: "Saturday", topic: "Rawdatus Saa'im", location: "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)", mapLink: "https://maps.app.goo.gl/mscog2WwkqiHVszA8", timing: "After Asr (4:15 - 5:15)" },
+        { week: "Saturday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
+        { week: "Saturday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
+
         { week: "Sunday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
         { week: "Sunday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
+        { week: "Sunday", topic: "Rawdatus Saa'im", location: "Masjid Khadija bint Khuwailid - Al-Nahda-2", mapLink: "https://maps.app.goo.gl/oYtgodMLQv6McE2r7", timing: "After Asr (4:15 - 5:15)" },
 
         { week: "Monday", topic: "Rawdatus Saa'im", location: "Masjid Al Zarooni Al Kabeer", mapLink: "https://maps.app.goo.gl/Xqq9f1EorFufewGD8", timing: "After Asr (4:15 - 5:15)" },
         { week: "Monday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
@@ -26,12 +31,9 @@ const RamadanSchedule = () => {
         { week: "Friday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
         { week: "Friday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
 
-        { week: "Saturday", topic: "Rawdatus Saa'im", location: "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)", mapLink: "https://maps.app.goo.gl/mscog2WwkqiHVszA8", timing: "After Asr (4:15 - 5:15)" },
-        { week: "Saturday", topic: "Ramadan: Shahrun Mubarakun", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "05:35 PM - 06:15 PM" },
-        { week: "Saturday", topic: "Tafseer Surah Yaseen Aur Juz 23", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Taraweeh (08:30 PM - 11:00 PM)" },
     ];
 
-    const dayOrder = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const dayOrder = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
 
     // Group schedules by day, preserving order
     const grouped = schedules.reduce<Record<string, typeof schedules>>((acc, item) => {
@@ -45,7 +47,7 @@ const RamadanSchedule = () => {
     return (
         <div className="max-w-3xl mx-auto p-6">
             <h2 className="text-3xl font-bold text-center text-[#6c6c6c] mb-8">
-                📅 Ramadan Lecture Schedule
+                📅 Ramadan Schedule 1447
             </h2>
             <div className="space-y-6">
                 {groupedDays.map((day) => (

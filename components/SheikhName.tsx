@@ -75,7 +75,7 @@ const Logo = () => {
                             className={`${gulzar.className} text-[#facc15] text-lg sm:text-sm font-light tracking-wide`}
                             dir="rtl"
                         >
-                            الموقع الرسمي لفضيلة الشيخ العلامة
+                            الموقع الرسمي لفضيلة الشيخ
                         </div>
 
                         {/* Main name */}
