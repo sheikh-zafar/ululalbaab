@@ -16,7 +16,7 @@ export async function GET() {
 
     // Calculate the most recent Friday
     const startOfWeek = new Date(now)
-    startOfWeek.setDate(now.getDate() - ((now.getDay() + 2) % 7)) // Get last Friday
+    startOfWeek.setDate(now.getDate() - ((now.getDay() + 2) % 7))
     startOfWeek.setHours(0, 0, 0, 0)
 
     // Calculate the next Thursday
@@ -25,7 +25,7 @@ export async function GET() {
     endOfWeek.setHours(23, 59, 59, 999)
 
     const response = await calendar.events.list({
-      calendarId: "3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com", // Replace with your actual Calendar ID
+      calendarId: "3b8poos1bsipthgbp95hcbvni4@group.calendar.google.com",
       timeMin: startOfWeek.toISOString(),
       timeMax: endOfWeek.toISOString(),
       singleEvents: true,

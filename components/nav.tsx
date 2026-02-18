@@ -28,12 +28,7 @@ export default function Navbar() {
   return (
     <>
       <AppBar position='static' sx={{
-        background: `linear-gradient(
-      to bottom, 
-      rgba(250, 204, 21, 0.9) 0%,    /* top: darker */
-      rgba(250, 204, 21, 0.7) 50%,   /* middle: 0.7 opacity */
-      rgba(250, 204, 21, 0.3) 100%   /* bottom: lighter */
-    )`, boxShadow: "none",
+        background: `#facc15`, boxShadow: "none",
       }}>
         <Toolbar>
           {/* Logo / Brand Name */}
