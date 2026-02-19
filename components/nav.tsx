@@ -16,7 +16,20 @@ import {
 import MenuIcon from "@mui/icons-material/Menu"
 import Image from "next/image"
 
-const navItems = ["Home", "Duroos", "About", "Schedule"]
+
+const navItems = [{
+  name: "Home", link: "/home"
+},
+{
+  name: "Duroos", link: "/duroos"
+},
+{
+  name: "About", link: "/about"
+},
+{
+  name: "Schedule", link: "/lecture-schedule"
+}
+]
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -43,13 +56,13 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <List sx={{ display: { xs: "none", md: "flex" } }}>
             {navItems.map((item) => (
-              <ListItem key={item} disablePadding>
+              <ListItem key={item.name} disablePadding>
                 <ListItemButton
                   component={Link}
-                  href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+                  href={item.link}
                   sx={{ color: "#000000" }}
                 >
-                  <ListItemText primary={item} />
+                  <ListItemText primary={item.name} />
                 </ListItemButton>
               </ListItem>
             ))}
@@ -71,13 +84,13 @@ export default function Navbar() {
       <Drawer anchor='right' open={mobileOpen} onClose={handleDrawerToggle}>
         <List sx={{ width: 250, backgroundColor: "#6c6c6c", height: "100%" }}>
           {navItems.map((item) => (
-            <ListItem key={item} disablePadding>
+            <ListItem key={item.name} disablePadding>
               <ListItemButton
                 component={Link}
-                href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
+                href={item.link}
                 sx={{ color: "#000000" }}
               >
-                <ListItemText primary={item} />
+                <ListItemText primary={item.name} />
               </ListItemButton>
             </ListItem>
           ))}
