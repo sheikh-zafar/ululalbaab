@@ -2,18 +2,24 @@ import CrunchyCarousel from '@/components/header';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
+import Duroos from "../../../public/lib/duroos.json"
 
-type Subcategory = {
+type DureesSubcategory = {
     title: string;
+    author: string;
     description: string;
-    image?: string;
+    image: string;
+    YTplaylistlink: string;
+    introYTlink: string;
+    drivelink: string;
+    listenlink: string;
 };
 
 type DuroosCategory = {
     category: string;
     description: string;
     image: string;
-    subcategories: Subcategory[];
+    subcategories: DureesSubcategory[];
 };
 
 function slugify(text: string) {
@@ -145,6 +151,7 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
                     );
                 })}
             </div>
+
         </div>
     );
 }
