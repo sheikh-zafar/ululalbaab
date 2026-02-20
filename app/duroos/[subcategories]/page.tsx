@@ -2,9 +2,9 @@ import CrunchyCarousel from '@/components/header';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
-import Duroos from "../../../public/lib/duroos.json"
+import Duroos from "../../../public/lib/duroos.json";
 
-type DureesSubcategory = {
+type DuroosSubcategory = {
     title: string;
     author: string;
     description: string;
@@ -19,7 +19,7 @@ type DuroosCategory = {
     category: string;
     description: string;
     image: string;
-    subcategories: DureesSubcategory[];
+    subcategories: DuroosSubcategory[];
 };
 
 function slugify(text: string) {
@@ -30,77 +30,68 @@ function slugify(text: string) {
         .trim();
 }
 
-
 type Params = Promise<{ subcategories: string }>;
 
 export async function generateMetadata({ params }: { params: Params }) {
     const { subcategories } = await params;
 
-    try {
-        const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`, {
-            next: { revalidate: 60 },
-        });
+    const data = (Duroos as DuroosCategory[]).find(
+        (cat) => slugify(cat.category) === decodeURIComponent(subcategories)
+    );
 
-        if (!res.ok) throw new Error('Failed to fetch');
-
-        const data: DuroosCategory = await res.json();
-
-        return {
-
-            title:
-                `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
-            description:
-                `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani `,
-            metadataBase: new URL('https://zafarulhasan.com/duroos'),
-            manifest: 'https://zafarulhasan.com/manifest.json',
-            alternates: {
-                canonical: 'https://zafarulhasan.com/duroos'
-            },
-            verification: {
-                google: 'AkxGbeUiN14LV567z1U8sIVKZEfNYwrC20ftAaq5CcA',
-                yahoo: 'yahoo',
-                other: {
-                    me: ['audios.shkzafars@gmail.com', 'https://zafarulhasan.com/duroos']
-                }
-            },
-            openGraph: {
-                title: `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
-                description: `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani `,
-                url: 'https://zafarulhasan.com/duroos',
-                siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
-                images: [
-                    {
-                        url: 'https://zafarulhasan.com/favicon.png',
-                        width: 48,
-                        height: 48,
-                    },
-                    {
-                        url: 'https://zafarulhasan.com/icon-192x192.png',
-                        width: 192,
-                        height: 192
-                    },
-                    {
-                        url: 'https://zafarulhasan.com/icons/icon-512x512.png',
-                        width: 512,
-                        height: 512,
-                        alt: 'urdu bayan'
-                    }
-                ],
-                locale: 'en_US',
-                type: 'website',
-            }
-        }
-    } catch {
+    if (!data) {
         return {
             title: "Category Not Found",
             description: "The requested category could not be found.",
         };
     }
+
+    return {
+        title: `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
+        description: `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani`,
+        metadataBase: new URL('https://zafarulhasan.com/duroos'),
+        manifest: 'https://zafarulhasan.com/manifest.json',
+        alternates: {
+            canonical: 'https://zafarulhasan.com/duroos'
+        },
+        verification: {
+            google: 'AkxGbeUiN14LV567z1U8sIVKZEfNYwrC20ftAaq5CcA',
+            yahoo: 'yahoo',
+            other: {
+                me: ['audios.shkzafars@gmail.com', 'https://zafarulhasan.com/duroos']
+            }
+        },
+        openGraph: {
+            title: `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
+            description: `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani`,
+            url: 'https://zafarulhasan.com/duroos',
+            siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
+            images: [
+                {
+                    url: 'https://zafarulhasan.com/favicon.png',
+                    width: 48,
+                    height: 48,
+                },
+                {
+                    url: 'https://zafarulhasan.com/icon-192x192.png',
+                    width: 192,
+                    height: 192
+                },
+                {
+                    url: 'https://zafarulhasan.com/icons/icon-512x512.png',
+                    width: 512,
+                    height: 512,
+                    alt: 'urdu bayan'
+                }
+            ],
+            locale: 'en_US',
+            type: 'website',
+        }
+    };
 }
 
 export default async function SubcategoriesPage({ params }: { params: Params }) {
     const { subcategories } = await params;
-
 
     // 🚫 Redirect to /comingsoon if in blocked list
     const blockedSubcategories = ["Arkan-Al-Islam", "Mausamiat", "Tareeq-Ahlul-Hadith", "Jummu'ah-Khutbah"];
@@ -108,11 +99,12 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
         redirect('/comingsoon');
     }
 
-    const res = await fetch(`https://ululalbaab.vercel.app/api/duroos/${subcategories}`);
+    const data = (Duroos as DuroosCategory[]).find(
+        (cat) => slugify(cat.category) === decodeURIComponent(subcategories)
+    );
 
-    if (!res.ok) notFound();
+    if (!data) notFound();
 
-    const data: DuroosCategory = await res.json();
     return (
         <div className="p-4 max-w-7xl mx-auto my-20">
             <CrunchyCarousel />
@@ -151,7 +143,6 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
                     );
                 })}
             </div>
-
         </div>
     );
 }

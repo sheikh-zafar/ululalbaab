@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
 import CrunchyCarousel from "@/components/header";
+import Duroos from "../../public/lib/duroos.json";
 
 export const viewport = {
   width: 'device-width',
@@ -13,10 +14,8 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title:
-    'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
-  description:
-    'Urdu Lectures | Listen and Download | Zafar ul hasan madani ',
+  title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
+  description: 'Urdu Lectures | Listen and Download | Zafar ul hasan madani',
   metadataBase: new URL('https://zafarulhasan.com/duroos'),
   manifest: 'https://zafarulhasan.com/manifest.json',
   alternates: {
@@ -31,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
-    description: 'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
+    description: 'Urdu Lectures | Listen and Download | Zafar ul hasan madani',
     url: 'https://zafarulhasan.com/duroos',
     siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
     images: [
@@ -54,14 +53,11 @@ export const metadata: Metadata = {
     ],
     locale: 'en_US',
     type: 'website',
-
   },
-
   twitter: {
     card: 'summary_large_image',
     title: 'Urdu Lectures',
-    description:
-      'Zafar ul hasan madani - Listen and Download the Lectures',
+    description: 'Zafar ul hasan madani - Listen and Download the Lectures',
     images: ['https://zafarulhasan.com/favicon.png']
   },
   icons: {
@@ -74,38 +70,37 @@ export const metadata: Metadata = {
     }
   },
   category: 'urdu lectures',
-  keywords:
-    'urdu lectures, salafi urdu lectures, '
+  keywords: 'urdu lectures, salafi urdu lectures,'
 };
 
-// Define a type for the category object
-type Category = {
+type DuroosSubcategory = {
   title: string;
+  author: string;
   description: string;
   image: string;
+  YTplaylistlink: string;
+  introYTlink: string;
+  drivelink: string;
+  listenlink: string;
 };
 
-// Fetch duroos categories from the API
-async function getDuroos(): Promise<Category[]> {
-  const res = await fetch("https://ululalbaab.vercel.app/api/duroos", {
-    cache: "no-store",
-  });
+type DuroosCategory = {
+  category: string;
+  description: string;
+  image: string;
+  subcategories: DuroosSubcategory[];
+};
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch duroos");
-  }
-
-  const data = await res.json();
-
-  if (!Array.isArray(data)) {
-    throw new Error("Invalid duroos data format");
-  }
-
-  return data;
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .trim();
 }
 
-export default async function DuroosPage() {
-  const duroos = await getDuroos();
+export default function DuroosPage() {
+  const duroos = Duroos as DuroosCategory[];
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -116,7 +111,7 @@ export default async function DuroosPage() {
 
       <div className="grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 xxs:grid-cols-2 xs:gap-4 xxs:gap-4 gap-8 max-w-6xl mx-auto">
         {duroos.map((category, idx) => {
-          const slug = category.title.replace(/\s+/g, "-");
+          const slug = slugify(category.category);
 
           return (
             <div
@@ -126,19 +121,18 @@ export default async function DuroosPage() {
               <Link href={`/duroos/${encodeURIComponent(slug)}`}>
                 <Image
                   src={category.image}
-                  alt={category.title}
+                  alt={category.category}
                   width={400}
                   height={200}
                   className="w-full h-auto object-cover"
                 />
                 <div className="p-4 text-center">
                   <h2 className="text-xl xs:text-base xxs:text-lg xl:text-xl xxl:text-xl font-semibold text-gray-700">
-                    {category.title}
+                    {category.category}
                   </h2>
                 </div>
               </Link>
             </div>
-
           );
         })}
       </div>
