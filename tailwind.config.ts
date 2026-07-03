@@ -30,7 +30,7 @@ export default {
         confetti: '#e8cc53',           // Course categories background
         ronchi: '#e6c34a',             // Music player background
         tuliptree: '#e4be38',         // Music player progress bar
-        // 🎯 Buttons
+        // Buttons
         button: {
           primary: '#bb8732',         // Brand primary
           hover: '#a7772d',           // Darker hover

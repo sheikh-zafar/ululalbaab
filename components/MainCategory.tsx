@@ -50,15 +50,15 @@ const settings = {
 
 // Book data
 const duroos = [
-  { title: "Dawrah Ilmiyyah (Mukhtasar)", src: "/images/duroos-mview/6.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)" },
-  { title: "Dawrah Ilmiyyah (Taweel)", src: "/images/duroos-mview/5.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)" },
-  { title: "Tafseerul Quran", src: "/images/duroos-mview/2.png", link: "/duroos/Dawrah-Ilmiyyah-(Mukhtasar)/raful-malam" },
-  { title: "Jummu'ah Khutbah", src: "/images/duroos-mview/1.png", link: "/duroos/Jummu'ah-Khutbah" },
-  { title: "Arkan Al Islam", src: "/images/duroos-mview/3.png", link: "/duroos/Arkan-Al-Islam" },
-  { title: "Mausamiat", src: "/images/duroos-mview/4.png", link: "/duroos/Mausamiat" },
-  { title: "Aam Duroos", src: "/images/duroos-mview/7.png", link: "/duroos/Aam-Duroos" },
-  { title: "Sister's section", src: "/images/duroos-mview/8.png", link: "/duroos/Sister's-section" },
-  { title: "Tareeq Ahlul Hadith", src: "/images/duroos-mview/9.png", link: "/duroos/Tareeq-Ahlul-Hadith" },
+  { title: "Dawrah Ilmiyyah (Mukhtasar)", src: "/images/duroos-mview/6.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar" },
+  { title: "Dawrah Ilmiyyah (Taweel)", src: "/images/duroos-mview/5.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel" },
+  { title: "Tafseerul Quran", src: "/images/duroos-mview/2.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran" },
+  { title: "Jummu'ah Khutbah", src: "/images/duroos-mview/1.png", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Arkan Al Islam", src: "/images/duroos-mview/3.png", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Mausamiat", src: "/images/duroos-mview/4.png", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Aam Duroos", src: "/images/duroos-mview/7.png", link: "https://www.zafarulhasan.com/duroos/aam-duroos" },
+  { title: "Sister's section", src: "/images/duroos-mview/8.png", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Tareeq Ahlul Hadith", src: "/images/duroos-mview/9.png", link: "https://www.zafarulhasan.com/comingsoon" },
 ];
 
 export default function MainCategory() {

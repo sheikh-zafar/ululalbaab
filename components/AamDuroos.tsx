@@ -50,8 +50,8 @@ const settings = {
 
 // Book data
 const duroos = [
-    { title: "Isteqamat", src: "/images/aamduroos/mobileview/1.png", link: "/duroos/Aam-Duroos/isteqamat" },
-    { title: "Dil Ke Amaal", src: "/images/aamduroos/mobileview/2.png", link: "/duroos/Aam-Duroos/dil-ke-amaal" },
+    { title: "Isteqamat", src: "/images/aamduroos/mobileview/1.png", link: "https://www.zafarulhasan.com/duroos/aam-duroos/isteqamat" },
+    { title: "Dil Ke Amaal", src: "/images/aamduroos/mobileview/2.png", link: "https://www.zafarulhasan.com/duroos/aam-duroos/dil-ke-amaal" },
 ];
 
 export default function AamDuroos() {

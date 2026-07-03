@@ -18,7 +18,7 @@ import Image from "next/image"
 
 
 const navItems = [{
-  name: "Home", link: "/home"
+  name: "Home", link: "/"
 },
 {
   name: "Duroos", link: "/duroos"

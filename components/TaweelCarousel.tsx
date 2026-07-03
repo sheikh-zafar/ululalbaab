@@ -50,14 +50,14 @@ const settings = {
 
 // Book data
 const duroos = [
-    { title: "Al Arba'oona Nawawiyyah", src: "/images/taweel/3.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/al-arbaoona-nawawiyyah" },
-    { title: "Sharh As-Sunnah", src: "/images/taweel/9.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/sharh-as-sunnah" },
-    { title: "Bulugh al-Maram", src: "/images/taweel/1.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/bulugh-al-maram" },
-    { title: "Usool ath-Thalathah", src: "/images/taweel/8.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/usool-al-thalatha" },
-    { title: "Kitab at-Tawheed", src: "/images/taweel/12.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/kitab-at-tawheed" },
-    { title: "At Targeeb wat Tarheeb Munzari", src: "/images/taweel/2.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/at-targeeb-wat-tarheeb" },
-    { title: "Shamail al-Muhammadiyah", src: "/images/taweel/7.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/shamail-al-muhammadiyah" },
-    { title: "Riyad us-Saliheen", src: "/images/taweel/6.png", link: "/duroos/Dawrah-Ilmiyyah-(Taweel)/riyad-us-saliheen" },
+    { title: "Al Arba'oona Nawawiyyah", src: "/images/taweel/3.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/al-arbaoona-nawawiyyah" },
+    { title: "Sharh As-Sunnah", src: "/images/taweel/9.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/sharh-as-sunnah" },
+    { title: "Bulugh al-Maram", src: "/images/taweel/1.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/bulugh-al-maram" },
+    { title: "Usool ath-Thalathah", src: "/images/taweel/8.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/usool-al-thalatha" },
+    { title: "Kitab at-Tawheed", src: "/images/taweel/12.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/kitab-at-tawheed" },
+    { title: "At Targeeb wat Tarheeb Munzari", src: "/images/taweel/2.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/at-targeeb-wat-tarheeb-muzari" },
+    { title: "Shamail al-Muhammadiyah", src: "/images/taweel/7.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/shamail-al-muhammadiyah" },
+    { title: "Riyad us-Saliheen", src: "/images/taweel/6.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/riyad-us-saliheen" },
 ];
 
 export default function TaweelCarousel() {

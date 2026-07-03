@@ -52,18 +52,18 @@ const settings = {
 
 // Book data
 const books = [
-  { title: "Juz 28", src: "/images/tafseer/mobileview/juz28.png", link: "/duroos/Tafseerul-Quran/juz-28" },
-  { title: "Surah Al-Fathiha", src: "/images/tafseer/mobileview/surahfathihah.png", link: "/duroos/Tafseerul-Quran/surah-al-fathiha" },
-  { title: "Juz Tabarak", src: "/images/tafseer/mobileview/juztabarak.png", link: "/duroos/Tafseerul-Quran/juz-tabarak" },
-  { title: "Kuch Lamhaat quran ki ayaton ke sath", src: "/images/tafseer/mobileview/13.png", link: "/duroos/Tafseerul-Quran/kuch-lamhaat-quran-ki-ayaton-ke-sath" },
-  { title: "Surah Al-Baqarah", src: "/images/tafseer/mobileview/surahalbaqarah.png", link: "/duroos/Tafseerul-Quran/surah-al-baqarah" },
-  { title: "Surah Al An'aam", src: "/images/tafseer/mobileview/surahanam.png", link: "/duroos/Tafseerul-Quran/surah-al-anaam" },
-  { title: "Surah Al-A'raf", src: "/images/tafseer/mobileview/surahalaraf.png", link: "/duroos/Tafseerul-Quran/surah-al-araf" },
-  { title: "Surah Ibrahim", src: "/images/tafseer/mobileview/surahibrahim.png", link: "/duroos/Tafseerul-Quran/surah-ibrahim" },
-  { title: "Surah Al-Hijr", src: "/images/tafseer/mobileview/surahalhijr.png", link: "/duroos/Tafseerul-Quran/surah-al-hijr" },
-  { title: "Surah Al-Ahzab", src: "/images/tafseer/mobileview/surahalahzab.png", link: "/duroos/Tafseerul-Quran/surah-al-ahzab" },
-  { title: "Surah Saba", src: "/images/tafseer/mobileview/surahsaba.png", link: "/duroos/Tafseerul-Quran/surah-saba" },
-  { title: "Surah Al-Hujurat", src: "/images/tafseer/mobileview/surahhujurat.png", link: "/duroos/Tafseerul-Quran/surah-al-hujurat" },
+  { title: "Juz 28", src: "/images/tafseer/mobileview/juz28.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/juz-28" },
+  { title: "Surah Al-Fathiha", src: "/images/tafseer/mobileview/surahfathihah.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-fathiha" },
+  { title: "Juz Tabarak", src: "/images/tafseer/mobileview/juztabarak.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/juz-tabarak" },
+  { title: "Kuch Lamhaat quran ki ayaton ke sath", src: "/images/tafseer/mobileview/13.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/kuch-lamhaat-quran-ki-ayaton-ke-sath" },
+  { title: "Surah Al-Baqarah", src: "/images/tafseer/mobileview/surahalbaqarah.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-baqarah" },
+  { title: "Surah Al An'aam", src: "/images/tafseer/mobileview/surahanam.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-anaam" },
+  { title: "Surah Al-A'raf", src: "/images/tafseer/mobileview/surahalaraf.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-araf" },
+  { title: "Surah Ibrahim", src: "/images/tafseer/mobileview/surahibrahim.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-ibrahim" },
+  { title: "Surah Al-Hijr", src: "/images/tafseer/mobileview/surahalhijr.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-hijr" },
+  { title: "Surah Al-Ahzab", src: "/images/tafseer/mobileview/surahalahzab.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-ahzab" },
+  { title: "Surah Saba", src: "/images/tafseer/mobileview/surahsaba.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-saba" },
+  { title: "Surah Al-Hujurat", src: "/images/tafseer/mobileview/surahhujurat.png", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran/surah-al-hijr" },
 ];
 
 export default function Tafseer() {
