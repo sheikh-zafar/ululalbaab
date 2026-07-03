@@ -18,7 +18,7 @@ export default function AdCard() {
 
         {/* Buttons */}
         <div className="flex flex-row gap-4 s:flex-col xs:flex-col xxs:flex-col justify-center">
-          <Link href="/lectures" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
+          <Link href="/duroos" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
             Explore Duroos
           </Link>
           <Link href="/lecture-schedule" className="bg-dustygray hover:bg-[#4f4f4f] text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-sm">
