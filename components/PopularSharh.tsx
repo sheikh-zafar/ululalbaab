@@ -8,8 +8,8 @@ import { Box } from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import IconButton from "@mui/material/IconButton";
-
-function NextArrow(props: any) {
+import { CustomArrowProps } from "react-slick";
+function NextArrow(props: CustomArrowProps) {
   const { onClick } = props;
   return (
     <IconButton
@@ -30,7 +30,7 @@ function NextArrow(props: any) {
   );
 }
 
-function PrevArrow(props: any) {
+function PrevArrow(props: CustomArrowProps) {
   const { onClick } = props;
   return (
     <IconButton
