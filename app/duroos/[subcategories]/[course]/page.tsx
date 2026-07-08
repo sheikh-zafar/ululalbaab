@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: { params: Params }) {
   }
 
   return {
-    title: `${sub.title} | Urdu Lecture by Sheikh Zafarulhasan Madani`,
+    title: `${sub.title} ${sub.author} | Urdu Explanation by Sheikh Zafarulhasan Madani`,
     description: sub.description || `Listen and Download MP3 audios ${sub.title} by Sheikh Zafarulhasan Madani`,
   };
 }

@@ -98,16 +98,16 @@ const settings = {
 
 // Book data
 const books = [
-  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/al-arbaoona-an-nawawi" },
-  { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/at-targeeb-wat-tarheeb-muzari" },
-  { title: "Raful Malam", src: "/images/books/rafulmalam.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/raful-malam" },
-  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/riyad-us-saliheen" },
-  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/bulugh-al-maram" },
-  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/kitab-at-tawheed" },
-  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/shamail-al-muhammadiyah" },
-  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/sharh-as-sunnah" },
-  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/usool-al-thalatha" },
-  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/tadween-as-sunnah" },
+  { title: "Arbaoona Nawawi", src: "/images/books/arbaoon.png", titletext: "arbaeen e nawawi sharh", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/al-arbaoona-an-nawawi" },
+  { title: "Targeeb wat Tarheeb", src: "/images/books/targeeb.png", titletext: "sahih at targheeb wat tarheeb urdu", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/at-targeeb-wat-tarheeb-muzari" },
+  { title: "Raful Malam", src: "/images/books/rafulmalam.png", titletext: "", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/raful-malam" },
+  { title: "Riyad Us saliheen", src: "/images/books/riyadussaliheen.png", titletext: "riyaz us saliheen", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/riyad-us-saliheen" },
+  { title: "Bulugh al Maram", src: "/images/books/bulugh.png", titletext: "sharah bulugh al maram", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/bulugh-al-maram" },
+  { title: "Kitab At Tawheed", src: "/images/books/kitabattawheed.png", titletext: "kitab e tawhid sharah", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/kitab-at-tawheed" },
+  { title: "Shamail Muhammadiyah", src: "/images/books/shamail.png", titletext: "shamail e muhammadiah", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/shamail-al-muhammadiyah" },
+  { title: "Sharh as Sunnah", src: "/images/books/sharhassunnah.png", titletext: "sharh as sunnah", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/sharh-as-sunnah" },
+  { title: "Usool Ath thalathah", src: "/images/books/usoolassalasah.png", titletext: "usool e salasa urdu sharah", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/usool-al-thalatha" },
+  { title: "Tadween As Sunnah", src: "/images/books/tadween.png", titletext: "tadween e sunnat", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar/tadween-as-sunnah" },
 ];
 
 export default function BookCarousel() {
@@ -118,7 +118,7 @@ export default function BookCarousel() {
         <Slider {...settings}>
           {books.map((book, index) => (
             <Box key={index} textAlign="center" px={0.5} py={2}>
-              <Link href={book.link || "#"} passHref>
+              <Link href={book.link || "#"} passHref title={book.titletext}>
                 <Image
                   alt={book.title}
                   src={book.src}
@@ -127,8 +127,6 @@ export default function BookCarousel() {
                   className="border-2 border-black mx-auto"
                 />
               </Link>
-
-
             </Box>
           ))}
         </Slider>

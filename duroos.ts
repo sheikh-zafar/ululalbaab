@@ -102,7 +102,7 @@ export const duroos = [
                 listenlink: "https://archive.org/embed/sharh-shamail-muhammadiyah-zafarulhasan-madani&playlist=1&list_height=550",
             },
             {
-                title: "Riyad us-saliheen",
+                title: "Riyaz us saliheen Sharah",
                 author: "Imam Yahya bin Sharaf An Nawawi", description: "",
                 image: "/images/12.png",
                 YTplaylistlink: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hm8ojp4-oHK9GMrHKjcIDyB",
