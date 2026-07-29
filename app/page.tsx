@@ -7,7 +7,6 @@ import AdCard from "@/components/AdCardOne"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
-import AdCardThree from "@/components/AdCarThree"
 import Logo from "@/components/SheikhName"
 
 export default function Home() {
@@ -15,10 +14,9 @@ export default function Home() {
     <div className="max-w-6xl mx-auto">
       <Logo />
       <SocialLinks />
-      <AdCardThree />
+      <AdCard />
       <BookCarousel />
       <WeeklySchedule />
-      <AdCard />
       <MainCategory />
       <Tafseer />
       <AdCardTwo />
