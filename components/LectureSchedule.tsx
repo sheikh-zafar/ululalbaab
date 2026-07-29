@@ -53,7 +53,6 @@ export async function getPrayerOffsetStartDate(
 
   return toDubaiISOString(prayerDate);
 }
-const startMagribDate = await getPrayerOffsetStartDate("Maghrib", 15);
 const startIshaDate = await getPrayerOffsetStartDate("Isha", 30);
 const schemaData = {
   "@context": "https://schema.org",
