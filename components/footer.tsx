@@ -37,9 +37,6 @@ export default function Footer() {
                                     <li>
                                         <Link href="/social-media" className="hover:underline">Social Media</Link>
                                     </li>
-                                    <li>
-                                        <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
-                                    </li>
                                 </ul>
                             </div>
                         </div>

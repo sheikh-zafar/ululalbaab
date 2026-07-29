@@ -105,7 +105,7 @@ export default function LinkTree() {
                             href={link.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-4 px-4 py-3 bg-[#dcbc23] text-white rounded-xl shadow hover:bg-[#a7772d] transition"
+                            className="flex items-center gap-4 px-4 py-3 bg-[#dcbc23] text-black rounded-xl shadow hover:bg-[#a7772d] transition"
                         >
                             {link.icon}
                             <span className="font-medium">{link.name}</span>
