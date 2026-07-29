@@ -26,8 +26,7 @@ function toDubaiISOString(date: Date): string {
   const min = pad(date.getMinutes());
   return `${y}-${m}-${d}T${h}:${min}:00+04:00`; // Dubai is fixed UTC+4, no DST
 }
-
-export async function getPrayerOffsetStartDate(
+async function getPrayerOffsetStartDate(
   prayer: PrayerName,
   offsetMinutes: number
 ): Promise<string> {
@@ -53,239 +52,239 @@ export async function getPrayerOffsetStartDate(
 
   return toDubaiISOString(prayerDate);
 }
-const startIshaDate = await getPrayerOffsetStartDate("Isha", 30);
-const schemaData = {
-  "@context": "https://schema.org",
-  "@graph": [
-    // ── Sunday ──────────────────────────────
-    {
-      "@type": "Event",
-      "name": "Seerat'un Nabi (ﷺ)",
-      "description": "Weekly online lecture on the biography of the Prophet (ﷺ) by Sheikh Zafar ul Hasan Madani.",
-      "url": "https://youtube.com/Zafarulhasan",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "VirtualLocation",
+
+export async function LectureSchedule() {
+
+  const startIshaDate = await getPrayerOffsetStartDate("Isha", 30);
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      // ── Sunday ──────────────────────────────
+      {
+        "@type": "Event",
+        "name": "Seerat'un Nabi (ﷺ)",
+        "description": "Weekly online lecture on the biography of the Prophet (ﷺ) by Sheikh Zafar ul Hasan Madani.",
         "url": "https://youtube.com/Zafarulhasan",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
+        },
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://youtube.com/Zafarulhasan",
+        },
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Sunday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
       },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Sunday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
 
-    // ── Monday ──────────────────────────────
-    {
-      "@type": "Event",
-      "name": "Mukhtasar Sho'bul Emaan lil Bayhaqi / Riyadus Saliheen",
-      "description": "Weekly online lecture covering Mukhtasar Sho'bul Emaan and Riyadus Saliheen by Sheikh Zafar ul Hasan Madani.",
-      "url": "https://youtube.com/Zafarulhasan",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "VirtualLocation",
+      // ── Monday ──────────────────────────────
+      {
+        "@type": "Event",
+        "name": "Mukhtasar Sho'bul Emaan lil Bayhaqi / Riyadus Saliheen",
+        "description": "Weekly online lecture covering Mukhtasar Sho'bul Emaan and Riyadus Saliheen by Sheikh Zafar ul Hasan Madani.",
         "url": "https://youtube.com/Zafarulhasan",
-      },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Monday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
-
-    // ── Tuesday (Isha) ──────────────────────
-    {
-      "@type": "Event",
-      "name": "Breeze of Iman",
-      "description": "In-person lecture at Masjid Yusuf Baqar after Isha prayer.",
-      "url": "https://www.zafarulhasan.com/lecture-schedule",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Masjid Yusuf Baqar",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Hor Al Anz",
-          "addressCountry": "AE",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
         },
-        "hasMap": "https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7",
-      },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Tuesday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
-
-    // ── Wednesday ───────────────────────────
-    {
-      "@type": "Event",
-      "name": "Quran Tafseer",
-      "description": "Weekly in-person Quran Tafseer lecture at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
-      "url": "https://www.zafarulhasan.com/lecture-schedule",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Masjid Mohammed bin Hasan Ash Shaikh",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Al Twar 2",
-          "addressCountry": "AE",
+        "location": {
+          "@type": "VirtualLocation",
+          "url": "https://youtube.com/Zafarulhasan",
         },
-        "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
-      },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Wednesday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
-
-    // ── Thursday ────────────────────────────
-    {
-      "@type": "Event",
-      "name": "Sharh Bulugh al Maram li Ibn Hajar al Asqalani",
-      "description": "Weekly in-person explanation of Bulugh al Maram at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
-      "url": "https://www.zafarulhasan.com/lecture-schedule",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Masjid Mohammed bin Hasan Ash Shaikh",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Al Twar 2",
-          "addressCountry": "AE",
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Monday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
         },
-        "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
       },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Thursday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
 
-    // ── Friday ──────────────────────────────
-    {
-      "@type": "Event",
-      "name": "Sharh Al-Targheeb wat-Tarheeb",
-      "description": "Weekly in-person explanation of Al-Targheeb wat-Tarheeb at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
-      "url": "https://www.zafarulhasan.com/lecture-schedule",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Masjid Mohammed bin Hasan Ash Shaikh",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Al Twar 2",
-          "addressCountry": "AE",
+      // ── Tuesday (Isha) ──────────────────────
+      {
+        "@type": "Event",
+        "name": "Breeze of Iman",
+        "description": "In-person lecture at Masjid Yusuf Baqar after Isha prayer.",
+        "url": "https://www.zafarulhasan.com/lecture-schedule",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
         },
-        "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
-      },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Friday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
-      },
-    },
-
-    // ── Saturday ────────────────────────────
-    {
-      "@type": "Event",
-      "name": "Beauty of Islam",
-      "description": "Weekly in-person lecture at Masjid Ash-Shaikha Latifa Bint Hamdan after Isha prayer.",
-      "url": "https://www.zafarulhasan.com/lecture-schedule",
-      "startDate": startIshaDate,
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "inLanguage": "ur",
-      "organizer": {
-        "@type": "Person",
-        "name": "Sheikh Zafar ul Hasan Madani",
-        "url": "https://www.zafarulhasan.com",
-      },
-      "location": {
-        "@type": "Place",
-        "name": "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "AE",
+        "location": {
+          "@type": "Place",
+          "name": "Masjid Yusuf Baqar",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hor Al Anz",
+            "addressCountry": "AE",
+          },
+          "hasMap": "https://maps.app.goo.gl/kMoLGXqyhPBDpsxJ7",
         },
-        "hasMap": "https://maps.app.goo.gl/mscog2WwkqiHVszA8",
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Tuesday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
       },
-      "eventSchedule": {
-        "@type": "Schedule",
-        "byDay": "https://schema.org/Saturday",
-        "repeatFrequency": "P1W", "startTime": "20:00:00",
-        "endTime": "21:00:00",
-        "scheduleTimezone": "Asia/Dubai",
+
+      // ── Wednesday ───────────────────────────
+      {
+        "@type": "Event",
+        "name": "Quran Tafseer",
+        "description": "Weekly in-person Quran Tafseer lecture at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
+        "url": "https://www.zafarulhasan.com/lecture-schedule",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Masjid Mohammed bin Hasan Ash Shaikh",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Al Twar 2",
+            "addressCountry": "AE",
+          },
+          "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
+        },
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Wednesday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
       },
-    },
-  ],
-};
 
+      // ── Thursday ────────────────────────────
+      {
+        "@type": "Event",
+        "name": "Sharh Bulugh al Maram li Ibn Hajar al Asqalani",
+        "description": "Weekly in-person explanation of Bulugh al Maram at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
+        "url": "https://www.zafarulhasan.com/lecture-schedule",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Masjid Mohammed bin Hasan Ash Shaikh",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Al Twar 2",
+            "addressCountry": "AE",
+          },
+          "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
+        },
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Thursday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
+      },
 
-const LectureSchedule = () => {
+      // ── Friday ──────────────────────────────
+      {
+        "@type": "Event",
+        "name": "Sharh Al-Targheeb wat-Tarheeb",
+        "description": "Weekly in-person explanation of Al-Targheeb wat-Tarheeb at Masjid Mohammed bin Hasan Ash Shaikh after Isha prayer.",
+        "url": "https://www.zafarulhasan.com/lecture-schedule",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Masjid Mohammed bin Hasan Ash Shaikh",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Al Twar 2",
+            "addressCountry": "AE",
+          },
+          "hasMap": "https://maps.app.goo.gl/FrYfnHzK4wLbjb3k8",
+        },
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Friday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
+      },
+
+      // ── Saturday ────────────────────────────
+      {
+        "@type": "Event",
+        "name": "Beauty of Islam",
+        "description": "Weekly in-person lecture at Masjid Ash-Shaikha Latifa Bint Hamdan after Isha prayer.",
+        "url": "https://www.zafarulhasan.com/lecture-schedule",
+        "startDate": startIshaDate,
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "inLanguage": "ur",
+        "organizer": {
+          "@type": "Person",
+          "name": "Sheikh Zafar ul Hasan Madani",
+          "url": "https://www.zafarulhasan.com",
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Masjid Ash-Shaikha Latifa Bint Hamdan (Ibrahim al Khaleel)",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "AE",
+          },
+          "hasMap": "https://maps.app.goo.gl/mscog2WwkqiHVszA8",
+        },
+        "eventSchedule": {
+          "@type": "Schedule",
+          "byDay": "https://schema.org/Saturday",
+          "repeatFrequency": "P1W", "startTime": "20:00:00",
+          "endTime": "21:00:00",
+          "scheduleTimezone": "Asia/Dubai",
+        },
+      },
+    ],
+  };
   const schedule = [
     { week: "Sunday", topic: "Seerat'un Nabi(ﷺ)", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Isha" },
     { week: "Monday", topic: "Mukhtasar Sho'bul emaan lil Bayhaqi / Riyadus saliheen", location: "Online", mapLink: "https://youtube.com/Zafarulhasan", timing: "After Isha" },
