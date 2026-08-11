@@ -24,11 +24,26 @@ const navItems = [{
   name: "Duroos", link: "/duroos"
 },
 {
-  name: "About", link: "/about"
+  name: "Schedule", link: "/lecture-schedule"
 },
 {
-  name: "Schedule", link: "/lecture-schedule"
-}
+  name: "About", link: "/about"
+},
+]
+
+const navItemMob = [
+  {
+    name: "Home", link: "/"
+  },
+  {
+    name: "Duroos", link: "/duroos"
+  },
+  {
+    name: "Schedule", link: "/lecture-schedule"
+  },
+  {
+    name: "About", link: "/about"
+  },
 ]
 
 export default function Navbar() {
@@ -82,7 +97,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       <Drawer anchor='right' open={mobileOpen} onClose={handleDrawerToggle}>
-        <List sx={{ width: 250, backgroundColor: "#6c6c6c", height: "100%" }}>
+        <List sx={{ width: 250, height: "100%" }}>
           {navItems.map((item) => (
             <ListItem key={item.name} disablePadding>
               <ListItemButton

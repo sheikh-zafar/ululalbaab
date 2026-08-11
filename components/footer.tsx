@@ -23,7 +23,7 @@ export default function Footer() {
                                 <h2 className="mb-4 text-sm font-semibold uppercase">Links</h2>
                                 <ul className="font-medium space-y-2">
                                     <li>
-                                        <Link href="/schedule" className="hover:underline">Schedule</Link>
+                                        <Link href="/lectureschedule" className="hover:underline">Schedule</Link>
                                     </li>
                                     <li>
                                         <Link href="/duroos" className="hover:underline">Duroos</Link>

@@ -49,36 +49,36 @@ export async function generateMetadata({ params }: { params: Params }) {
     return {
         title: `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
         description: `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani`,
-        metadataBase: new URL('https://zafarulhasan.com/duroos'),
-        manifest: 'https://zafarulhasan.com/manifest.json',
+        metadataBase: new URL('https://www.zafarulhasan.com/duroos'),
+        manifest: 'https://www.zafarulhasan.com/manifest.json',
         alternates: {
-            canonical: 'https://zafarulhasan.com/duroos'
+            canonical: 'https://www.zafarulhasan.com/duroos'
         },
         verification: {
             google: 'AkxGbeUiN14LV567z1U8sIVKZEfNYwrC20ftAaq5CcA',
             yahoo: 'yahoo',
             other: {
-                me: ['audios.shkzafars@gmail.com', 'https://zafarulhasan.com/duroos']
+                me: ['audios.shkzafars@gmail.com', 'https://www.zafarulhasan.com/duroos']
             }
         },
         openGraph: {
             title: `${data.category} | Lecture in Urdu by Sheikh zafarulhasan Madani | zafarulhasan.com`,
             description: `Urdu Lectures - ${data.description} | Listen and Download | Zafar ul hasan madani`,
-            url: 'https://zafarulhasan.com/duroos',
+            url: 'https://www.zafarulhasan.com/duroos',
             siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
             images: [
                 {
-                    url: 'https://zafarulhasan.com/favicon.png',
+                    url: 'https://www.zafarulhasan.com/favicon.png',
                     width: 48,
                     height: 48,
                 },
                 {
-                    url: 'https://zafarulhasan.com/icon-192x192.png',
+                    url: 'https://www.zafarulhasan.com/icon-192x192.png',
                     width: 192,
                     height: 192
                 },
                 {
-                    url: 'https://zafarulhasan.com/icons/icon-512x512.png',
+                    url: 'https://www.zafarulhasan.com/icons/icon-512x512.png',
                     width: 512,
                     height: 512,
                     alt: 'urdu bayan'
