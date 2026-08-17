@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { CalendarToday, LocationOn, AccessTime } from "@mui/icons-material";
 import Link from "next/link";

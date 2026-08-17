@@ -42,10 +42,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
-    return (
-        <div>
-            <LectureSchedule />
-        </div>
-    );
+export default function LecturePage() {
+  return (
+    <div>
+      <LectureSchedule />
+    </div>
+  );
 }
