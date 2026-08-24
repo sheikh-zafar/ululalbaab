@@ -6,7 +6,6 @@ import Tafseer from "@/components/Tafseer"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
-import Logo from "@/components/SheikhName"
 import HeaderCrunchyCarousel from "@/components/HeaderCrunchyCarousel"
 
 interface AladhanResponse {

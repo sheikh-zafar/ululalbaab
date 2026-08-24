@@ -31,20 +31,6 @@ const navItems = [{
 },
 ]
 
-const navItemMob = [
-  {
-    name: "Home", link: "/"
-  },
-  {
-    name: "Duroos", link: "/duroos"
-  },
-  {
-    name: "Schedule", link: "/lecture-schedule"
-  },
-  {
-    name: "About", link: "/about"
-  },
-]
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
