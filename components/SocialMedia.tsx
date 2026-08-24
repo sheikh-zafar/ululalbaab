@@ -81,7 +81,7 @@ const socialLinks = [
 
 const SocialLinks = () => {
     return (
-        <Container className="xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center" }}>
+        <Container className="xxl:mt-5 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8" sx={{ textAlign: "center" }}>
             <div className="flex flex-wrap justify-center gap-6 xs:gap-1 xxs:gap-1 my-10">
                 {socialLinks.map(({ name, href, svg }, idx) => (
                     <Link

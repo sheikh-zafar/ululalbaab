@@ -152,7 +152,7 @@ const CrunchyCarousel = () => {
       </div>
 
       {/* Slide Indicators */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center space-x-2 z-20">
         {slides.map((_, index) => (
           <button
             key={index}
@@ -165,12 +165,20 @@ const CrunchyCarousel = () => {
                 }, 150)
               }
             }}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex
-              ? 'bg-yellow-500 scale-125'
-              : 'bg-white/50 hover:bg-white/70'
-              }`}
+            className="relative h-3 flex items-center justify-center"
+            style={{ width: index === currentIndex ? 28 : 12 }}
             aria-label={`Go to slide ${index + 1}`}
-          />
+          >
+            {index === currentIndex ? (
+              <motion.span
+                layoutId="active-dot"
+                className="absolute inset-0 rounded-full bg-yellow-500"
+                transition={{ type: "spring", stiffness: 500, damping: 35 }}
+              />
+            ) : (
+              <span className="w-3 h-3 rounded-full bg-white/50 hover:bg-white/70 transition-colors duration-200" />
+            )}
+          </button>
         ))}
       </div>
     </div>

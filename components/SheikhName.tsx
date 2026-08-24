@@ -12,7 +12,7 @@ const gulzar = Gulzar({
 
 const Logo = () => {
     return (
-        <div className="max-w-4xl mx-auto p-8 sm:p-3 xs:p-2">
+        <div className="mx-auto p-8 sm:p-3 xs:p-2">
             {/* Card */}
             <div className="relative w-full mx-auto rounded-lg shadow-2xl bg-gradient-to-br from-[#4f4f4f] via-[#3a3a3a] to-[#2a2a2a]">
 

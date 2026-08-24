@@ -3,11 +3,11 @@ import WeeklySchedule from "@/components/WeeklySchedule"
 import SocialLinks from "@/components/SocialMedia"
 import MainCategory from "@/components/MainCategory"
 import Tafseer from "@/components/Tafseer"
-import AdCard from "@/components/AdCardOne"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
 import Logo from "@/components/SheikhName"
+import HeaderCrunchyCarousel from "@/components/HeaderCrunchyCarousel"
 
 interface AladhanResponse {
   data: {
@@ -291,21 +291,22 @@ export default async function Home() {
     ],
   };
   return (
-    <div className="max-w-6xl mx-auto">
+    <div>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <Logo />
-      <SocialLinks />
-      <AdCard />
-      <BookCarousel />
-      <WeeklySchedule />
-      <MainCategory />
-      <Tafseer />
-      <AdCardTwo />
-      <TaweelCarousel />
-      <AamDuroos />
+      <HeaderCrunchyCarousel />
+      <div className="max-w-6xl mx-auto">
+        <AdCardTwo />
+        <SocialLinks />
+        <BookCarousel />
+        <WeeklySchedule />
+        <MainCategory />
+        <Tafseer />
+        <TaweelCarousel />
+        <AamDuroos />
+      </div>
     </div>
   )
 }

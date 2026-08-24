@@ -65,6 +65,14 @@ const settings = {
   nextArrow: <NextArrow />,
   prevArrow: <PrevArrow />,
   responsive: [
+
+    {
+      breakpoint: 1440,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 2,
+      },
+    },
     {
       breakpoint: 1024,
       settings: {
