@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 
 
@@ -204,6 +204,27 @@ const mslides = [
 const HeaderCrunchyCarousel = () => {
     const [currentIndex, setCurrentIndex] = useState(0)
     const [isTransitioning, setIsTransitioning] = useState(false)
+    const touchStartX = useRef(0);
+    const touchEndX = useRef(0);
+
+    const handleTouchStart = (e: React.TouchEvent<HTMLDivElement>) => {
+        touchStartX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
+        touchEndX.current = e.touches[0].clientX;
+    };
+
+    const handleTouchEnd = () => {
+        const distance = touchStartX.current - touchEndX.current;
+        const minSwipeDistance = 50; // px threshold to count as a swipe
+
+        if (distance > minSwipeDistance) {
+            handleNext(); // swiped left -> next slide
+        } else if (distance < -minSwipeDistance) {
+            handlePrev(); // swiped right -> previous slide
+        }
+    };
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -379,7 +400,10 @@ const HeaderCrunchyCarousel = () => {
                     ))}
                 </div>
             </div>
-            <div className="relative w-full bg-black mb-20 hidden xs:block xxs:block sm:block aspect-[2/3]">
+            <div className="relative w-full bg-black mb-20 hidden xs:block xxs:block sm:block aspect-[2/3]"
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}>
                 {/* Background Image */}
                 <div className="absolute inset-0">
                     <img
