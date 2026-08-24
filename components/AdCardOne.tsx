@@ -15,13 +15,13 @@ export default function AdCard() {
           Decades of wisdom, recorded and preserved — welcome to an ocean of knowledge, the official website of Sheikh Zafarulhasan Madni. Explore a vast collection of Urdu lectures, bayanat, audio, and video, all designed to guide your heart and deepen your understanding of Quran, Sunnah, and the way of the Sahaba (radiyallahu anhum).        </p>
         {/* Buttons */}
         <div className="flex flex-row gap-4 s:flex-col xs:flex-col xxs:flex-col justify-center">
-          <div><a href="/duroos" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
+          <div><Link href="/duroos" className="bg-[#bb8732] hover:bg-[#a7772d] text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 shadow-md">
             Explore Duroos
-          </a></div>
+          </Link></div>
           <div>
-            <a href="/lecture-schedule" className="bg-dustygray hover:bg-[#4f4f4f] text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-sm">
+            <Link href="/lecture-schedule" className="bg-dustygray hover:bg-[#4f4f4f] text-white font-medium py-3 px-6 rounded-lg transition-all duration-300 shadow-sm">
               Schedule
-            </a>
+            </Link>
           </div>
         </div>
       </div>
