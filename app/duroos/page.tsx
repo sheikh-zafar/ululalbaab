@@ -103,7 +103,7 @@ export default function DuroosPage() {
   const duroos = Duroos as DuroosCategory[];
 
   return (
-    <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-white pb-20 sm:px-6 lg:px-8">
       <CrunchyCarousel />
       <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans mb-20">
         Course Categories | Sheikh Zafarul Hasan Madani

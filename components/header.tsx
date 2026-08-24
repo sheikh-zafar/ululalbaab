@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const slides = [
   {
     id: 1,
-    src: "/images/6.png",
+    src: "/images/3.png",
     alt: "arbaeen nawawi sharh",
     title: "Al Arba'oona Nawawiyyah",
     description: "Get the resource here!",
@@ -17,7 +17,7 @@ const slides = [
   },
   {
     id: 2,
-    src: "/images/26.png",
+    src: "/images/13.png",
     alt: "Slide 2",
     title: "Sharh as Sunnah",
     description: "A Classic Explanations here!",
@@ -27,7 +27,7 @@ const slides = [
   },
   {
     id: 3,
-    src: "/images/2.png",
+    src: "/images/1.png",
     alt: "Slide fiqh school",
     title: "Bulugh Al maram",
     description: "Rulings and Evidences",
@@ -37,7 +37,7 @@ const slides = [
   },
   {
     id: 4,
-    src: "/images/24.png",
+    src: "/images/12.png",
     alt: "usool e salasah book",
     title: "Usool Ath-Thalatha",
     description: "Get the resource here!",
