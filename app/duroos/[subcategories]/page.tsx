@@ -4,13 +4,21 @@ import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
 import Duroos from "../../../public/lib/duroos.json";
 
+export interface DuroosVideo {
+    videoId: string;
+    playlistId: string;
+    title: string;
+    url: string;
+    thumbnail: string;
+}
+
 type DuroosSubcategory = {
     title: string;
     author: string;
     description: string;
     image: string;
     YTplaylistlink: string;
-    introYTlink: string;
+    videos?: DuroosVideo[];
     drivelink: string;
     listenlink: string;
 };
