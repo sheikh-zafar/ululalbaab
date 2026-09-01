@@ -73,13 +73,21 @@ export const metadata: Metadata = {
   keywords: 'urdu lectures, salafi urdu lectures,'
 };
 
+export interface DuroosVideo {
+  videoId: string;
+  playlistId: string;
+  title: string;
+  url: string;
+  thumbnail: string;
+}
+
 type DuroosSubcategory = {
   title: string;
   author: string;
   description: string;
   image: string;
   YTplaylistlink: string;
-  introYTlink: string;
+  videos?: DuroosVideo[];
   drivelink: string;
   listenlink: string;
 };

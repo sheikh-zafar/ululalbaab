@@ -290,7 +290,7 @@ const HeaderCrunchyCarousel = () => {
                             {currentSlide.masjidname}
                         </p>
 
-                        {/* Learn More Link */}
+                        {/* Learn More Link
                         <div className="flex flex-col gap-2 s:grid s:grid-cols-1 s:gap-3 xs:flex-col xs:gap-3 xxs:flex-col xxs:gap-4 sm:flex-row  sm:gap-4 md:gap-6">
                             {currentSlide.masjid && (
                                 <a
@@ -345,7 +345,7 @@ const HeaderCrunchyCarousel = () => {
                                     <span>Mixlr</span>
                                 </a>
                             )}
-                        </div>
+                        </div> */}
 
 
                     </motion.div>
@@ -437,7 +437,7 @@ const HeaderCrunchyCarousel = () => {
                             {mcurrentSlide.masjidname}
                         </p>
 
-                        {/* Learn More Link */}
+                        {/* Learn More Link
                         <div className="flex flex-col gap-2 s:grid s:grid-cols-1 s:gap-3 xs:flex-col xs:gap-3 xxs:flex-col xxs:gap-4 sm:flex-row  sm:gap-4 md:gap-6">
                             {mcurrentSlide.masjid && (
                                 <a
@@ -492,7 +492,7 @@ const HeaderCrunchyCarousel = () => {
                                     <span>Mixlr</span>
                                 </a>
                             )}
-                        </div>
+                        </div> */}
 
 
                     </motion.div>

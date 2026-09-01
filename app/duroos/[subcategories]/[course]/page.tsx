@@ -4,13 +4,21 @@ import React from "react";
 import { notFound } from "next/navigation";
 import Duroos from "../../../../public/lib/duroos.json";
 
+export interface DuroosVideo {
+  videoId: string;
+  playlistId: string;
+  title: string;
+  url: string;
+  thumbnail: string;
+}
+
 type DuroosSubcategory = {
   title: string;
   author: string;
   description: string;
   image: string;
   YTplaylistlink: string;
-  introYTlink: string;
+  videos?: DuroosVideo[];
   drivelink: string;
   listenlink: string;
 };
@@ -71,6 +79,8 @@ export default async function CoursePage({ params }: { params: Params }) {
 
   if (!sub) notFound();
 
+  const videos = sub.videos ?? [];
+
   return (
     <main className="min-h-screen bg-[#f9fafb] py-6 px-4 sm:px-6 lg:px-8">
       <section className="max-w-4xl mx-auto bg-white p-6 xs:p-3 xxs:p-3 rounded-2xl shadow-xl border border-gray-200">
@@ -130,6 +140,33 @@ export default async function CoursePage({ params }: { params: Params }) {
             </div>
           </div>
         </div>
+
+        {videos.length > 0 && (
+          <div className="mt-8">
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">🎬 Lessons</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {videos.map((video) => (
+                <Link
+                  key={video.videoId}
+                  href={video.url}
+                  target="_blank"
+                  className="flex gap-3 border rounded-xl overflow-hidden hover:shadow-md transition bg-white"
+                >
+                  {video.thumbnail && (
+                    <img
+                      src={video.thumbnail}
+                      alt={video.title}
+                      className="w-32 h-auto object-cover flex-shrink-0"
+                    />
+                  )}
+                  <span className="text-sm text-gray-700 py-2 pr-2 leading-snug self-center">
+                    {video.title}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {sub.listenlink && (
           <div className="mt-8">
