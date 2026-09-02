@@ -13,6 +13,7 @@ interface DuroosVideo {
   title: string;
   url: string;
   thumbnail: string;
+  uploadDate: string;
 }
 
 function extractPlaylistId(url: string): string | null {
@@ -29,7 +30,7 @@ async function fetchPlaylistVideos(playlistId: string): Promise<DuroosVideo[]> {
 
   do {
     const url = new URL("https://www.googleapis.com/youtube/v3/playlistItems");
-    url.searchParams.set("part", "snippet");
+    url.searchParams.set("part", "snippet,contentDetails");
     url.searchParams.set("maxResults", "50");
     url.searchParams.set("playlistId", playlistId);
     url.searchParams.set("key", apiKey);
@@ -49,6 +50,7 @@ async function fetchPlaylistVideos(playlistId: string): Promise<DuroosVideo[]> {
       const thumbnail: string | undefined =
         item.snippet?.thumbnails?.standard?.url ??
         item.snippet?.thumbnails?.high?.url; // fallback if standard isn't available for older/short videos
+      const uploadDate: string | undefined = item.contentDetails?.videoPublishedAt;
 
       if (
         videoId &&
@@ -62,6 +64,7 @@ async function fetchPlaylistVideos(playlistId: string): Promise<DuroosVideo[]> {
           title,
           url: `https://www.youtube.com/watch?v=${videoId}&list=${playlistId}`,
           thumbnail: thumbnail ?? "",
+          uploadDate: uploadDate ?? "",
         });
       }
     }

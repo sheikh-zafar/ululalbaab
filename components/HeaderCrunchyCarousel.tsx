@@ -281,7 +281,7 @@ const HeaderCrunchyCarousel = () => {
                         className="relative z-10 h-full flex flex-col justify-end md:justify-center items-center md:items-center xl:items-start xxl:items-center lg:items-center px-4 pb-24 md:pb-16 text-white text-center md:text-left lg:text-left xxl:text-left xl:text-left md:max-w-2xl"
                     >
                         {/* Title */}
-                        <h1 className="text-3xl md:text-3xl font-bold mb-4 leading-tight">
+                        <h1 className="text-5xl font-poppins md:text-3xl font-bold mb-4 leading-tight">
                             {currentSlide.title}
                         </h1>
 

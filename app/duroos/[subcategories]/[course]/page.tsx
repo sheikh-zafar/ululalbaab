@@ -10,6 +10,7 @@ export interface DuroosVideo {
   title: string;
   url: string;
   thumbnail: string;
+  uploadDate: string;
 }
 
 type DuroosSubcategory = {
@@ -38,10 +39,18 @@ function slugify(text: string) {
     .trim();
 }
 
+const SITE_URL = "https://www.zafarulhasan.com";
+
+function absoluteUrl(path: string): string {
+  if (path.startsWith("http")) return path;
+  return `${SITE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
+}
+
 type Params = Promise<{ subcategories: string; course: string }>;
 
 export async function generateMetadata({ params }: { params: Params }) {
   const { subcategories, course } = await params;
+  console.log(subcategories, course)
 
   const category = (Duroos as DuroosCategory[]).find(
     (cat) => slugify(cat.category) === decodeURIComponent(subcategories)
@@ -58,9 +67,40 @@ export async function generateMetadata({ params }: { params: Params }) {
     };
   }
 
+  if (!sub) notFound();
+
   return {
     title: `${sub.title} ${sub.author} | Urdu Explanation by Sheikh Zafarulhasan Madani`,
     description: sub.description || `Listen and Download MP3 audios ${sub.title} by Sheikh Zafarulhasan Madani`,
+    alternates: {
+      canonical: `https://zafarulhasan.com/duroos/${subcategories}/${course}`,
+    },
+    openGraph: {
+      title: `${sub.title} ${sub.author} | Urdu Explanation by Sheikh Zafarulhasan Madani`,
+      description: sub.description || `Listen and Download MP3 audios ${sub.title} by Sheikh Zafarulhasan Madani`,
+      url: 'https://www.zafarulhasan.com/duroos',
+      siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
+      images: [
+        {
+          url: 'https://www.zafarulhasan.com/favicon.png',
+          width: 48,
+          height: 48,
+        },
+        {
+          url: 'https://www.zafarulhasan.com/icon-192x192.png',
+          width: 192,
+          height: 192
+        },
+        {
+          url: 'https://www.zafarulhasan.com/icons/icon-512x512.png',
+          width: 512,
+          height: 512,
+          alt: 'urdu bayan'
+        }
+      ],
+      locale: 'en_US',
+      type: 'website',
+    }
   };
 }
 
@@ -81,8 +121,75 @@ export default async function CoursePage({ params }: { params: Params }) {
 
   const videos = sub.videos ?? [];
 
+  const pageUrl = `${SITE_URL}/duroos/${encodeURIComponent(subcategories)}/${encodeURIComponent(course)}`;
+
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "name": sub.title,
+    "description":
+      sub.description ||
+      `Urdu explanation of ${sub.title}${sub.author ? ` by ${sub.author}` : ""}, taught by Sheikh Zafarulhasan Madani.`,
+    "url": pageUrl,
+    "image": absoluteUrl(sub.image),
+    "inLanguage": "ur",
+    "provider": {
+      "@type": "Person",
+      "name": "Sheikh Zafarulhasan Madani",
+    },
+    "about": category,
+  };
+
+  if (sub.author) {
+    schema["author"] = {
+      "@type": "Person",
+      "name": sub.author,
+    };
+  }
+
+  if (videos.length > 0) {
+    schema["hasPart"] = videos.map((video, index) => ({
+      "@type": "VideoObject",
+      "position": index + 1,
+      "name": video.title,
+      "description": video.title,
+      "thumbnailUrl": video.thumbnail,
+      "uploadDate": video.uploadDate,
+      "contentUrl": video.url,
+      "embedUrl": `https://www.youtube.com/embed/${video.videoId}`,
+      "url": video.url,
+    }));
+  }
+
+  if (sub.listenlink) {
+    const audioObject = {
+      "@type": "AudioObject",
+      "name": `${sub.title} — Audio Lecture Series`,
+      "description": `Audio recording of ${sub.title}${sub.author ? ` by ${sub.author}` : ""}, in Urdu.`,
+      "contentUrl": sub.listenlink,
+      "inLanguage": "ur",
+    };
+
+    schema["associatedMedia"] = schema["hasPart"]
+      ? [...(schema["hasPart"] as unknown[]), audioObject]
+      : [audioObject];
+  }
+
+  if (sub.drivelink) {
+    schema["learningResourceType"] = "Audio/Video Lecture Series";
+    schema["material"] = {
+      "@type": "DataDownload",
+      "name": `${sub.title} — Downloadable Materials`,
+      "contentUrl": sub.drivelink,
+    };
+  }
+
   return (
     <main className="min-h-screen bg-[#f9fafb] py-6 px-4 sm:px-6 lg:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <section className="max-w-4xl mx-auto bg-white p-6 xs:p-3 xxs:p-3 rounded-2xl shadow-xl border border-gray-200">
         <div className="flex flex-col lg:flex-row items-start gap-6">
           <Image
@@ -160,8 +267,13 @@ export default async function CoursePage({ params }: { params: Params }) {
                     />
                   )}
                   <span className="text-sm text-gray-700 py-2 pr-2 leading-snug self-center">
-                    {video.title}
+                    {video.title} . <br /><span className="text-sm text-red-500">Upload Date: <span className="text-sm font-bold font-poppins text-gray-700 py-2 pr-2 leading-snug self-center">
+                      {video.uploadDate}</span>
+                    </span>
+
                   </span>
+
+
                 </Link>
               ))}
             </div>

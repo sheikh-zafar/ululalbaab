@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Geist, Geist_Mono,Aref_Ruqaa } from "next/font/google"
+import { Geist, Geist_Mono, Aref_Ruqaa } from "next/font/google"
 import "./globals.css"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -31,9 +31,9 @@ export const viewport = {
   themeColor: '#2563eb'
 };
 
-export const metadata:Metadata = {
+export const metadata: Metadata = {
   title:
-    'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com' ,
+    'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
   description:
     'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
   metadataBase: new URL('https://zafarulhasan.com'),
@@ -49,32 +49,32 @@ export const metadata:Metadata = {
     }
   },
   openGraph: {
-  title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
-  description: 'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
-  url: 'https://zafarulhasan.com',
-  siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
-  images: [
-    {
-      url: 'https://zafarulhasan.com/favicon.png',
-      width: 48,
-      height: 48,
-    },
-    {
-      url: 'https://zafarulhasan.com/icon-192x192.png',
-      width: 192,
-      height: 192
-    },
-    {
-      url: 'https://zafarulhasan.com/icons/icon-512x512.png',
-      width: 512,
-      height: 512,
-      alt: 'urdu bayan'
-    }
-  ],
-  locale: 'en_US',
-  type: 'website',
-  
-},
+    title: 'فضيلة الشيخ ظفر الحسن مدني حفظه اللّه | zafarulhasan.com',
+    description: 'Urdu Lectures | Listen and Download |Zafar ul hasan madani ',
+    url: 'https://zafarulhasan.com',
+    siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
+    images: [
+      {
+        url: 'https://zafarulhasan.com/favicon.png',
+        width: 48,
+        height: 48,
+      },
+      {
+        url: 'https://zafarulhasan.com/icon-192x192.png',
+        width: 192,
+        height: 192
+      },
+      {
+        url: 'https://zafarulhasan.com/icons/icon-512x512.png',
+        width: 512,
+        height: 512,
+        alt: 'urdu bayan'
+      }
+    ],
+    locale: 'en_US',
+    type: 'website',
+
+  },
 
   twitter: {
     card: 'summary_large_image',
@@ -143,13 +143,13 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   )
