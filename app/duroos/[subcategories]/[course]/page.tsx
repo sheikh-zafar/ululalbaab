@@ -267,7 +267,7 @@ export default async function CoursePage({ params }: { params: Params }) {
                     />
                   )}
                   <span className="text-sm text-gray-700 py-2 pr-2 leading-snug self-center">
-                    {video.title} . <br /><span className="text-sm text-red-500">Upload Date: <span className="text-sm font-bold font-poppins text-gray-700 py-2 pr-2 leading-snug self-center">
+                    {video.title} <br /><span className="text-sm text-red-500">Upload Date: <span className="text-sm font-bold font-poppins text-gray-700 py-2 pr-2 leading-snug self-center">
                       {video.uploadDate}</span>
                     </span>
 
