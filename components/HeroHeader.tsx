@@ -9,7 +9,7 @@ import Bell from "../public/bell.png"
 import Youtube from "../public/youtubepngwing.png"
 import Arrow from "../public/icons/arrow.svg"
 
-import { ArrowRightIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
+import { CalendarDaysIcon } from '@heroicons/react/24/outline'
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
@@ -126,7 +126,7 @@ export default function HeroHeader() {
                 </div>
                 {/* Buttons */}
                 <div className={`${geistSans.className} z-10 my-8 min-[640px]:mt-10 flex flex-col min-[640px]:flex-row items-center gap-4 w-full min-[640px]:w-auto px-6 min-[640px]:px-0`}>
-                    <a
+                    <Link
                         href="/"
                         type="button"
                         className={`w-full bg-zafarlogo min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
@@ -139,14 +139,14 @@ export default function HeroHeader() {
                             priority
                             className="h-6 w-6 object-contain"
                         />
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="/"
                         type="button"
                         className={`w-full border-zafarlogo border-2 min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     ><CalendarDaysIcon className="h-5 w-5" />
                         Dars Schedule
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex flex-row items-center gap-5 pb-12 rounded-2xl">
                     <Image
@@ -235,57 +235,57 @@ export default function HeroHeader() {
 
                 {/* Buttons */}
                 <div className={`${geistSans.className} z-10 my-8 min-[640px]:mt-10 flex flex-col min-[640px]:flex-row items-center gap-4 w-full min-[640px]:w-auto px-6 min-[640px]:px-0`}>
-                    <a
+                    <Link
                         href="/"
                         type="button"
                         className={`w-full bg-zafarlogo min-[640px]:w-auto text-lg min-[640px]:text-base px-6 py-[10px] rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
-                        Explore duroos <ArrowRightIcon className="h-5 w-5 bg-gray-900 rounded-full text-lg text-white" />
-                    </a>
-                    <a
+                        Explore duroos <LinkrrowRightIcon className="h-5 w-5 bg-gray-900 rounded-full text-lg text-white" />
+                    </Link>
+                    <Link
                         href="/"
                         type="button"
                         className={`w-full border-zafarlogo py-2 border-2 min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     ><CalendarDaysIcon className="h-6 w-6 pb-1" />
                         Dars Schedule
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex flex-row items-center gap-5 pb-12 rounded-2xl">
-                    <a href="https://www.youtube.com/zafarulhasan" target="_blank">
+                    <Link href="https://www.youtube.com/zafarulhasan" target="_blank">
                         <Image
                             src={Youtube}
                             alt="Zafar-ul-Hasan Madani logo"
                             className="rounded-2xl"
                             width={50}
                             height={50}
-                        /></a>
+                        /></Link>
 
-                    <a href="https://mixlr.com/zafarulhasan" target="_blank">
+                    <Link href="https://mixlr.com/zafarulhasan" target="_blank">
                         <Image
                             src={Mixlr}
                             alt="Zafar-ul-Hasan Madani logo"
                             width={57}
                             height={57}
-                        /></a>
+                        /></Link>
 
 
-                    <a href="https://www.instagram.com/zafarulhasan.official/" target="_blank">
+                    <Link href="https://www.instagram.com/zafarulhasan.official/" target="_blank">
                         <Image
                             src={Insta}
                             alt="Zafar-ul-Hasan Madani logo"
                             width={50}
                             height={50}
-                        /></a>
+                        /></Link>
 
 
-                    <a href="https://www.zafarulhasan.com/links" target="_blank">
+                    <Link href="https://www.zafarulhasan.com/links" target="_blank">
                         <Image
                             src={Bell}
                             alt="Zafar-ul-Hasan Madani logo"
                             className="animate-[pulse_0.9s_cubic-bezier(0.4,0,0.9,1)_infinite]"
                             width={50}
                             height={50}
-                        /></a>
+                        /></Link>
 
 
                 </div>
