@@ -3,20 +3,11 @@ import { Bars3Icon, XMarkIcon, CalendarDaysIcon } from '@heroicons/react/24/outl
 import Logo from "../public/transparenticon.png"
 import Image from 'next/image'
 import { Aref_Ruqaa, Noto_Naskh_Arabic, Rakkas } from 'next/font/google';
-import localFont from "next/font/local"
 import History from "../public/icons/history.svg"
 import Schedule from "../public/icons/schedule.svg"
 import Calendar from "../public/icons/calendar.svg"
 import Home from "../public/icons/home.svg"
 
-
-
-const rakkas = Rakkas({ subsets: ['latin'], weight: ['400'] });
-const samarkan = localFont({
-    src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
-    variable: '--font-samarkan',         // Defines a CSS variable name
-})
-const notoNaskh = Noto_Naskh_Arabic({ subsets: ['latin'], weight: ['700'] });
 
 const arefRuqaa = Aref_Ruqaa({
     subsets: ["arabic"], // or ["latin", "arabic"] if you want both

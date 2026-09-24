@@ -1,10 +1,9 @@
 "use client"
 import Image from "next/image";
 import Logo from "../public/transparenticon.png"
-import { Geist, Aref_Ruqaa, Noto_Naskh_Arabic, Rakkas, Changa } from "next/font/google"
+import { Geist, Aref_Ruqaa, Noto_Naskh_Arabic, Changa } from "next/font/google"
 import localFont from "next/font/local"
 import Insta from "../public/instagram.png"
-import Facebook from "../public/facebook.svg"
 import Mixlr from "../public/mixlr.png"
 import Bell from "../public/bell.png"
 import Youtube from "../public/youtubepngwing.png"
