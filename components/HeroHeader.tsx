@@ -9,7 +9,7 @@ import Bell from "../public/bell.png"
 import Youtube from "../public/youtubepngwing.png"
 import Arrow from "../public/icons/arrow.svg"
 
-import { CalendarDaysIcon } from '@heroicons/react/24/outline'
+import { ArrowRightIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
@@ -240,7 +240,7 @@ export default function HeroHeader() {
                         type="button"
                         className={`w-full bg-zafarlogo min-[640px]:w-auto text-lg min-[640px]:text-base px-6 py-[10px] rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
-                        Explore duroos <LinkrrowRightIcon className="h-5 w-5 bg-gray-900 rounded-full text-lg text-white" />
+                        Explore duroos <ArrowRightIcon className="h-5 w-5 bg-gray-900 rounded-full text-lg text-white" />
                     </Link>
                     <Link
                         href="/"
