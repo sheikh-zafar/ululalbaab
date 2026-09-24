@@ -13,7 +13,7 @@ import Home from "../public/icons/home.svg"
 
 const rakkas = Rakkas({ subsets: ['latin'], weight: ['400'] });
 const samarkan = localFont({
-    src: '../public/font/Samarkan.ttf', // Adjust the path based on your file location
+    src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
     variable: '--font-samarkan',         // Defines a CSS variable name
 })
 const notoNaskh = Noto_Naskh_Arabic({ subsets: ['latin'], weight: ['700'] });

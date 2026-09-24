@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 
 const samarkan = localFont({
-    src: '../public/font/Samarkan.ttf', // Adjust the path based on your file location
+    src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
     variable: '--font-samarkan',         // Defines a CSS variable name
 })
 const geistSans = Geist({
