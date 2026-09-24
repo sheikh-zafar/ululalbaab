@@ -191,7 +191,7 @@ export default async function CoursePage({ params }: { params: Params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <section className="max-w-4xl mx-auto bg-white p-6 xs:p-3 xxs:p-3 rounded-2xl shadow-xl border border-gray-200">
-        <div className="flex flex-col lg:flex-row items-start gap-6">
+        <div className="flex flex-col  items-start gap-6">
           <Image
             src={sub.image}
             alt={sub.title}
@@ -249,9 +249,9 @@ export default async function CoursePage({ params }: { params: Params }) {
         </div>
 
         {videos.length > 0 && (
-          <div className="mt-8">
+          <div className="mt-4">
             <h2 className="text-xl font-semibold text-gray-700 mb-4">🎬 Lessons</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               {videos.map((video) => (
                 <Link
                   key={video.videoId}
@@ -270,9 +270,7 @@ export default async function CoursePage({ params }: { params: Params }) {
                     {video.title} <br /><span className="text-sm text-red-500">Upload Date: <span className="text-sm font-bold font-poppins text-gray-700 py-2 pr-2 leading-snug self-center">
                       {video.uploadDate}</span>
                     </span>
-
                   </span>
-
 
                 </Link>
               ))}

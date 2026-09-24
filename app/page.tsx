@@ -7,6 +7,7 @@ import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
 import AdCardTwo from "@/components/AdCardTwo"
 import HeaderCrunchyCarousel from "@/components/HeaderCrunchyCarousel"
+import HeroHeader from "@/components/HeroHeader"
 
 interface AladhanResponse {
   data: {
@@ -295,8 +296,8 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <HeaderCrunchyCarousel />
       <div className="max-w-6xl mx-auto">
+        <HeroHeader />
         <AdCardTwo />
         <SocialLinks />
         <BookCarousel />

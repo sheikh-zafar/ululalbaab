@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 
 @media (prefers-color-scheme: dark) {
@@ -8,6 +6,42 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@theme {
+  /* Hex codes must NOT have quotes */
+  --breakpoint-*: initial;
+
+  /* Tailwind v4 automatically maps these to min-* and max-* utility modifiers */
+  --breakpoint-s: 220px;
+  --breakpoint-xs: 320px;
+  --breakpoint-xxs: 414px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-xxl: 1536px;
+  --color-primarytext: #bb8732;
+  --color-bgcolor: #ffffff;
+  --color-secondarytext: #6a6a6a;
+  --color-dovegray: #6c6c6c;
+  --color-dustygray: #9c9c9c;
+  --color-goldengrass: #dcbc23;
+  --color-whiterock: #ebe6d3;
+  --color-sunflower: #facc15;
+  --color-confetti: #e8cc53;
+  --color-ronchi: #e6c34a;
+  --color-tuliptree: #e4be38;
+  --color-zafarlogo: #e1b722;
+  --color-mughal: #306030;
+  --color-logogrey: #676867;
+  --color-green: #00ff00;
+  --color-greenhover: #4dff4d;
+  /* Merged your system colors into the main theme block */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
 body {

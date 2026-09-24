@@ -23,7 +23,7 @@ function toDubaiISOString(date: Date): string {
   const d = pad(date.getDate());
   const h = pad(date.getHours());
   const min = pad(date.getMinutes());
-  return `${y}-${m}-${d}T${h}:${min}:00+04:00`; // Dubai is fixed UTC+4, no DST
+  return `${y}-${m}-${d}T${h}:${min}:00+04:00`;
 }
 async function getPrayerOffsetStartDate(
   prayer: PrayerName,

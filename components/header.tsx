@@ -101,7 +101,7 @@ const CrunchyCarousel = () => {
           animate={{ x: 0, opacity: 1 }}
           exit={{ x: 100, opacity: 0 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
-          className="relative z-10 h-full flex flex-col justify-end md:justify-center items-center md:items-start xl:items-start xxl:items-center lg:items-start px-4 md:px-10 pb-8 md:pb-0 text-white text-center md:text-left lg:text-left xxl:text-left xl:text-left md:max-w-2xl"
+          className="relative z-10 h-full flex flex-col justify-end md:justify-center items-center md:items-start xl:items-start xxl:items-center lg:items-start md:px-4 pb-8 md:pb-0 text-white text-center md:text-left lg:text-left xxl:text-left xl:text-left md:max-w-2xl"
         >
           {/* Title */}
           <h1 className="text-3xl md:text-6xl font-bold mb-4 leading-tight">

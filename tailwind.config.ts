@@ -31,6 +31,7 @@ export default {
         ronchi: '#e6c34a',             // Music player background
         tuliptree: '#e4be38',         // Music player progress bar
         // Buttons
+        logogrey: '#676867',
         button: {
           primary: '#bb8732',         // Brand primary
           hover: '#a7772d',           // Darker hover

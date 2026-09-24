@@ -143,7 +143,7 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
                             </div>
                             <Link
                                 href={`/duroos/${subcategories}/${courseSlug}`}
-                                className="mt-4 text-center py-2 px-4 rounded font-semibold bg-button-green hover:bg-button-greenhover"
+                                className="mt-4 text-center py-2 px-4 rounded font-semibold bg-green hover:bg-greenhover"
                             >
                                 Go to Course
                             </Link>
