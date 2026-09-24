@@ -72,7 +72,6 @@ export default function HeroHeader() {
     }, []);
 
     if (!entry) return null;
-    const label = showUrdu ? "آج لائیو" : "Today's Live";
     const dayLabel = showUrdu ? entry.weekUrdu : entry.week;
     return (
         <div>

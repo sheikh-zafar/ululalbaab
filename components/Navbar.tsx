@@ -2,7 +2,7 @@ import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react
 import { Bars3Icon, XMarkIcon, CalendarDaysIcon } from '@heroicons/react/24/outline'
 import Logo from "../public/transparenticon.png"
 import Image from 'next/image'
-import { Aref_Ruqaa, Noto_Naskh_Arabic, Rakkas } from 'next/font/google';
+import { Aref_Ruqaa } from 'next/font/google';
 import History from "../public/icons/history.svg"
 import Schedule from "../public/icons/schedule.svg"
 import Calendar from "../public/icons/calendar.svg"
