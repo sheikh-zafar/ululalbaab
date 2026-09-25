@@ -127,7 +127,7 @@ export default function HeroHeader() {
                 {/* Buttons */}
                 <div className={`${geistSans.className} z-10 my-8 min-[640px]:mt-10 flex flex-col min-[640px]:flex-row items-center gap-4 w-full min-[640px]:w-auto px-6 min-[640px]:px-0`}>
                     <Link
-                        href="/"
+                        href="https://www.zafarulhasan.com/duroos"
                         type="button"
                         className={`w-full bg-zafarlogo min-[640px]:w-auto text-xl py-3 min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
@@ -141,10 +141,10 @@ export default function HeroHeader() {
                         />
                     </Link>
                     <Link
-                        href="/"
+                        href="https://www.zafarulhasan.com/lecture-schedule"
                         type="button"
-                        className={`w-full border-zafarlogo border-2 min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
-                    ><CalendarDaysIcon className="h-5 w-5" />
+                        className={`w-full border-zafarlogo border-2 min-[640px]:w-auto text-xl py-3 min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                    ><CalendarDaysIcon className="h-6 w-6 object-contain" />
                         Dars Schedule
                     </Link>
                 </div>
