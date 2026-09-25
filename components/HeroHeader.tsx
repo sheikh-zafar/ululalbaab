@@ -76,7 +76,7 @@ export default function HeroHeader() {
     return (
         <div>
             {/**Mobile */}
-            <header className="lg:hidden h-screen xxl:hidden xl:hidden md:flex md:flex-col sm:flex sm:flex-col  xxs:flex xxs:flex-col xs:flex xs:flex-col s:flex s:flex-col pt-5 mt-5 bg-[#F9FAFB] items-center px-4 justify-center">
+            <header className="lg:hidden h-screen xxl:hidden xl:hidden md:flex md:flex-col sm:flex sm:flex-col  xxs:flex xxs:flex-col xs:flex xs:flex-col s:flex s:flex-col bg-[#F9FAFB] items-center px-4 justify-center">
                 <Link
                     href={topicHref}
                     className="rounded-2xl text-gray-500 text-base border-2 border-gray-500 px-6 py-1 flex flex-nowrap items-center justify-center whitespace-nowrap"
@@ -129,7 +129,7 @@ export default function HeroHeader() {
                     <Link
                         href="/"
                         type="button"
-                        className={`w-full bg-zafarlogo min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                        className={`w-full bg-zafarlogo min-[640px]:w-auto text-xl py-3 min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
                         Explore duroos <Image
                             src={Arrow}
@@ -149,32 +149,45 @@ export default function HeroHeader() {
                     </Link>
                 </div>
                 <div className="flex flex-row items-center gap-5 pb-12 rounded-2xl">
-                    <Image
-                        src={Youtube}
-                        alt="Zafar-ul-Hasan Madani logo"
-                        className="rounded-2xl"
-                        width={50}
-                        height={50}
-                    />
-                    <Image
-                        src={Mixlr}
-                        alt="Zafar-ul-Hasan Madani logo"
-                        width={57}
-                        height={57}
-                    />
-                    <Image
-                        src={Insta}
-                        alt="Zafar-ul-Hasan Madani logo"
-                        width={50}
-                        height={50}
-                    />
-                    <Image
-                        src={Bell}
-                        alt="Zafar-ul-Hasan Madani logo"
-                        className="animate-[pulse_0.9s_cubic-bezier(0.4,0,0.9,1)_infinite]"
-                        width={50}
-                        height={50}
-                    />
+                    <Link href="https://www.youtube.com/zafarulhasan" target="_blank">
+                        <Image
+                            src={Youtube}
+                            alt="Zafar-ul-Hasan Madani logo"
+                            className="rounded-2xl"
+                            width={50}
+                            height={50}
+                        />
+                    </Link>
+
+                    <Link href="https://mixlr.com/zafarulhasan" target="_blank">
+                        <Image
+                            src={Mixlr}
+                            alt="Zafar-ul-Hasan Madani logo"
+                            width={57}
+                            height={57}
+                        />
+                    </Link>
+
+
+                    <Link href="https://www.instagram.com/zafarulhasan.official/" target="_blank">
+                        <Image
+                            src={Insta}
+                            alt="Zafar-ul-Hasan Madani logo"
+                            width={50}
+                            height={50}
+                        />
+                    </Link>
+
+
+                    <Link href="https://www.zafarulhasan.com/links" target="_blank">
+                        <Image
+                            src={Bell}
+                            alt="Zafar-ul-Hasan Madani logo"
+                            className="animate-[pulse_0.9s_cubic-bezier(0.4,0,0.9,1)_infinite]"
+                            width={50}
+                            height={50}
+                        />
+                    </Link>
 
                 </div>
             </header>
@@ -258,7 +271,8 @@ export default function HeroHeader() {
                             className="rounded-2xl"
                             width={50}
                             height={50}
-                        /></Link>
+                        />
+                    </Link>
 
                     <Link href="https://mixlr.com/zafarulhasan" target="_blank">
                         <Image
@@ -266,7 +280,8 @@ export default function HeroHeader() {
                             alt="Zafar-ul-Hasan Madani logo"
                             width={57}
                             height={57}
-                        /></Link>
+                        />
+                    </Link>
 
 
                     <Link href="https://www.instagram.com/zafarulhasan.official/" target="_blank">
@@ -275,7 +290,8 @@ export default function HeroHeader() {
                             alt="Zafar-ul-Hasan Madani logo"
                             width={50}
                             height={50}
-                        /></Link>
+                        />
+                    </Link>
 
 
                     <Link href="https://www.zafarulhasan.com/links" target="_blank">
@@ -285,7 +301,8 @@ export default function HeroHeader() {
                             className="animate-[pulse_0.9s_cubic-bezier(0.4,0,0.9,1)_infinite]"
                             width={50}
                             height={50}
-                        /></Link>
+                        />
+                    </Link>
 
 
                 </div>

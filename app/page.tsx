@@ -5,7 +5,6 @@ import MainCategory from "@/components/MainCategory"
 import Tafseer from "@/components/Tafseer"
 import TaweelCarousel from "@/components/TaweelCarousel"
 import AamDuroos from "@/components/AamDuroos"
-import AdCardTwo from "@/components/AdCardTwo"
 import HeroHeader from "@/components/HeroHeader"
 
 interface AladhanResponse {
@@ -297,7 +296,6 @@ export default async function Home() {
       />
       <div className="max-w-6xl mx-auto">
         <HeroHeader />
-        <AdCardTwo />
         <SocialLinks />
         <BookCarousel />
         <WeeklySchedule />
