@@ -47,7 +47,7 @@ const books = [
   { title: "Targeeb wat Tarheeb", src: "/popularvideo/targeebtarheeb-fri.mp4", titletext: "sahih at targheeb wat tarheeb urdu", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/at-targeeb-wat-tarheeb-muzari" },
   { title: "Riyad Us saliheen", src: "/popularvideo/riyad-mon-peer.mp4", titletext: "riyaz us saliheen", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/riyad-us-saliheen" },
   { title: "Bulugh al Maram", src: "/popularvideo/bulugalmaram-thurs.mp4", titletext: "sharah bulugh al maram", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel/bulugh-al-maram" },
-  { title: "Shobul Imaan", src: "/popularvideo/shuabiman-mon-peer", titletext: "Shobul Imaan", link: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k" },
+  { title: "Shobul Imaan", src: "/popularvideo/shuabiman-mon-peer.mp4", titletext: "Shobul Imaan", link: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k" },
   { title: "Imaan Baharein", src: "/popularvideo/imaanbaharein-tues.mp4", titletext: "sharah bulugh al maram", link: "https://www.youtube.com/zafarulhasan" },
   { title: "Jummuah Khutbah", src: "/popularvideo/Jumah-khutba-fri.mp4", titletext: "sharah bulugh al maram", link: "https://www.youtube.com/zafarulhasan" },
   { title: "Mahsin Islam", src: "/popularvideo/mahsinislam-sat-hafta.mp4", titletext: "Mahsin Islam", link: "https://www.youtube.com/zafarulhasan" },
