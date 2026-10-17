@@ -99,7 +99,7 @@ function VideoCard({ book, onOpenModal }: { book: typeof books[0]; onOpenModal: 
         playsInline
         preload="metadata"
         onLoadedMetadata={handleLoadedMetadata}
-        className="border-2 border-gray-600 rounded-3xl mx-auto object-cover pointer-events-none overflow-hidden"
+        className="rounded-3xl mx-auto object-cover pointer-events-none overflow-hidden"
       />
       {/* Title displayed below the video */}
       <h3 className="mt-2 font-semibold text-gray-800 text-sm sm:text-base px-1">
