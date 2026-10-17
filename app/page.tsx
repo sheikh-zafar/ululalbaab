@@ -1,6 +1,5 @@
 import BookCarousel from "@/components/PopularSharh"
 import WeeklySchedule from "@/components/WeeklySchedule"
-import SocialLinks from "@/components/SocialMedia"
 import MainCategory from "@/components/MainCategory"
 import Tafseer from "@/components/Tafseer"
 import TaweelCarousel from "@/components/TaweelCarousel"
@@ -296,7 +295,6 @@ export default async function Home() {
       />
       <div className="max-w-6xl mx-auto">
         <HeroHeader />
-        <SocialLinks />
         <BookCarousel />
         <WeeklySchedule />
         <MainCategory />

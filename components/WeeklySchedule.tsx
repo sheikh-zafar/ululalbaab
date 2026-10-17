@@ -37,7 +37,7 @@ const CalendarEvents = () => {
     <ThemeProvider theme={theme}>
       <div className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
         <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
-          Events & Updates in Dubai, UAE
+          Dars Schedule
         </h2>
         <h6 className="text-black xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl pb-5 font-sans">(Friday - Thursday)</h6>
         <hr className="bg-bgcolor text-2xl" />

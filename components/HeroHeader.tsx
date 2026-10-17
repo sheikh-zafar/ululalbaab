@@ -76,7 +76,7 @@ export default function HeroHeader() {
     return (
         <div>
             {/**Mobile */}
-            <header className="lg:hidden h-screen xxl:hidden xl:hidden md:flex md:flex-col sm:flex sm:flex-col  xxs:flex xxs:flex-col xs:flex xs:flex-col s:flex s:flex-col bg-[#F9FAFB] items-center px-4 justify-center">
+            <header className="lg:hidden h-screen xxl:hidden xl:hidden md:flex md:flex-col sm:flex sm:flex-col  xxs:flex xxs:flex-col xs:flex xs:flex-col s:flex s:flex-col items-center px-4 justify-center">
                 <Link
                     href={topicHref}
                     className="rounded-2xl text-gray-500 text-base border-2 border-gray-500 px-6 py-1 flex flex-nowrap items-center justify-center whitespace-nowrap"
