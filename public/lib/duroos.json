@@ -1,7 +1,7 @@
 [
     {
         "category": "Dawrah Ilmiyyah (Taweel)",
-        "description": "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains brief lectures on the topic Al Arba'oona Nawawiyyah, Sharh As-Sunnah, Bulugh al-Maram, Usool al-Thalatha, Shamail al-Muhammadiyah, Riyad us-saliheen",
+        "description": "",
         "image": "/images/categories/5.png",
         "subcategories": [
             {
@@ -7909,13 +7909,24 @@
     },
     {
         "category": "Tafseerul Quran",
-        "description": "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains brief lectures on the topic Al Arba'oona Nawawiyyah, Sharh As-Sunnah, Bulugh al-Maram, Usool al-Thalatha, Shamail al-Muhammadiyah, Riyad us-saliheen",
+        "description": "",
         "image": "/images/categories/2.png",
         "subcategories": [
             {
                 "title": "Juz 28",
+                "surahnames": [
+                    "Surah Al Mujadilah",
+                    "Surah Al Hashr",
+                    "Surah Al Mutahanah",
+                    "Surah As Saff",
+                    "Surah Al Jumuah",
+                    "Surah Al Munafiqun",
+                    "Surah At Taghabun",
+                    "Surah At Talaq",
+                    "Surah At Tahrim"
+                ],
                 "author": "",
-                "description": "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains brief lectures on the topic Al Arba'oona Nawawiyyah, Sharh As-Sunnah, Bulugh al-Maram, Usool al-Thalatha, Shamail al-Muhammadiyah, Riyad us-saliheen",
+                "description": "",
                 "image": "/images/tafseer/1.png",
                 "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
                 "videos": [
@@ -8125,6 +8136,14 @@
             },
             {
                 "title": "Juz 27",
+                "surahnames": [
+                    "Surah Tur",
+                    "Surah An Najm",
+                    "Surah Al Qamar",
+                    "Surah Ar Rahman",
+                    "Surah Al Waqiah",
+                    "Surah Al Hadid"
+                ],
                 "author": "",
                 "description": "The Sheikh explains that this Surah is considered Makki, meaning it was revealed during the Prophet Muhammad's time in Mecca. The discussion focuses on the oaths sworn by Allah in these verses, interpreting them as proofs of the truth of the resurrection and the Day of Judgment, and refuting the doubts and mockery of those who deny these realities. The commentary highlights various signs of Allah's power in creation, such as the winds, rain-bearing clouds, and ships at sea, as well as the qualities of the righteous (Muttaqin) who will be rewarded in Paradise.",
                 "image": "/images/tafseer/2.png",
@@ -10636,277 +10655,397 @@
                 "listenlink": "https://archive.org/embed/tafseer-surah-saba-zafarulhasan-madani&playlist=1&list_height=400"
             },
             {
-                "title": "Surah Al-Hujurat",
+                "title": "Surah An Nisa",
                 "author": "",
                 "description": "",
-                "image": "/images/tafseer/13.png",
-                "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
+                "image": "/images/tafseer/14.png",
+                "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnUIJCsllm7pOS69SFVYp6s",
                 "videos": [
                     {
-                        "videoId": "Z2BQEixP4v4",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "01-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 01-09",
-                        "url": "https://www.youtube.com/watch?v=Z2BQEixP4v4&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/Z2BQEixP4v4/sddefault.jpg",
-                        "uploadDate": "2023-03-23T18:52:02Z"
+                        "videoId": "ctTVNgHCmsU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "049-Tafseer Surah An-Nisaa Ayat 88-89",
+                        "url": "https://www.youtube.com/watch?v=ctTVNgHCmsU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/ctTVNgHCmsU/sddefault.jpg",
+                        "uploadDate": "2026-10-15T04:44:32Z"
                     },
                     {
-                        "videoId": "5rDqodXki58",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "02-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 10-13",
-                        "url": "https://www.youtube.com/watch?v=5rDqodXki58&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/5rDqodXki58/sddefault.jpg",
-                        "uploadDate": "2023-03-26T18:40:43Z"
+                        "videoId": "zmEQDxpMbd8",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "047-Tafseer Surah An-Nisaa From Ayat-85",
+                        "url": "https://www.youtube.com/watch?v=zmEQDxpMbd8&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/zmEQDxpMbd8/sddefault.jpg",
+                        "uploadDate": "2026-09-23T16:54:29Z"
                     },
                     {
-                        "videoId": "J-Q3iMfu22o",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "03-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 14-16",
-                        "url": "https://www.youtube.com/watch?v=J-Q3iMfu22o&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/J-Q3iMfu22o/sddefault.jpg",
-                        "uploadDate": "2023-03-27T18:47:37Z"
+                        "videoId": "NpVawMU9o7Y",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "046-Tafseer Surah An-Nisaa From Ayat-83-84",
+                        "url": "https://www.youtube.com/watch?v=NpVawMU9o7Y&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/NpVawMU9o7Y/sddefault.jpg",
+                        "uploadDate": "2026-08-20T05:41:22Z"
                     },
                     {
-                        "videoId": "OWX-9q-8RPc",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "04-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 14-19",
-                        "url": "https://www.youtube.com/watch?v=OWX-9q-8RPc&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/OWX-9q-8RPc/sddefault.jpg",
-                        "uploadDate": "2023-03-28T18:40:36Z"
+                        "videoId": "k8uGupLMwA0",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "045-Tafseer Surah An-Nisaa From Ayat-80-82",
+                        "url": "https://www.youtube.com/watch?v=k8uGupLMwA0&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/k8uGupLMwA0/sddefault.jpg",
+                        "uploadDate": "2026-08-13T06:01:05Z"
                     },
                     {
-                        "videoId": "0Q5zd7b-skY",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "05-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 18-20",
-                        "url": "https://www.youtube.com/watch?v=0Q5zd7b-skY&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/0Q5zd7b-skY/sddefault.jpg",
-                        "uploadDate": "2023-03-29T19:06:39Z"
+                        "videoId": "K2Rn5tTzjcE",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "044-Tafseer Surah An-Nisaa From Ayat-78-80",
+                        "url": "https://www.youtube.com/watch?v=K2Rn5tTzjcE&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/K2Rn5tTzjcE/sddefault.jpg",
+                        "uploadDate": "2026-08-06T05:47:00Z"
                     },
                     {
-                        "videoId": "CHxgMRWNftA",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "06-Tafseer Juz|26|تفسير|Surah Al-Ahqaaf|تفسیر سورۃ الاحقاف|Aayat From 21-29",
-                        "url": "https://www.youtube.com/watch?v=CHxgMRWNftA&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/CHxgMRWNftA/sddefault.jpg",
-                        "uploadDate": "2023-03-31T18:49:29Z"
+                        "videoId": "HhRtFL6y5OQ",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "043-Tafseer Surah An-Nisaa From Ayat-77",
+                        "url": "https://www.youtube.com/watch?v=HhRtFL6y5OQ&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/HhRtFL6y5OQ/sddefault.jpg",
+                        "uploadDate": "2026-07-30T05:56:42Z"
                     },
                     {
-                        "videoId": "iFc9CZjagEI",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "07-Tafseer Juz|26|تفسير جزء|Surah Al-Ahqaaf|سورۃ الاحقاف|From verse 30-35",
-                        "url": "https://www.youtube.com/watch?v=iFc9CZjagEI&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/iFc9CZjagEI/sddefault.jpg",
-                        "uploadDate": "2023-04-02T18:50:11Z"
+                        "videoId": "GrWkzXmZAyQ",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "042-Tafseer Surah An-Nisaa From Ayat-70-76",
+                        "url": "https://www.youtube.com/watch?v=GrWkzXmZAyQ&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/GrWkzXmZAyQ/sddefault.jpg",
+                        "uploadDate": "2026-07-23T05:59:06Z"
                     },
                     {
-                        "videoId": "B7usi-MoLqY",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "01-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 1-10",
-                        "url": "https://www.youtube.com/watch?v=B7usi-MoLqY&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/B7usi-MoLqY/sddefault.jpg",
-                        "uploadDate": "2023-04-03T18:49:07Z"
+                        "videoId": "BC2cujtRJ78",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "041-Tafseer Surah An-Nisaa From Ayat-69-70",
+                        "url": "https://www.youtube.com/watch?v=BC2cujtRJ78&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/BC2cujtRJ78/sddefault.jpg",
+                        "uploadDate": "2026-07-16T06:24:35Z"
                     },
                     {
-                        "videoId": "f1YGs6RpXPg",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "02-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 11-15",
-                        "url": "https://www.youtube.com/watch?v=f1YGs6RpXPg&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/f1YGs6RpXPg/sddefault.jpg",
-                        "uploadDate": "2023-04-04T18:57:31Z"
+                        "videoId": "iug57B3xuOg",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "040-Tafseer Surah An-Nisaa From Ayat-66-68",
+                        "url": "https://www.youtube.com/watch?v=iug57B3xuOg&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/iug57B3xuOg/sddefault.jpg",
+                        "uploadDate": "2026-07-09T06:14:34Z"
                     },
                     {
-                        "videoId": "NBqhfTWMRMU",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "03-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 16-19",
-                        "url": "https://www.youtube.com/watch?v=NBqhfTWMRMU&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/NBqhfTWMRMU/sddefault.jpg",
-                        "uploadDate": "2023-04-05T18:45:33Z"
+                        "videoId": "BdmgpfHKIb8",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "039-Tafseer Surah An-Nisaa From Ayat-64-65",
+                        "url": "https://www.youtube.com/watch?v=BdmgpfHKIb8&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/BdmgpfHKIb8/sddefault.jpg",
+                        "uploadDate": "2026-07-02T06:00:46Z"
                     },
                     {
-                        "videoId": "__CuR6eDMPY",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "04-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 20-25",
-                        "url": "https://www.youtube.com/watch?v=__CuR6eDMPY&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/__CuR6eDMPY/sddefault.jpg",
-                        "uploadDate": "2023-04-06T18:55:01Z"
+                        "videoId": "yYA-pembp54",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "038-Tafseer Surah An-Nisaa ( تفسیر سُورَةٴ ٱلنِّسَاء)From Ayat-60-63",
+                        "url": "https://www.youtube.com/watch?v=yYA-pembp54&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/yYA-pembp54/sddefault.jpg",
+                        "uploadDate": "2026-06-25T06:11:43Z"
                     },
                     {
-                        "videoId": "kMAi7HE9GXs",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "05-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 25-31",
-                        "url": "https://www.youtube.com/watch?v=kMAi7HE9GXs&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/kMAi7HE9GXs/sddefault.jpg",
-                        "uploadDate": "2023-04-07T18:59:36Z"
+                        "videoId": "xXbjEHJxsQU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "037-Tafseer Surah An-Nisaa From Ayat-59",
+                        "url": "https://www.youtube.com/watch?v=xXbjEHJxsQU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/xXbjEHJxsQU/sddefault.jpg",
+                        "uploadDate": "2026-06-18T06:15:41Z"
                     },
                     {
-                        "videoId": "nCxqNFUIZv4",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "06-Tafseer Juz|26|تفسير جزء|Surah Muhammad|سورۃ محمد|From verse 31-38",
-                        "url": "https://www.youtube.com/watch?v=nCxqNFUIZv4&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/nCxqNFUIZv4/sddefault.jpg",
-                        "uploadDate": "2023-04-09T18:56:37Z"
+                        "videoId": "Ju7GCCO13fE",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "036-Tafseer Surah An-Nisaa From Ayat-56-58",
+                        "url": "https://www.youtube.com/watch?v=Ju7GCCO13fE&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/Ju7GCCO13fE/sddefault.jpg",
+                        "uploadDate": "2026-06-11T06:03:32Z"
                     },
                     {
-                        "videoId": "QF73FWHGf30",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "01-Tafseer Juz|26|تفسير جزء|Surah Al Fath|سورۃ فتح|From verse 1-5",
-                        "url": "https://www.youtube.com/watch?v=QF73FWHGf30&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/QF73FWHGf30/sddefault.jpg",
-                        "uploadDate": "2023-04-10T18:56:14Z"
+                        "videoId": "fvkWalv68M0",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "035-Tafseer Surah An-Nisaa From Ayat-52-56",
+                        "url": "https://www.youtube.com/watch?v=fvkWalv68M0&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/fvkWalv68M0/sddefault.jpg",
+                        "uploadDate": "2026-06-04T05:59:29Z"
                     },
                     {
-                        "videoId": "qreaXvbPlgo",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "02-Tafseer Juz|26|تفسير جزء|Surah Al Fath|سورۃ فتح|From verse 6-18",
-                        "url": "https://www.youtube.com/watch?v=qreaXvbPlgo&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/qreaXvbPlgo/sddefault.jpg",
-                        "uploadDate": "2023-04-11T18:40:15Z"
+                        "videoId": "x6VtyPnL1I8",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "034-Tafseer Surah An-Nisaa From Ayat-48-51",
+                        "url": "https://www.youtube.com/watch?v=x6VtyPnL1I8&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/x6VtyPnL1I8/sddefault.jpg",
+                        "uploadDate": "2026-05-14T05:54:25Z"
                     },
                     {
-                        "videoId": "0r6igGUjK64",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "03-Tafseer Juz|26|تفسير جزء|Surah Al Fath|سورۃ فتح|From verse 18-26",
-                        "url": "https://www.youtube.com/watch?v=0r6igGUjK64&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/0r6igGUjK64/sddefault.jpg",
-                        "uploadDate": "2023-04-13T06:39:49Z"
+                        "videoId": "aBJUs5lM0UA",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "033-Tafseer Surah An-Nisaa From Ayat-46-47",
+                        "url": "https://www.youtube.com/watch?v=aBJUs5lM0UA&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/aBJUs5lM0UA/sddefault.jpg",
+                        "uploadDate": "2026-05-07T05:46:48Z"
                     },
                     {
-                        "videoId": "QfvfNSMvx4k",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "01-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 1-5",
-                        "url": "https://www.youtube.com/watch?v=QfvfNSMvx4k&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/QfvfNSMvx4k/sddefault.jpg",
-                        "uploadDate": "2017-07-07T13:54:15Z"
+                        "videoId": "aXmXbdWF_S4",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "032-Tafseer Surah An-Nisaa From Ayat-44-46",
+                        "url": "https://www.youtube.com/watch?v=aXmXbdWF_S4&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/aXmXbdWF_S4/sddefault.jpg",
+                        "uploadDate": "2026-04-30T05:43:22Z"
                     },
                     {
-                        "videoId": "uYf4rTxk9ps",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "02-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 5-6",
-                        "url": "https://www.youtube.com/watch?v=uYf4rTxk9ps&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/uYf4rTxk9ps/sddefault.jpg",
-                        "uploadDate": "2017-07-08T12:29:19Z"
+                        "videoId": "oIp84sg1rnk",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "031-Tafseer Surah An-Nisaa From Ayat-43-45",
+                        "url": "https://www.youtube.com/watch?v=oIp84sg1rnk&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/oIp84sg1rnk/sddefault.jpg",
+                        "uploadDate": "2026-04-23T05:48:50Z"
                     },
                     {
-                        "videoId": "4DENa75syFw",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "03-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 6",
-                        "url": "https://www.youtube.com/watch?v=4DENa75syFw&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/4DENa75syFw/sddefault.jpg",
-                        "uploadDate": "2017-07-09T16:03:20Z"
+                        "videoId": "sLI8vq0W05M",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "030-Tafseer Surah An-Nisaa From Ayat-42-43",
+                        "url": "https://www.youtube.com/watch?v=sLI8vq0W05M&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/sLI8vq0W05M/sddefault.jpg",
+                        "uploadDate": "2026-04-16T05:32:36Z"
                     },
                     {
-                        "videoId": "wLsI_pL--dU",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "04-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 7-8",
-                        "url": "https://www.youtube.com/watch?v=wLsI_pL--dU&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/wLsI_pL--dU/sddefault.jpg",
-                        "uploadDate": "2017-07-11T19:26:54Z"
+                        "videoId": "kqLthAjqcEk",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "029-Tafseer Surah An-Nisaa From Ayat-40-41",
+                        "url": "https://www.youtube.com/watch?v=kqLthAjqcEk&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/kqLthAjqcEk/sddefault.jpg",
+                        "uploadDate": "2026-04-09T05:46:02Z"
                     },
                     {
-                        "videoId": "6swWFdCrag8",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "05-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|Some moments with two verses7-8",
-                        "url": "https://www.youtube.com/watch?v=6swWFdCrag8&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/6swWFdCrag8/sddefault.jpg",
-                        "uploadDate": "2019-03-18T13:49:55Z"
+                        "videoId": "ngi_TneD5z8",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "028-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-28-حصہ Ayat-39-40",
+                        "url": "https://www.youtube.com/watch?v=ngi_TneD5z8&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/ngi_TneD5z8/sddefault.jpg",
+                        "uploadDate": "2026-04-02T05:59:12Z"
                     },
                     {
-                        "videoId": "1-wsSsHhRAo",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "06-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 9-10",
-                        "url": "https://www.youtube.com/watch?v=1-wsSsHhRAo&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/1-wsSsHhRAo/sddefault.jpg",
-                        "uploadDate": "2017-07-12T19:49:32Z"
+                        "videoId": "VRy8GwDGb9U",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "027-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-27-حصہ Ayat-39-40",
+                        "url": "https://www.youtube.com/watch?v=VRy8GwDGb9U&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/VRy8GwDGb9U/sddefault.jpg",
+                        "uploadDate": "2026-02-12T04:53:22Z"
                     },
                     {
-                        "videoId": "1mZhqmGcRFM",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "07-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|Some moments with verses 9",
-                        "url": "https://www.youtube.com/watch?v=1mZhqmGcRFM&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/1mZhqmGcRFM/sddefault.jpg",
-                        "uploadDate": "2019-04-02T12:47:35Z"
+                        "videoId": "nkiCqCeFMs4",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "026-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-26-حصہ Ayat-38-39-40",
+                        "url": "https://www.youtube.com/watch?v=nkiCqCeFMs4&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/nkiCqCeFMs4/sddefault.jpg",
+                        "uploadDate": "2026-02-05T04:46:32Z"
                     },
                     {
-                        "videoId": "s1JucjC9NAQ",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "08-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 10-11",
-                        "url": "https://www.youtube.com/watch?v=s1JucjC9NAQ&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/s1JucjC9NAQ/sddefault.jpg",
-                        "uploadDate": "2017-07-13T14:29:15Z"
+                        "videoId": "kdtLrPGQL6Q",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "025-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-25-حصہ Ayat-38",
+                        "url": "https://www.youtube.com/watch?v=kdtLrPGQL6Q&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/kdtLrPGQL6Q/sddefault.jpg",
+                        "uploadDate": "2026-01-29T05:09:29Z"
                     },
                     {
-                        "videoId": "4UvBNKve_iQ",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "09-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 12",
-                        "url": "https://www.youtube.com/watch?v=4UvBNKve_iQ&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/4UvBNKve_iQ/sddefault.jpg",
-                        "uploadDate": "2017-07-14T19:52:57Z"
+                        "videoId": "irx4Eh8_iuU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "023-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-23-حصہ Ayat-36",
+                        "url": "https://www.youtube.com/watch?v=irx4Eh8_iuU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/irx4Eh8_iuU/sddefault.jpg",
+                        "uploadDate": "2026-01-15T05:03:28Z"
                     },
                     {
-                        "videoId": "q4aGsHB48fA",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "10-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 13",
-                        "url": "https://www.youtube.com/watch?v=q4aGsHB48fA&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/q4aGsHB48fA/sddefault.jpg",
-                        "uploadDate": "2017-07-15T16:17:01Z"
+                        "videoId": "xmRs3HyBrvQ",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "022-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-22-حصہ Ayat-35-36",
+                        "url": "https://www.youtube.com/watch?v=xmRs3HyBrvQ&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/xmRs3HyBrvQ/sddefault.jpg",
+                        "uploadDate": "2026-01-08T08:59:19Z"
                     },
                     {
-                        "videoId": "y4TG7vXVztI",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "11-Tafseer Juz|26|تفسير جزء|Surat-ul-Hujuraat|سورۃ الحجرات|From verse 14-18",
-                        "url": "https://www.youtube.com/watch?v=y4TG7vXVztI&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/y4TG7vXVztI/sddefault.jpg",
-                        "uploadDate": "2017-07-15T21:52:37Z"
+                        "videoId": "ZU0yCEZXPZ8",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "021-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-21-حصہ Ayat-34-35",
+                        "url": "https://www.youtube.com/watch?v=ZU0yCEZXPZ8&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/ZU0yCEZXPZ8/sddefault.jpg",
+                        "uploadDate": "2026-01-01T04:37:00Z"
                     },
                     {
-                        "videoId": "UefXvx7jTR8",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "04-Tafseer Juz|26|تفسير جزء|Surah Al Fath|سورۃ الفتح|From verse 26-29",
-                        "url": "https://www.youtube.com/watch?v=UefXvx7jTR8&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/UefXvx7jTR8/sddefault.jpg",
-                        "uploadDate": "2023-04-14T07:04:26Z"
+                        "videoId": "cOvZykROxVc",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "020-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-20-حصہ Ayat-32",
+                        "url": "https://www.youtube.com/watch?v=cOvZykROxVc&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/cOvZykROxVc/sddefault.jpg",
+                        "uploadDate": "2025-12-25T04:51:31Z"
                     },
                     {
-                        "videoId": "5rh6lfOt5o8",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "01-Tafseer Juz|26|تفسير جزء|Surah Qaf|سورۃ ق|From verse 1-8",
-                        "url": "https://www.youtube.com/watch?v=5rh6lfOt5o8&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/5rh6lfOt5o8/sddefault.jpg",
-                        "uploadDate": "2023-04-15T06:31:31Z"
+                        "videoId": "hia3SO2wayg",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "019-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-19-حصہ Ayat-32",
+                        "url": "https://www.youtube.com/watch?v=hia3SO2wayg&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/hia3SO2wayg/sddefault.jpg",
+                        "uploadDate": "2025-12-18T04:03:32Z"
                     },
                     {
-                        "videoId": "142VVbHabaU",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "02-Tafseer Juz|26|تفسير جزء|Surah Qaf|سورۃ ق|From verse 9-22",
-                        "url": "https://www.youtube.com/watch?v=142VVbHabaU&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/142VVbHabaU/sddefault.jpg",
-                        "uploadDate": "2023-04-17T06:37:23Z"
+                        "videoId": "kOlrtzQBlHU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "018-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-18-حصہ Ayat-24-25",
+                        "url": "https://www.youtube.com/watch?v=kOlrtzQBlHU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/kOlrtzQBlHU/sddefault.jpg",
+                        "uploadDate": "2025-11-27T04:30:45Z"
                     },
                     {
-                        "videoId": "wlyJ2FJAcjc",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "03-Tafseer Juz|26|تفسير جزء|Surah Qaf|سورۃ ق|From verse 23-33",
-                        "url": "https://www.youtube.com/watch?v=wlyJ2FJAcjc&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/wlyJ2FJAcjc/sddefault.jpg",
-                        "uploadDate": "2023-04-18T06:40:47Z"
+                        "videoId": "CH0yQz0lPqc",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "017-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-17-حصہ Ayat-23/24",
+                        "url": "https://www.youtube.com/watch?v=CH0yQz0lPqc&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/CH0yQz0lPqc/sddefault.jpg",
+                        "uploadDate": "2025-10-16T04:51:16Z"
                     },
                     {
-                        "videoId": "hj067BZ662k",
-                        "playlistId": "PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "title": "04-Tafseer Juz|26|تفسير جزء|Surah Qaf|سورۃ ق|From verse 34-45",
-                        "url": "https://www.youtube.com/watch?v=hj067BZ662k&list=PLmZP1KIsC-hnP1xGsilQhYGI57hk4CPo1",
-                        "thumbnail": "https://i.ytimg.com/vi/hj067BZ662k/sddefault.jpg",
-                        "uploadDate": "2023-04-19T06:40:19Z"
+                        "videoId": "XsCU5zyChZU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "016-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-16-حصہ Ayat-22",
+                        "url": "https://www.youtube.com/watch?v=XsCU5zyChZU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/XsCU5zyChZU/sddefault.jpg",
+                        "uploadDate": "2025-10-02T04:56:49Z"
+                    },
+                    {
+                        "videoId": "2YFUPVnuZrs",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "015-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-15-حصہ Ayat-19",
+                        "url": "https://www.youtube.com/watch?v=2YFUPVnuZrs&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/2YFUPVnuZrs/sddefault.jpg",
+                        "uploadDate": "2025-09-25T05:01:19Z"
+                    },
+                    {
+                        "videoId": "dEOvfF44teY",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "014-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-14-حصہ Ayat-16",
+                        "url": "https://www.youtube.com/watch?v=dEOvfF44teY&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/dEOvfF44teY/sddefault.jpg",
+                        "uploadDate": "2025-09-18T05:26:02Z"
+                    },
+                    {
+                        "videoId": "OuameVW7jOw",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "013-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-13-حصہ Ayat-13",
+                        "url": "https://www.youtube.com/watch?v=OuameVW7jOw&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/OuameVW7jOw/sddefault.jpg",
+                        "uploadDate": "2025-09-13T00:41:48Z"
+                    },
+                    {
+                        "videoId": "cyMb_t_apLo",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "012-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-12-حصہ Ayat-12",
+                        "url": "https://www.youtube.com/watch?v=cyMb_t_apLo&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/cyMb_t_apLo/sddefault.jpg",
+                        "uploadDate": "2025-09-04T05:37:08Z"
+                    },
+                    {
+                        "videoId": "f525Hu73RG0",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "011-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-11-حصہ Ayat-11",
+                        "url": "https://www.youtube.com/watch?v=f525Hu73RG0&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/f525Hu73RG0/sddefault.jpg",
+                        "uploadDate": "2025-08-28T05:45:54Z"
+                    },
+                    {
+                        "videoId": "0X8iaLnG7dk",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "010-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-10-حصہ Ayat-11",
+                        "url": "https://www.youtube.com/watch?v=0X8iaLnG7dk&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/0X8iaLnG7dk/sddefault.jpg",
+                        "uploadDate": "2025-08-21T05:37:27Z"
+                    },
+                    {
+                        "videoId": "CqepMxOLzrU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "009-Tafseer Surah An-Nisaa(تفسیر سورۃ اُلنِّسَاء)-Part-9-حصہ Ayat-10",
+                        "url": "https://www.youtube.com/watch?v=CqepMxOLzrU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/CqepMxOLzrU/sddefault.jpg",
+                        "uploadDate": "2025-08-14T05:41:41Z"
+                    },
+                    {
+                        "videoId": "UCywGJPNLbE",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "008-Tafseer Surah AnNisaa(تفسیر سورۃ اُلنِّسَاء)-Part-8-حصہ Ayat-9",
+                        "url": "https://www.youtube.com/watch?v=UCywGJPNLbE&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/UCywGJPNLbE/sddefault.jpg",
+                        "uploadDate": "2025-08-07T06:00:57Z"
+                    },
+                    {
+                        "videoId": "yGGNL0O5XDU",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "007-Tafseer Surah AnNisaa(تفسیر سورۃ اُلنِّسَاء)-Part-7-حصہ Ayat-8",
+                        "url": "https://www.youtube.com/watch?v=yGGNL0O5XDU&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/yGGNL0O5XDU/sddefault.jpg",
+                        "uploadDate": "2025-07-17T06:04:04Z"
+                    },
+                    {
+                        "videoId": "14cgn8HDJuo",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "006-Tafseer Surah AnNisaa(تفسیر سورۃ اُلنِّسَاء)-Part-6-حصہ Ayat-7",
+                        "url": "https://www.youtube.com/watch?v=14cgn8HDJuo&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/14cgn8HDJuo/sddefault.jpg",
+                        "uploadDate": "2025-07-10T06:06:37Z"
+                    },
+                    {
+                        "videoId": "JF6fUUg1HgQ",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "005-Tafseer Surah An Nisaa Part-5 From Ayah 7",
+                        "url": "https://www.youtube.com/watch?v=JF6fUUg1HgQ&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/JF6fUUg1HgQ/sddefault.jpg",
+                        "uploadDate": "2025-07-03T06:03:34Z"
+                    },
+                    {
+                        "videoId": "UtWD2VAxD9E",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "004-Tafseer Surah An Nisaa Part-4 From Ayah 7",
+                        "url": "https://www.youtube.com/watch?v=UtWD2VAxD9E&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/UtWD2VAxD9E/sddefault.jpg",
+                        "uploadDate": "2025-06-26T06:01:55Z"
+                    },
+                    {
+                        "videoId": "k8qi8fQ7V9A",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "003-Tafseer Surah An Nisaa Part-3 From Ayah 4",
+                        "url": "https://www.youtube.com/watch?v=k8qi8fQ7V9A&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/k8qi8fQ7V9A/sddefault.jpg",
+                        "uploadDate": "2025-06-19T06:17:21Z"
+                    },
+                    {
+                        "videoId": "xMINAHZ9WDo",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "002-Tafseer Surah An Nisa Part 2 Ayah 1 to 3",
+                        "url": "https://www.youtube.com/watch?v=xMINAHZ9WDo&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/xMINAHZ9WDo/sddefault.jpg",
+                        "uploadDate": "2025-06-12T06:19:16Z"
+                    },
+                    {
+                        "videoId": "t7azG9WtY_Y",
+                        "playlistId": "PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "title": "001-Tafseer Surah An Nisa Part-1 Intro and Key Ayats",
+                        "url": "https://www.youtube.com/watch?v=t7azG9WtY_Y&list=PLmZP1KIsC-hkaTgRkdELrXipQ9i_PwW2k",
+                        "thumbnail": "https://i.ytimg.com/vi/t7azG9WtY_Y/sddefault.jpg",
+                        "uploadDate": "2025-06-05T06:21:23Z"
                     }
                 ],
-                "drivelink": "https://drive.google.com/drive/folders/1pO-2yC0C4PJQ3IJKWYKzuM5W9Zl-DQ5h",
-                "listenlink": "https://archive.org/embed/tafsir-surah-al-hujraat-zafarulhasan-madani&playlist=1&list_height=400"
+                "drivelink": "",
+                "listenlink": ""
             }
         ]
     },
     {
         "category": "Aam Duroos",
-        "description": "The series of lessons undertook by Sheikh Zafarul Hasan Madani. This category contains brief lectures on the topic Al Arba'oona Nawawiyyah, Sharh As-Sunnah, Bulugh al-Maram, Usool al-Thalatha, Shamail al-Muhammadiyah, Riyad us-saliheen",
+        "description": "",
         "image": "/images/categories/7.png",
         "subcategories": [
             {

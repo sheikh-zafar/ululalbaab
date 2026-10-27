@@ -39,7 +39,6 @@ const CalendarEvents = () => {
         <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
           Dars Schedule
         </h2>
-        <h6 className="text-black xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl pb-5 font-sans">(Friday - Thursday)</h6>
         <hr className="bg-bgcolor text-2xl" />
 
         <TableContainer
