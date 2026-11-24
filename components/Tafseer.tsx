@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Duroos from "../public/lib/durros-final.json";
 import localFont from "next/font/local"
@@ -75,7 +74,7 @@ export default function HomeTafseer() {
           return (
             <div key={`${sub.number}-${sub.slug}`}>
               <Link
-                href={`${CATEGORY_SLUG}/${sub.slug}`}
+                href={`/duroos/${CATEGORY_SLUG}/${sub.slug}`}
                 className="flex items-center justify-between p-4 rounded-xl border border-whiterock bg-bgcolor shadow-sm transition hover:border-primarytext px-2 py-1.5 text-sm text-secondarytext hover:bg-whiterock hover:text-primarytext"
               >
                 <span className="flex items-center gap-2">

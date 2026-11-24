@@ -1,3 +1,5 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 "use client";
 
 import { useMemo, useState, type ReactNode } from "react";
@@ -290,6 +292,7 @@ function JuzCard({
                     </li>
                 ))}
             </ul>
+
 
         </div>
     );
