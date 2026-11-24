@@ -58,7 +58,6 @@ export default function HomeTafseer() {
     .map((slug) => all.find((s) => s.slug === slug))
     .filter(Boolean) as RawItem[];
 
-  const remaining = Math.max(all.length - featured.length, 0);
 
   return (
     <section className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">

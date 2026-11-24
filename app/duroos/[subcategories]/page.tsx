@@ -124,7 +124,7 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
                 )}
                 <QuranTabs
                     basePath={`/duroos/${subcategories}`}
-                    items={data.subcategories as unknown as Record<string, any>[]}
+                    items={data.subcategories as unknown as Record<string, unknown>[]}
                 />
             </div>
         );
