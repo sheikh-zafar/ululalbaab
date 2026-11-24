@@ -1,8 +1,9 @@
 import CrunchyCarousel from '@/components/header';
+import QuranTabs from '@/components/QuranTabs'; // adjust path to where you saved it
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound, redirect } from 'next/navigation';
-import Duroos from "../../../public/lib/duroos.json";
+import Duroos from "../../../public/lib/durros-final.json";
 
 export interface DuroosVideo {
     videoId: string;
@@ -30,6 +31,8 @@ type DuroosCategory = {
     subcategories: DuroosSubcategory[];
 };
 
+const TAFSEER_CATEGORY = "Tafseerul Quran";
+
 function slugify(text: string) {
     return text
         .toLowerCase()
@@ -43,7 +46,7 @@ type Params = Promise<{ subcategories: string }>;
 export async function generateMetadata({ params }: { params: Params }) {
     const { subcategories } = await params;
 
-    const data = (Duroos as DuroosCategory[]).find(
+    const data = (Duroos as unknown as DuroosCategory[]).find(
         (cat) => slugify(cat.category) === decodeURIComponent(subcategories)
     );
 
@@ -75,16 +78,8 @@ export async function generateMetadata({ params }: { params: Params }) {
             url: 'https://www.zafarulhasan.com/duroos',
             siteName: 'Urdu Lectures of Sheikh Zafarulhasan Madani',
             images: [
-                {
-                    url: 'https://www.zafarulhasan.com/favicon.png',
-                    width: 48,
-                    height: 48,
-                },
-                {
-                    url: 'https://www.zafarulhasan.com/icon-192x192.png',
-                    width: 192,
-                    height: 192
-                },
+                { url: 'https://www.zafarulhasan.com/favicon.png', width: 48, height: 48 },
+                { url: 'https://www.zafarulhasan.com/icon-192x192.png', width: 192, height: 192 },
                 {
                     url: 'https://www.zafarulhasan.com/icons/icon-512x512.png',
                     width: 512,
@@ -100,19 +95,41 @@ export async function generateMetadata({ params }: { params: Params }) {
 
 export default async function SubcategoriesPage({ params }: { params: Params }) {
     const { subcategories } = await params;
+    const slug = decodeURIComponent(subcategories);
 
-    // 🚫 Redirect to /comingsoon if in blocked list
     const blockedSubcategories = ["Arkan-Al-Islam", "Mausamiat", "Tareeq-Ahlul-Hadith", "Jummu'ah-Khutbah"];
-    if (blockedSubcategories.includes(decodeURIComponent(subcategories))) {
+    if (blockedSubcategories.includes(slug)) {
         redirect('/comingsoon');
     }
 
-    const data = (Duroos as DuroosCategory[]).find(
-        (cat) => slugify(cat.category) === decodeURIComponent(subcategories)
+    const data = (Duroos as unknown as DuroosCategory[]).find(
+        (cat) => slugify(cat.category) === slug
     );
 
     if (!data) notFound();
 
+    // Tafseerul Quran: different data shape -> dedicated Surah/Juz view
+    if (data.category === TAFSEER_CATEGORY) {
+        return (
+            <div className="p-4 max-w-7xl mx-auto my-20">
+                <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
+                    {data.category}
+                </h1>
+                <hr className="bg-bgcolor text-2xl" />
+                {data.description && (
+                    <p className="text-text-primary text-lg md:text-base xs:text-xs xxs:text-xs my-4 xs:my-3 xxs:my-3">
+                        {data.description}
+                    </p>
+                )}
+                <QuranTabs
+                    basePath={`/duroos/${subcategories}`}
+                    items={data.subcategories as unknown as Record<string, any>[]}
+                />
+            </div>
+        );
+    }
+
+    // All other categories: generic card grid
     return (
         <div className="p-4 max-w-7xl mx-auto my-20">
             <CrunchyCarousel />

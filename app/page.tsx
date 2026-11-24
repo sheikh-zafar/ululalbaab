@@ -27,7 +27,7 @@ function toDubaiISOString(date: Date): string {
   const d = pad(date.getDate());
   const h = pad(date.getHours());
   const min = pad(date.getMinutes());
-  return `${y}-${m}-${d}T${h}:${min}:00+04:00`; // Dubai is fixed UTC+4, no DST
+  return `${y}-${m}-${d}T${h}:${min}:00+04:00`;
 }
 async function getPrayerOffsetStartDate(
   prayer: PrayerName,
@@ -46,7 +46,7 @@ async function getPrayerOffsetStartDate(
   if (!res.ok) throw new Error("Failed to fetch prayer times");
 
   const json: AladhanResponse = await res.json();
-  const timeStr = json.data.timings[prayer]; // e.g. "19:05"
+  const timeStr = json.data.timings[prayer];
   const [hours, minutes] = timeStr.split(":").map(Number);
 
   const prayerDate = new Date(today);

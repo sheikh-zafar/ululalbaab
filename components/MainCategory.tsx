@@ -4,6 +4,12 @@ import React from "react";
 import Slider from "react-slick";
 import Link from "next/link";
 import { Box } from "@mui/material";
+import localFont from "next/font/local"
+
+const samarkan = localFont({
+  src: '../public/font/samarkan.ttf',
+  variable: '--font-samarkan',
+})
 
 // Slick settings
 const settings = {
@@ -27,19 +33,19 @@ const duroos = [
   { title: "Dawrah Ilmiyyah (Mukhtasar)", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-mukhtasar" },
   { title: "Dawrah Ilmiyyah (Taweel)", link: "https://www.zafarulhasan.com/duroos/dawrah-ilmiyyah-taweel" },
   { title: "Tafseerul Quran", link: "https://www.zafarulhasan.com/duroos/tafseerul-quran" },
-  { title: "Jummu'ah Khutbah", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Jummu'ah Khutbah", link: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hmuVCpduAT3dMDd-kZG6l4f" },
   { title: "Arkan Al Islam", link: "https://www.zafarulhasan.com/comingsoon" },
   { title: "Mausamiat", link: "https://www.zafarulhasan.com/comingsoon" },
   { title: "Aam Duroos", link: "https://www.zafarulhasan.com/duroos/aam-duroos" },
-  { title: "Sister's section", link: "https://www.zafarulhasan.com/comingsoon" },
-  { title: "Tareeq Ahlul Hadith", link: "https://www.zafarulhasan.com/comingsoon" },
+  { title: "Sister's section", link: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hnxbVOity71qHq_YqO6Ui5G" },
+  { title: "Tareeq Ahlul Hadith", link: "https://www.youtube.com/playlist?list=PLmZP1KIsC-hk2WoPSXBU4SzqgIewOUojt" },
 ];
 
 export default function MainCategory() {
   return (
     <div className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
-      <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
-        Main Duroos Category
+      <h2 className={`text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins ${samarkan.className}`}>
+        Bayanat -  بیانات
       </h2>
       <h6 className="text-black xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl pb-5 font-aref">
       </h6>

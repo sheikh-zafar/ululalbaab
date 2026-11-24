@@ -6,6 +6,12 @@ import { Box, IconButton, Modal } from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import CloseIcon from "@mui/icons-material/Close";
+import localFont from "next/font/local"
+
+const samarkan = localFont({
+  src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
+  variable: '--font-samarkan',         // Defines a CSS variable name
+})
 
 const settings = {
   arrows: false,
@@ -98,7 +104,7 @@ function VideoCard({ book, onOpenModal }: { book: typeof books[0]; onOpenModal: 
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="auto"
         onLoadedMetadata={handleLoadedMetadata}
         className="rounded-3xl mx-auto object-cover pointer-events-none overflow-hidden"
       />
@@ -125,7 +131,7 @@ export default function PopularSharh() {
           mb: 2,
         }}
       >
-        <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
+        <h2 className={`text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins ${samarkan.className}`}>
           Weekly Duroos - ہفتہ وار
         </h2>
 

@@ -1,6 +1,12 @@
 import React from "react";
 import { CalendarToday, LocationOn, AccessTime } from "@mui/icons-material";
 import Link from "next/link";
+import localFont from "next/font/local"
+
+const samarkan = localFont({
+  src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
+  variable: '--font-samarkan',         // Defines a CSS variable name
+})
 
 interface AladhanResponse {
   data: {
@@ -303,7 +309,7 @@ export async function LectureSchedule() {
       />
 
       <div className="max-w-3xl mx-auto p-6">
-        <h2 className="text-3xl font-bold text-center text-[#6c6c6c] mb-8">
+        <h2 className={`text-3xl font-bold text-center text-[#6c6c6c] mb-8 ${samarkan.className}`}>
           📅 Weekly Lecture Schedule
         </h2>
         <div className="space-y-4">

@@ -1,0 +1,3657 @@
+{
+    "category": "Tafseerul Quran",
+    "description": "",
+    "image": "/images/categories/2.png",
+    "subcategories": [
+        {
+            "number": 1,
+            "slug": "al-fatihah",
+            "arabic": "الفاتحة",
+            "title": "Al Fathiha",
+            "status": "completed",
+            "juz": 1,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 2,
+            "slug": "al-baqarah",
+            "arabic": "البقرة",
+            "title": "Al Baqarah",
+            "status": "completed",
+            "juz": 1,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 3,
+            "slug": "al-imran",
+            "arabic": "آل عمران",
+            "title": "Aal Imran",
+            "status": "completed",
+            "juz": 3,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 4,
+            "slug": "an-nisa",
+            "arabic": "النساء",
+            "title": "An Nisa",
+            "status": "completed",
+            "juz": 4,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 5,
+            "slug": "al-maidah",
+            "arabic": "المائدة",
+            "title": "Al Maidah",
+            "status": "completed",
+            "juz": 6,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 6,
+            "slug": "al-anam",
+            "arabic": "الأنعام",
+            "title": "Al Anam",
+            "status": "completed",
+            "juz": 7,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 7,
+            "slug": "al-araf",
+            "arabic": "الأعراف",
+            "title": "Al Araf",
+            "status": "completed",
+            "juz": 8,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 8,
+            "slug": "al-anfal",
+            "arabic": "الأنفال",
+            "title": "Al Anfal",
+            "status": "completed",
+            "juz": 9,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 9,
+            "slug": "at-tawbah",
+            "arabic": "التوبة",
+            "title": "At Tawbah",
+            "status": "completed",
+            "juz": 10,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 10,
+            "slug": "yunus",
+            "arabic": "يونس",
+            "title": "Yunus",
+            "status": "completed",
+            "juz": 11,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 11,
+            "slug": "hud",
+            "arabic": "هود",
+            "title": "Hud",
+            "status": "completed",
+            "juz": 11,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 12,
+            "slug": "yusuf",
+            "arabic": "يوسف",
+            "title": "Yusuf",
+            "status": "completed",
+            "juz": 12,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 13,
+            "slug": "ar-rad",
+            "arabic": "الرعد",
+            "title": "Ar Rad",
+            "status": "completed",
+            "juz": 13,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 14,
+            "slug": "ibrahim",
+            "arabic": "إبراهيم",
+            "title": "Ibrahim",
+            "status": "completed",
+            "juz": 13,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 15,
+            "slug": "al-hijr",
+            "arabic": "الحجر",
+            "title": "Al Hijr",
+            "status": "completed",
+            "juz": 14,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 16,
+            "slug": "an-nahl",
+            "arabic": "النحل",
+            "title": "An Nahl",
+            "status": "completed",
+            "juz": 14,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 17,
+            "slug": "al-isra",
+            "arabic": "الإسراء",
+            "title": "Al Isra",
+            "status": "completed",
+            "juz": 15,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 18,
+            "slug": "al-kahf",
+            "arabic": "الكهف",
+            "title": "Al Kahf",
+            "status": "completed",
+            "juz": 15,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 19,
+            "slug": "maryam",
+            "arabic": "مريم",
+            "title": "Maryam",
+            "status": "completed",
+            "juz": 16,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 20,
+            "slug": "ta-ha",
+            "arabic": "طه",
+            "title": "Ta Ha",
+            "status": "completed",
+            "juz": 16,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 21,
+            "slug": "al-anbiya",
+            "arabic": "الأنبياء",
+            "title": "Al Anbiya",
+            "status": "completed",
+            "juz": 17,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 22,
+            "slug": "al-hajj",
+            "arabic": "الحج",
+            "title": "Al Hajj",
+            "status": "completed",
+            "juz": 17,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 23,
+            "slug": "al-muminun",
+            "arabic": "المؤمنون",
+            "title": "Al Muminun",
+            "status": "completed",
+            "juz": 18,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 24,
+            "slug": "an-nur",
+            "arabic": "النور",
+            "title": "An Nur",
+            "status": "completed",
+            "juz": 18,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 25,
+            "slug": "al-furqan",
+            "arabic": "الفرقان",
+            "title": "Al Furqan",
+            "status": "completed",
+            "juz": 18,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 26,
+            "slug": "ash-shuara",
+            "arabic": "الشعراء",
+            "title": "Ash Shuara",
+            "status": "completed",
+            "juz": 19,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 27,
+            "slug": "an-naml",
+            "arabic": "النمل",
+            "title": "An Naml",
+            "status": "completed",
+            "juz": 19,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 28,
+            "slug": "al-qasas",
+            "arabic": "القصص",
+            "title": "Al Qasas",
+            "status": "completed",
+            "juz": 20,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 29,
+            "slug": "al-ankabut",
+            "arabic": "العنكبوت",
+            "title": "Al Ankabut",
+            "status": "completed",
+            "juz": 20,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 30,
+            "slug": "ar-rum",
+            "arabic": "الروم",
+            "title": "Ar Rum",
+            "status": "completed",
+            "juz": 21,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 31,
+            "slug": "luqman",
+            "arabic": "لقمان",
+            "title": "Luqman",
+            "status": "completed",
+            "juz": 21,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 32,
+            "slug": "as-sajdah",
+            "arabic": "السجدة",
+            "title": "As Sajdah",
+            "status": "completed",
+            "juz": 21,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 33,
+            "slug": "al-ahzab",
+            "arabic": "الأحزاب",
+            "title": "Al Ahzab",
+            "status": "completed",
+            "juz": 21,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 34,
+            "slug": "saba",
+            "arabic": "سبأ",
+            "title": "Saba",
+            "status": "completed",
+            "juz": 22,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 35,
+            "slug": "fatir",
+            "arabic": "فاطر",
+            "title": "Fatir",
+            "status": "completed",
+            "juz": 22,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 36,
+            "slug": "ya-sin",
+            "arabic": "يس",
+            "title": "Ya Sin",
+            "status": "completed",
+            "juz": 22,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 37,
+            "slug": "as-saffat",
+            "arabic": "الصافات",
+            "title": "As Saffat",
+            "status": "completed",
+            "juz": 23,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 38,
+            "slug": "sad",
+            "arabic": "ص",
+            "title": "Sad",
+            "status": "completed",
+            "juz": 23,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 39,
+            "slug": "az-zumar",
+            "arabic": "الزمر",
+            "title": "Az Zumar",
+            "status": "completed",
+            "juz": 23,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 40,
+            "slug": "ghafir",
+            "arabic": "غافر",
+            "title": "Ghafir",
+            "status": "completed",
+            "juz": 24,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 41,
+            "slug": "fussilat",
+            "arabic": "فصلت",
+            "title": "Fussilat",
+            "status": "completed",
+            "juz": 24,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 42,
+            "slug": "ash-shura",
+            "arabic": "الشورى",
+            "title": "Ash Shura",
+            "status": "completed",
+            "juz": 25,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 43,
+            "slug": "az-zukhruf",
+            "arabic": "الزخرف",
+            "title": "Az Zukhruf",
+            "status": "completed",
+            "juz": 25,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 44,
+            "slug": "ad-dukhan",
+            "arabic": "الدخان",
+            "title": "Ad Dukhan",
+            "status": "completed",
+            "juz": 25,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 45,
+            "slug": "al-jathiyah",
+            "arabic": "الجاثية",
+            "title": "Al Jathiyah",
+            "status": "completed",
+            "juz": 25,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 46,
+            "slug": "al-ahqaf",
+            "arabic": "الأحقاف",
+            "title": "Al Ahqaf",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 47,
+            "slug": "muhammad",
+            "arabic": "محمد",
+            "title": "Muhammad",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 48,
+            "slug": "al-fath",
+            "arabic": "الفتح",
+            "title": "Al Fath",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 49,
+            "slug": "al-hujurat",
+            "arabic": "الحجرات",
+            "title": "Al Hujurat",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 50,
+            "slug": "qaf",
+            "arabic": "ق",
+            "title": "Qaf",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 51,
+            "slug": "adh-dhariyat",
+            "arabic": "الذاريات",
+            "title": "Adh Dhariyat",
+            "status": "completed",
+            "juz": 26,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 52,
+            "slug": "at-tur",
+            "arabic": "الطور",
+            "title": "At Tur",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 53,
+            "slug": "an-najm",
+            "arabic": "النجم",
+            "title": "An Najm",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 54,
+            "slug": "al-qamar",
+            "arabic": "القمر",
+            "title": "Al Qamar",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 55,
+            "slug": "ar-rahman",
+            "arabic": "الرحمن",
+            "title": "Ar Rahman",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 56,
+            "slug": "al-waqiah",
+            "arabic": "الواقعة",
+            "title": "Al Waqiah",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 57,
+            "slug": "al-hadid",
+            "arabic": "الحديد",
+            "title": "Al Hadid",
+            "status": "completed",
+            "juz": 27,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 58,
+            "slug": "al-mujadilah",
+            "arabic": "المجادلة",
+            "title": "Al Mujadilah",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 59,
+            "slug": "al-hashr",
+            "arabic": "الحشر",
+            "title": "Al Hashr",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 60,
+            "slug": "al-mumtahanah",
+            "arabic": "الممتحنة",
+            "title": "Al Mumtahanah",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 61,
+            "slug": "as-saff",
+            "arabic": "الصف",
+            "title": "As Saff",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 62,
+            "slug": "al-jumuah",
+            "arabic": "الجمعة",
+            "title": "Al Jumuah",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 63,
+            "slug": "al-munafiqun",
+            "arabic": "المنافقون",
+            "title": "Al Munafiqun",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 64,
+            "slug": "at-taghabun",
+            "arabic": "التغابن",
+            "title": "At Taghabun",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 65,
+            "slug": "at-talaq",
+            "arabic": "الطلاق",
+            "title": "At Talaq",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 66,
+            "slug": "at-tahrim",
+            "arabic": "التحريم",
+            "title": "At Tahrim",
+            "status": "completed",
+            "juz": 28,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 67,
+            "slug": "al-mulk",
+            "arabic": "الملك",
+            "title": "Al Mulk",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 68,
+            "slug": "al-qalam",
+            "arabic": "القلم",
+            "title": "Al Qalam",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 69,
+            "slug": "al-haqqah",
+            "arabic": "الحاقة",
+            "title": "Al Haqqah",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 70,
+            "slug": "al-maarij",
+            "arabic": "المعارج",
+            "title": "Al Maarij",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 71,
+            "slug": "nuh",
+            "arabic": "نوح",
+            "title": "Nuh",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 72,
+            "slug": "al-jinn",
+            "arabic": "الجن",
+            "title": "Al Jinn",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 73,
+            "slug": "al-muzzammil",
+            "arabic": "المزمل",
+            "title": "Al Muzzammil",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 74,
+            "slug": "al-muddaththir",
+            "arabic": "المدثر",
+            "title": "Al Muddaththir",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 75,
+            "slug": "al-qiyamah",
+            "arabic": "القيامة",
+            "title": "Al Qiyamah",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 76,
+            "slug": "al-insan",
+            "arabic": "الإنسان",
+            "title": "Al Insan",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 77,
+            "slug": "al-mursalat",
+            "arabic": "المرسلات",
+            "title": "Al Mursalat",
+            "status": "completed",
+            "juz": 29,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 78,
+            "slug": "an-naba",
+            "arabic": "النبأ",
+            "title": "An Naba",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 79,
+            "slug": "an-naziat",
+            "arabic": "النازعات",
+            "title": "An Naziat",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 80,
+            "slug": "abasa",
+            "arabic": "عبس",
+            "title": "Abasa",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 81,
+            "slug": "at-takwir",
+            "arabic": "التكوير",
+            "title": "At Takwir",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 82,
+            "slug": "al-infitar",
+            "arabic": "الانفطار",
+            "title": "Al Infitar",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 83,
+            "slug": "al-mutaffifin",
+            "arabic": "المطففين",
+            "title": "Al Mutaffifin",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 84,
+            "slug": "al-inshiqaq",
+            "arabic": "الانشقاق",
+            "title": "Al Inshiqaq",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 85,
+            "slug": "al-buruj",
+            "arabic": "البروج",
+            "title": "Al Buruj",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 86,
+            "slug": "at-tariq",
+            "arabic": "الطارق",
+            "title": "At Tariq",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 87,
+            "slug": "al-ala",
+            "arabic": "الأعلى",
+            "title": "Al Ala",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 88,
+            "slug": "al-ghashiyah",
+            "arabic": "الغاشية",
+            "title": "Al Ghashiyah",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 89,
+            "slug": "al-fajr",
+            "arabic": "الفجر",
+            "title": "Al Fajr",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 90,
+            "slug": "al-balad",
+            "arabic": "البلد",
+            "title": "Al Balad",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 91,
+            "slug": "ash-shams",
+            "arabic": "الشمس",
+            "title": "Ash Shams",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 92,
+            "slug": "al-layl",
+            "arabic": "الليل",
+            "title": "Al Layl",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 93,
+            "slug": "ad-duha",
+            "arabic": "الضحى",
+            "title": "Ad Duha",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 94,
+            "slug": "ash-sharh",
+            "arabic": "الشرح",
+            "title": "Ash Sharh",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 95,
+            "slug": "at-tin",
+            "arabic": "التين",
+            "title": "At Tin",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 96,
+            "slug": "al-alaq",
+            "arabic": "العلق",
+            "title": "Al Alaq",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 97,
+            "slug": "al-qadr",
+            "arabic": "القدر",
+            "title": "Al Qadr",
+            "status": "ongoing",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 98,
+            "slug": "al-bayyinah",
+            "arabic": "البينة",
+            "title": "Al Bayyinah",
+            "status": "upcoming",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 99,
+            "slug": "az-zalzalah",
+            "arabic": "الزلزلة",
+            "title": "Az Zalzalah",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 100,
+            "slug": "al-adiyat",
+            "arabic": "العاديات",
+            "title": "Al Adiyat",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 101,
+            "slug": "al-qariah",
+            "arabic": "القارعة",
+            "title": "Al Qariah",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 102,
+            "slug": "at-takathur",
+            "arabic": "التكاثر",
+            "title": "At Takathur",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 103,
+            "slug": "al-asr",
+            "arabic": "العصر",
+            "title": "Al Asr",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 104,
+            "slug": "al-humazah",
+            "arabic": "الهمزة",
+            "title": "Al Humazah",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 105,
+            "slug": "al-fil",
+            "arabic": "الفيل",
+            "title": "Al Fil",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 106,
+            "slug": "quraysh",
+            "arabic": "قريش",
+            "title": "Quraysh",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 107,
+            "slug": "al-maun",
+            "arabic": "الماعون",
+            "title": "Al Maun",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 108,
+            "slug": "al-kawthar",
+            "arabic": "الكوثر",
+            "title": "Al Kawthar",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 109,
+            "slug": "al-kafirun",
+            "arabic": "الكافرون",
+            "title": "Al Kafirun",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 110,
+            "slug": "an-nasr",
+            "arabic": "النصر",
+            "title": "An Nasr",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 111,
+            "slug": "al-masad",
+            "arabic": "المسد",
+            "title": "Al Masad",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 112,
+            "slug": "al-ikhlas",
+            "arabic": "الإخلاص",
+            "title": "Al Ikhlas",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 113,
+            "slug": "al-falaq",
+            "arabic": "الفلق",
+            "title": "Al Falaq",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        },
+        {
+            "number": 114,
+            "slug": "an-nas",
+            "arabic": "الناس",
+            "title": "An Nas",
+            "status": "completed",
+            "juz": 30,
+            "author": "",
+            "description": "",
+            "image": "/images/tafseer/1.png",
+            "YTplaylistlink": "https://www.youtube.com/playlist?list=PLmZP1KIsC-hkqUMWwsIRn8yfhBT_pTJeu",
+            "videos": [
+                {
+                    "videoId": "ggP3kdNAzDQ",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 1 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=ggP3kdNAzDQ&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/ggP3kdNAzDQ/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:18Z"
+                },
+                {
+                    "videoId": "AMNT83f6Fro",
+                    "playlistId": "PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "title": "Tafseer Surah Adh-Dhariath | Part 2 | تفسير سورة الذاريات",
+                    "url": "https://www.youtube.com/watch?v=AMNT83f6Fro&list=PLmZP1KIsC-hkjhxQIcMm7YRBEJnWzpNCg",
+                    "thumbnail": "https://i.ytimg.com/vi/AMNT83f6Fro/sddefault.jpg",
+                    "uploadDate": "2021-04-28T17:16:08Z"
+                }
+            ],
+            "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+            "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+        }
+    ],
+    "drivelink": "https://drive.google.com/drive/u/2/folders/1QDYR6uAfIt5nvBdnxzkJC670Aayr9t8K",
+    "listenlink": "https://archive.org/details/tafseer-juz-28-zafarulhasan-madani"
+}

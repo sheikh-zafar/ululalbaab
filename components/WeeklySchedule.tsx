@@ -12,6 +12,12 @@ import {
 } from "@mui/material"
 import { format } from "date-fns"
 import theme from "../src/styles/theme"
+import localFont from "next/font/local"
+
+const samarkan = localFont({
+  src: '../public/font/samarkan.ttf',
+  variable: '--font-samarkan',
+})
 
 interface CalendarEvent {
   id: string
@@ -36,7 +42,7 @@ const CalendarEvents = () => {
   return (
     <ThemeProvider theme={theme}>
       <div className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
-        <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
+        <h2 className={`text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins ${samarkan.className}`}>
           Dars Schedule
         </h2>
         <hr className="bg-bgcolor text-2xl" />

@@ -5,6 +5,12 @@ import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
 import { Box, Typography } from "@mui/material";
+import localFont from "next/font/local"
+
+const samarkan = localFont({
+    src: '../public/font/samarkan.ttf', // Adjust the path based on your file location
+    variable: '--font-samarkan',         // Defines a CSS variable name
+})
 
 // Slick settings
 const settings = {
@@ -64,10 +70,9 @@ export default function TaweelCarousel() {
     return (
         <div className="xxl:mx-16 xl:mx-16 lg:mx-16 sm:mx-12 md:mx-12 xxs:mx-5 xs:mx-5 s:mx-5 xxl:mt-20 xl:mt-20 lg:mt-20 sm:mt-12 md:mt-12 s:mt-8 xs:mt-8 xxs:mt-8">
 
-            <h2 className="text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins">
-                Dawrah Ilmiyyah (Taweel)
+            <h2 className={`text-dustygray xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl font-extrabold font-poppins ${samarkan.className}`}>
+                Dawrah Ilmiyyah (Taweel) - (دورہ علمیہ (طویل))
             </h2>
-            <h6 className="text-black xl:text-4xl xxl:text-4xl lg:text-4xl md:text-4xl sm:text-2xl xs:text-xl s:text-xl pb-5 font-aref">(دورہ علمیہ (طویل))</h6>
 
             <hr className="bg-bgcolor text-2xl" />
             <Box sx={{ width: "100%", overflow: "hidden" }}>
