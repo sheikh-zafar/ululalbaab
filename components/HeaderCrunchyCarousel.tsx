@@ -1,10 +1,8 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 
 "use client"
 
 import React, { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-
 
 const slides = [
     {
@@ -258,7 +256,7 @@ const HeaderCrunchyCarousel = () => {
 
     return (
         <div>
-            <div className="relative w-full h-[600px] font-aref md:h-[700px] overflow-hidden bg-black mb-20 hidden xl:block xxl:block lg:block md:block">
+            <div className="relative w-full h-150 font-aref md:h-175 overflow-hidden bg-black mb-20 hidden xl:block xxl:block lg:block md:block">
                 {/* Background Image */}
                 <div className="absolute inset-0">
                     <img
@@ -270,7 +268,7 @@ const HeaderCrunchyCarousel = () => {
                 </div>
 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t md:bg-linear-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
 
                 {/* Content */}
                 <AnimatePresence mode="wait">
@@ -402,7 +400,7 @@ const HeaderCrunchyCarousel = () => {
                     ))}
                 </div>
             </div>
-            <div className="relative w-full bg-black mb-20 hidden xs:block xxs:block sm:block aspect-[2/3]"
+            <div className="relative w-full bg-black mb-20 hidden xs:block xxs:block sm:block aspect-2/3"
                 onTouchStart={handleTouchStart}
                 onTouchMove={handleTouchMove}
                 onTouchEnd={handleTouchEnd}>
@@ -417,7 +415,7 @@ const HeaderCrunchyCarousel = () => {
                 </div>
 
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t md:bg-linear-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
 
                 {/* Content */}
                 <AnimatePresence mode="wait">

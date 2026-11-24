@@ -107,11 +107,11 @@ export default function HeroHeader() {
                     width={140}
                     height={140}
                     priority
-                    className="h-56 w-56 mx-auto min-[640px]:h-36 min-[640px]:w-36 object-contain"
+                    className="h-56 w-56 mx-auto sm:h-36 sm:w-36 object-contain"
                 />
 
                 <div
-                    className="text-3xl grid grid-cols-1 min-[640px]:text-5xl min-[1024px]:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
+                    className="text-3xl grid grid-cols-1 sm:text-5xl lg:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
                     dir="rtl"
                 >
                     <span className={`text-zafarlogo text-[20px]   mx-auto  ${changa.className}`}> فضيلة الشيخ</span>
@@ -119,17 +119,17 @@ export default function HeroHeader() {
                     <span className={`text-zafarlogo text-[20px] mx-auto  ${changa.className}`}>مدني حفظه الله</span>
                 </div>
                 <div
-                    className="text-3xl grid grid-cols-1 min-[640px]:text-5xl min-[1024px]:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
+                    className="text-3xl grid grid-cols-1 sm:text-5xl lg:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
                 >
                     <span className={`text-[35px] mx-auto mt-5 text-shadow-xs xs:text-3xl text-shadow-goldengrass text-gray-500 ${samarkan.className}`}>ZAFARUL HASAN MADANI</span>
                     <hr />
                 </div>
                 {/* Buttons */}
-                <div className={`${geistSans.className} z-10 my-8 min-[640px]:mt-10 flex flex-col min-[640px]:flex-row items-center gap-4 w-full min-[640px]:w-auto px-6 min-[640px]:px-0`}>
+                <div className={`${geistSans.className} z-10 my-8 sm:mt-10 flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto px-6 sm:px-0`}>
                     <Link
                         href="https://www.zafarulhasan.com/duroos"
                         type="button"
-                        className={`w-full bg-zafarlogo min-[640px]:w-auto text-xl py-3 min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                        className={`w-full bg-zafarlogo sm:w-auto text-xl py-3 sm:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
                         Explore duroos <Image
                             src={Arrow}
@@ -143,7 +143,7 @@ export default function HeroHeader() {
                     <Link
                         href="https://www.zafarulhasan.com/lecture-schedule"
                         type="button"
-                        className={`w-full border-zafarlogo border-2 min-[640px]:w-auto text-xl py-3 min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                        className={`w-full border-zafarlogo border-2 sm:w-auto text-xl py-3 sm:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     ><CalendarDaysIcon className="h-6 w-6 object-contain" />
                         Dars Schedule
                     </Link>
@@ -220,14 +220,14 @@ export default function HeroHeader() {
                 <div className="my-10 mx-10 xxl:grid xxl:grid-cols-2 xl:grid xl:grid-cols-2 md:grid md:grid-cols-2 lg:grid grid-cols-2 gap-3 sm:hidden xs:hidden s:hidden xxs:hidden">
                     <div>
                         <div
-                            className="text-3xl content-center mt-10 grid grid-cols-1 min-[640px]:text-5xl min-[1024px]:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
+                            className="text-3xl content-center mt-10 grid grid-cols-1 sm:text-5xl lg:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
                             dir="rtl"
                         >
                             <span className={`text-zafarlogo text-[20px]  mx-auto  ${changa.className}`}> فضيلة الشيخ</span>
                             <span className={`text-zafarlogo text-shadow-sm text-shadow-gray-500 mx-auto text-7xl md:text-5xl s:text-2xl xs:text-5xl ${notoNaskh.className}`}>ظفر الحسن </span>
                             <span className={`text-zafarlogo text-[20px] mx-auto  ${changa.className}`}>مدني حفظه الله</span>
                             <div
-                                className="text-3xl grid grid-cols-1 min-[640px]:text-5xl min-[1024px]:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
+                                className="text-3xl grid grid-cols-1 sm:text-5xl lg:text-6xl leading-relaxed hover:opacity-90 transition-opacity"
                             >
                                 <span className={`text-6xl md:text-4xl mt-10 mx-auto text-shadow-sm text-shadow-goldengrass text-gray-500 ${samarkan.className}`}>ZAFARUL HASAN MADANI</span>
                                 <hr />
@@ -247,18 +247,18 @@ export default function HeroHeader() {
                 </div>
 
                 {/* Buttons */}
-                <div className={`${geistSans.className} z-10 my-8 min-[640px]:mt-10 flex flex-col min-[640px]:flex-row items-center gap-4 w-full min-[640px]:w-auto px-6 min-[640px]:px-0`}>
+                <div className={`${geistSans.className} z-10 my-8 sm:mt-10 flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto px-6 sm:px-0`}>
                     <Link
                         href="https://www.zafarulhasan.com/duroos"
                         type="button"
-                        className={`w-full bg-zafarlogo min-[640px]:w-auto text-lg min-[640px]:text-base px-6 py-[10px] rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                        className={`w-full bg-zafarlogo sm:w-auto text-lg sm:text-base px-6 py-2.5 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     >
                         Explore duroos <ArrowRightIcon className="h-5 w-5 bg-gray-900 rounded-full text-lg text-white" />
                     </Link>
                     <Link
                         href="https://www.zafarulhasan.com/lecture-schedule"
                         type="button"
-                        className={`w-full border-zafarlogo py-2 border-2 min-[640px]:w-auto text-lg min-[640px]:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
+                        className={`w-full border-zafarlogo py-2 border-2 sm:w-auto text-lg sm:text-base px-6 rounded-md bg-button-primary text-gray-800 hover:bg-button-hover transition-colors flex items-center justify-center gap-2 ${notoNaskh.className}`}
                     ><CalendarDaysIcon className="h-6 w-6 pb-1" />
                         Dars Schedule
                     </Link>

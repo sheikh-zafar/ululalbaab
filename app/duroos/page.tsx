@@ -79,6 +79,7 @@ export interface DuroosVideo {
   title: string;
   url: string;
   thumbnail: string;
+  uploadDate: string;
 }
 
 type DuroosSubcategory = {

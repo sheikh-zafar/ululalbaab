@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-
 import CrunchyCarousel from '@/components/header';
 import QuranTabs from '@/components/QuranTabs'; // adjust path to where you saved it
 import Image from 'next/image';
@@ -13,6 +11,7 @@ export interface DuroosVideo {
     title: string;
     url: string;
     thumbnail: string;
+    uploadDate: string;
 }
 
 type DuroosSubcategory = {
