@@ -219,7 +219,6 @@ interface QuranTabsProps {
 
 export default function QuranTabs({ basePath = "/tafseer", items }: QuranTabsProps) {
     const [tab, setTab] = useState<TabId>("surah");
-    const surahs = items ?? quran.subcategories;
 
     const juzGroups = useMemo<[number, Surah[]][]>(() => {
         const map = new Map<number, Surah[]>();
