@@ -219,6 +219,7 @@ interface QuranTabsProps {
 
 export default function QuranTabs({ basePath = "/tafseer", items }: QuranTabsProps) {
     const [tab, setTab] = useState<TabId>("surah");
+    const surahs = items ?? quran.subcategories;
 
     const juzGroups = useMemo<[number, Surah[]][]>(() => {
         const map = new Map<number, Surah[]>();
@@ -234,7 +235,7 @@ export default function QuranTabs({ basePath = "/tafseer", items }: QuranTabsPro
         const c: Record<Status, number> = { completed: 0, ongoing: 0, upcoming: 0 };
         quran.subcategories.forEach((s) => (c[getStatus(s)] += 1));
         return c;
-    }, []);
+    }, [surahs]);
 
     const tabs: { id: TabId; label: string }[] = [
         { id: "surah", label: "Surah" },
@@ -265,7 +266,7 @@ export default function QuranTabs({ basePath = "/tafseer", items }: QuranTabsPro
 
             {tab === "surah" ? (
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                    {quran.subcategories.map((s) => (
+                    {surahs.map((s) => (
                         <SurahCard key={s.number} surah={s} basePath={basePath} />
                     ))}
                 </div>
