@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
-import CrunchyCarousel from "@/components/header";
 import Duroos from "../../public/lib/duroos.json";
 
 export const viewport = {
@@ -113,7 +112,6 @@ export default function DuroosPage() {
 
   return (
     <div className="min-h-screen bg-white pb-20 sm:px-6 lg:px-8">
-      <CrunchyCarousel />
       <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans mb-20">
         Course Categories | Sheikh Zafarul Hasan Madani
       </h1>

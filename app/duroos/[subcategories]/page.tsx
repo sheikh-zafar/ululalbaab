@@ -1,4 +1,3 @@
-import CrunchyCarousel from '@/components/header';
 import QuranTabs from '@/components/QuranTabs'; // adjust path to where you saved it
 import Image from 'next/image';
 import Link from 'next/link';
@@ -133,7 +132,6 @@ export default async function SubcategoriesPage({ params }: { params: Params }) 
     // All other categories: generic card grid
     return (
         <div className="p-4 max-w-7xl mx-auto my-20">
-            <CrunchyCarousel />
             <h1 className="text-dustygray text-center text-5xl lg:text-4xl sm:text-2xl xs:text-2xl xxs:text-2xl md:text-4xl font-extrabold font-sans">
                 {data.category}
             </h1>

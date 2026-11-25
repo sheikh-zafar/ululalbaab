@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 const slides = [
   {
@@ -78,19 +79,21 @@ const CrunchyCarousel = () => {
   const currentSlide = slides[currentIndex]
 
   return (
-    <div className="relative w-full h-[600px] md:h-[700px] overflow-hidden bg-black mb-20">
+    <div className="relative w-full h-150 md:h-175 overflow-hidden bg-black mb-20">
       {/* Background Image */}
       <div className="absolute inset-0">
-        <img
+        <Image
           src={currentSlide.src}
           alt={currentSlide.alt}
           className={`w-full h-full transition-opacity duration-800 ${isTransitioning ? 'opacity-0' : 'opacity-100'
             } object-cover md:object-right object-center`}
+          width={1200}
+          height={400}
         />
       </div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
+      <div className="absolute inset-0 bg-linear-to-t md:bg-linear-to-r from-black/90 via-black/50 to-transparent md:from-black/80 md:via-black/20 md:to-transparent"></div>
 
       {/* Content */}
       <AnimatePresence mode="wait">
@@ -126,7 +129,7 @@ const CrunchyCarousel = () => {
           </span>
 
           {/* Call-to-Action Button */}
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-md w-4/5 xl:w-1/4 xxl:w-1/4 lg:w-1/4 md:w-auto min-w-[200px] transition-all duration-200 hover:shadow-lg transform hover:scale-105 active:scale-95">
+          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-md w-4/5 xl:w-1/4 xxl:w-1/4 lg:w-1/4 md:w-auto min-w-50 transition-all duration-200 hover:shadow-lg transform hover:scale-105 active:scale-95">
             {currentSlide.buttonText}
           </button>
         </motion.div>

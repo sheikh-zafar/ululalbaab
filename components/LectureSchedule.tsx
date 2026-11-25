@@ -309,32 +309,32 @@ export async function LectureSchedule() {
       />
 
       <div className="max-w-3xl mx-auto p-6">
-        <h2 className={`text-3xl font-bold text-center text-[#6c6c6c] mb-8 ${samarkan.className}`}>
+        <h2 className={`text-3xl font-bold text-center text-dovegray mb-8 ${samarkan.className}`}>
           📅 Weekly Lecture Schedule
         </h2>
         <div className="space-y-4">
           {schedule.map((item, index) => (
-            <div key={index} className="rounded-lg border border-[#ebe6d3] shadow bg-white p-4">
-              <div className="text-[#6a6a6a] text-sm flex items-center gap-2 mb-1">
-                <CalendarToday className="text-[#bb8732]" fontSize="small" />
+            <div key={index} className="rounded-lg border border-whiterock shadow bg-white p-4">
+              <div className="text-secondarytext text-sm flex items-center gap-2 mb-1">
+                <CalendarToday className="text-primarytext" fontSize="small" />
                 <span className="font-semibold">{item.week || "Unspecified Day"}</span>
               </div>
-              <div className="text-[#6a6a6a] text-lg font-medium mb-2">
+              <div className="text-secondarytext text-lg font-medium mb-2">
                 {item.topic}
               </div>
-              <div className="text-[#6a6a6a] text-sm flex items-center gap-2 mb-1">
-                <LocationOn className="text-[#dcbc23]" fontSize="small" />
+              <div className="text-secondarytext text-sm flex items-center gap-2 mb-1">
+                <LocationOn className="text-goldengrass" fontSize="small" />
                 <Link
                   href={item.mapLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="underline text-[#dcbc23] hover:text-[#bb8732]"
+                  className="underline text-goldengrass hover:text-primarytext"
                 >
                   {item.location}
                 </Link>
               </div>
-              <div className="text-[#6a6a6a] text-sm flex items-center gap-2">
-                <AccessTime className="text-[#bb8732]" fontSize="small" />
+              <div className="text-secondarytext text-sm flex items-center gap-2">
+                <AccessTime className="text-primarytext" fontSize="small" />
                 {item.timing}
               </div>
             </div>

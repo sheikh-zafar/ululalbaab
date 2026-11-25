@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 
 "use client";
 
@@ -32,7 +31,34 @@ export interface Surah {
     videos: Video[];
 }
 
-type RawSurah = Record<string, any>;
+export interface RawSurah {
+    // identity
+    slug?: string;
+    number?: number;
+    id?: number;
+    surahNumber?: number;
+    title?: string;
+    name?: string;
+    englishName?: string;
+    category?: string;
+    arabic?: string;
+    arabicName?: string;
+    arabic_title?: string;
+    juz?: number;
+    para?: number;
+    parah?: number;
+    status?: string;
+    author?: string;
+    description?: string;
+    image?: string;
+    YTplaylistlink?: string;
+    playlist?: string;
+    playlistUrl?: string;
+    videos?: Video[];
+    lectures?: Video[];
+    episodes?: Video[];
+    items?: Video[];
+}
 
 type TabId = "surah" | "juz";
 

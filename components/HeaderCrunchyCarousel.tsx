@@ -3,6 +3,7 @@
 
 import React, { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 const slides = [
     {
@@ -259,7 +260,7 @@ const HeaderCrunchyCarousel = () => {
             <div className="relative w-full h-150 font-aref md:h-175 overflow-hidden bg-black mb-20 hidden xl:block xxl:block lg:block md:block">
                 {/* Background Image */}
                 <div className="absolute inset-0">
-                    <img
+                    <Image
                         src={currentSlide.src}
                         alt={currentSlide.alt}
                         className={`w-full h-full transition-opacity duration-800 ${isTransitioning ? 'opacity-0' : 'opacity-100'
@@ -406,7 +407,7 @@ const HeaderCrunchyCarousel = () => {
                 onTouchEnd={handleTouchEnd}>
                 {/* Background Image */}
                 <div className="absolute inset-0">
-                    <img
+                    <Image
                         src={mcurrentSlide.src}
                         alt={mcurrentSlide.alt}
                         className={`w-full h-full transition-opacity duration-800 ${isTransitioning ? 'opacity-0' : 'opacity-100'

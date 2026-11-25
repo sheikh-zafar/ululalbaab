@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +6,52 @@ import { notFound } from "next/navigation";
 import Duroos from "../../../../public/lib/durros-final.json";
 
 type Status = "completed" | "ongoing" | "upcoming";
-type RawItem = Record<string, any>;
+
+interface RawVideo {
+  videoId?: string;
+  id?: string;
+  playlistId?: string;
+  title?: string;
+  name?: string;
+  url?: string;
+  thumbnail?: string;
+  uploadDate?: string;
+  date?: string;
+}
+
+interface RawItem {
+  // identity
+  slug?: string;
+  number?: number;
+  id?: number;
+  surahNumber?: number;
+  // names
+  title?: string;
+  name?: string;
+  englishName?: string;
+  arabic?: string;
+  arabicName?: string;
+  arabic_title?: string;
+  // meta
+  juz?: number;
+  para?: number;
+  parah?: number;
+  status?: string;
+  author?: string;
+  description?: string;
+  image?: string;
+  // links
+  YTplaylistlink?: string;
+  playlist?: string;
+  playlistUrl?: string;
+  drivelink?: string;
+  listenlink?: string;
+  // videos (any of these names)
+  videos?: RawVideo[];
+  lectures?: RawVideo[];
+  episodes?: RawVideo[];
+  items?: RawVideo[];
+}
 
 export interface DuroosVideo {
   videoId: string;
@@ -79,7 +123,7 @@ const STATUS_LABEL: Record<Status, { label: string; cls: string }> = {
 };
 
 /** Maps any raw item shape to the Course shape. Edit only this if the JSON changes. */
-function normalizeVideo(raw: RawItem): DuroosVideo {
+function normalizeVideo(raw: RawVideo): DuroosVideo {
   const videoId = String(raw.videoId ?? raw.id ?? "");
   return {
     videoId,
@@ -367,11 +411,12 @@ export default async function CoursePage({ params }: { params: Params }) {
                   className="flex gap-3 border rounded-xl overflow-hidden hover:shadow-md transition bg-white"
                 >
                   {video.thumbnail && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
+                    <Image
                       src={video.thumbnail}
                       alt={video.title}
-                      className="w-32 h-auto object-cover flex-shrink-0"
+                      className="w-32 h-auto object-cover shrink-0"
+                      width={50}
+                      height={50}
                     />
                   )}
                   <span className="text-sm text-gray-700 py-2 pr-2 leading-snug self-center">

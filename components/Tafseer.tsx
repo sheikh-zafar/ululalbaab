@@ -7,7 +7,16 @@ const samarkan = localFont({
   variable: '--font-samarkan',
 })
 
-type RawItem = Record<string, any>;
+interface RawItem {
+  slug?: string;
+  number?: number;
+  arabic?: string;
+  title?: string;
+  image?: string;
+  status?: string;
+  videos?: unknown[];
+}
+
 type DuroosCategory = {
   category: string;
   description: string;
@@ -79,7 +88,7 @@ export default function HomeTafseer() {
                 <span className="flex items-center gap-2">
                   <span className={`flex h-12 w-12 items-center justify-center bg-primarytext font-bold text-white ${HEX}`}>{sub.number}.</span>
                   {sub.title}
-                  <span className="text-xs text-dustygray">({sub.videos.length})</span>
+                  <span className="text-xs text-dustygray">({sub.videos?.length})</span>
                 </span>
                 <span className="flex items-center gap-2">
                   {sub.arabic && (
