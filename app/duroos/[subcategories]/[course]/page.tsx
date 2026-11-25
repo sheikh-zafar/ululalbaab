@@ -5,6 +5,19 @@ import React from "react";
 import { notFound } from "next/navigation";
 import Duroos from "../../../../public/lib/durros-final.json";
 
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return (Duroos as unknown as DuroosCategory[]).flatMap((cat) => {
+    const subcategories = slugify(cat.category);
+    return cat.subcategories.map(normalizeCourse).map((c) => ({
+      subcategories,
+      course: c.slug,
+    }));
+  });
+}
+
+
 type Status = "completed" | "ongoing" | "upcoming";
 
 interface RawVideo {
